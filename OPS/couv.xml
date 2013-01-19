@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta name="generator" content="La Poule ou l'Oeuf" />
+<title>Couverture</title>
+<link rel="stylesheet" href="css/xmlatex.css" type="text/css" />
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+</head>
+<body>
+<div id="page1">
+<div class="p_xmlatex" id="p1"></div>
+<div class="figure_xmlatex" style="text-align:center;" id="f1">
+<div><img src="images/optionlibre_1ere_couverture.jpg" alt="couverture" width="600px" height="828px" /></div>
+</div>
+<div class="p_xmlatex" id="p2"></div>
+<br />
+<div id="footnote"></div>
+</div>
+</body>
+</html>

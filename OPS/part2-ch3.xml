@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta name="generator" content="La Poule ou l'Oeuf" />
+<title>3&nbsp;Les bons réflexes</title>
+<link rel="stylesheet" href="css/xmlatex.css" type="text/css" />
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+</head>
+<body>
+<div class="chapterhead_epub">
+<div class="chapter_epub">Chapitre</div>
+<div class="chapter_pos_epub">3</div>
+<div class="chaptertitle_epub">Les bons réflexes</div>
+</div>
+<div id="page1">
+<div class="p_xmlatex" id="p1"></div>
+<div class="p_xmlatex" id="p2">L’innovation, la création ou le développement reposent aujourd’hui, plus que jamais, sur une très large réutilisation des travaux de tiers. Dès lors, la question n’est
+plus de savoir qui détient les droits de propriété intellectuelle, mais simplement comment pouvoir les exercer&nbsp;! Cette situation -&nbsp;une concentration de titulaires de droits exclusifs réunis
+pour l’exploitation d’une seule création&nbsp;- amplifie l’importance d’une bonne maîtrise tant des enjeux de propriété intellectuelle que des licences libres.</div>
+<div class="p_xmlatex" id="p3">Chaque nouveau projet se traduit par une multitude de relations contractuelles destinées à favoriser et sécuriser les collaborations composées d’une part croissante de
+contrats types fixant à priori et de façon <span style="font-style:italic">intangible</span> les conditions d’utilisation. À cet égard et puisqu’elles opèrent une cession de droits d’exploitation
+très large facilitant la réutilisation de leurs créations (au bénéfice seulement de ceux qui respectent le cadre qu’elles ont fixé), les licences libres et <span style="font-style:italic">open
+source</span> constituent une réponse optimum à cette recherche d’une innovation rapide et efficace. La liberté offerte est néanmoins conditionnée au respect de certaines conditions et obligations
+qui nécessitent une vigilance particulière (avec comme sanction l’action en contrefaçon). Ainsi, cette logique de mutualisation, génératrice d’importantes économies pour l’industrie, nécessite la
+mise en place d’une gestion spécifique, et notamment juridique, destinée à garantir le respect de l’ensemble des licences. Innover dans ce cadre juridique ouvert impose donc&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p4">de <span style="font-style:italic">gérer l’extension des effets des licences sur d’autres composants</span>&nbsp;: c’est la question de <span style=
+"font-style:italic">l’ajout d’une licence</span> et des <span style="font-style:italic">situations d’incompatibilité</span> ;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p5">de <span style="font-style:italic">veiller au respect du formalisme</span> imposé par les différentes licences (transmission du code source, mention de paternité,
+différenciation des modifications, etc.). Celui-ci est notamment destiné à assurer la maîtrise effective du code, essentielle dans les projets <span style="font-style:italic">open source</span> (code
+source, documents préparatoires, scripts, etc.).</div>
+</li>
+</ul>
+<div class="p_xmlatex" id="p6">Ces deux composantes doivent imprégner l’élaboration de bonnes pratiques au sein des projets, voire de politiques <span style="font-style:italic">open source</span>
+formalisées au sein des sociétés concernées.</div>
+<div class="p_xmlatex" id="p7">Ce dernier chapitre est celui le plus orienté «&nbsp;pratique&nbsp;» de l’ouvrage, répondant à la question «&nbsp;comment, concrètement, doit-on utiliser les licences
+libres&nbsp;». Pour commencer, il convient d’admettre qu’il est encore habituel que les enjeux relatifs aux licences libres ne soient appréhendés que trop tardivement, par exemple lorsque la
+distribution de la création est d’ores et déjà programmée, ce qui abouti à des situations de concession peu satisfaisantes tant pour l’équipe juridique et que technique. Une réflexion en amont doit
+donc être systématiquement préférée, car même si chaque licence obéit à un mécanisme qui lui est propre, il est néanmoins possible de donner un certain nombre de recommandations quant à la mise sous
+licence libre (3.1) et la diffusion sous licence libre (3.2).</div>
+<h2 class="section_xmlatex" id="s1"><span class="section_num_xmlatex">3.1</span> Les réflexes préalables à la diffusion</h2>
+<div class="p_xmlatex" id="p8">Les projets doivent veiller à respecter l’ensemble des licences attachées aux composants qu’ils utilisent, notamment vis-à-vis du cadre juridique qu’elles imposent et
+ses conséquences quant au choix et l’ajout d’une licence (3.1.1) et du formalisme qui leur est attaché (3.1.2).</div>
+<h3 class="subsection_xmlatex" id="u1"><span class="subsection_num_xmlatex">3.1.1</span> Apprécier le cadre juridique induit par les licences libres</h3>
+<div class="p_xmlatex" id="p9">Une bonne connaissance des licences est la condition nécessaire à l’appréhension du cadre juridique qu’elles induisent. Cette appréhension permet alors de prendre toute
+mesure liée aux contraintes issues des choix des composants. C’est en agissant avec méthode que l’on choisit la licence (3.1.1.1) et que l’on s’assure du respect des conditions nécessaires à l’ajout
+d’une licence libre (3.1.1.2).</div>
+<h4 class="subsubsection_xmlatex" id="b1"><span class="subsubsection_num_xmlatex">3.1.1.1</span> Méthode relative à la sélection de la licence initiale</h4>
+<div class="p_xmlatex" id="p10">Le choix initial de la licence est fondamental&nbsp;: en termes de marketing afin d’interpeller des communautés déjà existantes&nbsp;; en termes stratégiques, car le
+modèle économique développé autour du logiciel peut en dépendre&nbsp;; et enfin en termes juridiques puisque l’ouverture du projet peut engendrer l’arrivée de contributions pour lesquelles le
+titulaire initial ne pourra pas unilatéralement changer de licence. Une licence adaptée au logiciel et aux attentes de la société facilitera la structuration de la collaboration future, cette
+dernière n’étant alors concentrée que sur l’optimisation et la mutualisation dans le développement et l’exploitation du logiciel (les licences assurent, elles, les cessions de droits de propriété
+intellectuelle nécessaires). Le choix de la licence peut aussi avoir pour objectif d’ouvrir ou de former des pistes de collaboration avec des sociétés concurrentes&nbsp;: on parle alors de
+<span style="font-style:italic">coopétition</span>, pour traduire l’idée d’une coopération entre des entreprises potentiellement concurrentes qui gagnent toutes au développement du Libre.</div>
+<div class="p_xmlatex" id="p11">Plusieurs démarches doivent être décrites&nbsp;: la création d’une nouvelle licence (3.1.1.1.a), ou le choix d’une ou plusieurs licence(s) existante(s), éventuellement
+adaptée(s) au logiciel (3.1.1.1.b).</div>
+<h5 class="t4_xmlatex" id="t4-1"><span class="t4_num_xmlatex">3.1.1.1.a</span> La création d’une licence particulière</h5>
+<div class="p_xmlatex" id="p12">S’épargnant tout choix, il peut être tentant de s’orienter vers la rédaction d’une licence spécifique, particulièrement lorsque les projets et structures impliquées
+sont importants.</div>
+<div class="p_xmlatex" id="p13">Néanmoins, avant de se lancer dans cet exercice, il est nécessaire de mesurer l’intérêt et les inconvénients de cette solution, généralement motivée par une volonté de
+créer un pot commun «&nbsp;encadré&nbsp;» ou de créer une licence «&nbsp;mieux adaptée&nbsp;» aux besoins. En effet, ces préoccupations emportent aussi un certain nombre de désavantages qu’il
+peut-être préférable d’éviter.</div>
+<div class="p_xmlatex" id="p14">S’il s’agit de sectoriser afin de ne pas risquer la récupération par un projet ou une entreprise concurrents, l’effet n’est pas garanti (compte tenu des libertés
+conférées par la licence) et les inconvénients sont non négligeables&nbsp;: la manne de composants <span style="font-style:italic">open source</span> tiers devient indisponible (en effet, plus la
+licence est spécifique et plus la compatibilité sera difficile à atteindre) et il sera alors plus difficile d’intéresser les tiers aux projets (et il n’est pas possible d’ajouter une compatibilité en
+faveur d’autres licences sans entrer en contradiction avec cet objectif de réservation -&nbsp;mieux vaut revoir complètement sa position que d’aboutir à la situation hybride qui consisterait à
+ajouter <span style="font-style:italic">in extremis</span> une telle compatibilité).</div>
+<div class="p_xmlatex" id="p15">S’il s’agit, de manière tout à fait légitime, d’une volonté de créer une nouvelle licence optimisée pour la création (et son auteur), cet effort peut aussi s’avérer
+contre-productif&nbsp;: il fait courir le risque que la licence contienne des failles non existantes (ou résolues) dans d’autres licences, et demande, outre sa rédaction, la mise en œuvre d’un
+travail de communication, d’interprétation et d’assistance dans la compréhension de cette licence, ce qui est, une nouvelle fois, une activité coûteuse en temps et en énergie<a class=
+"page_footnote_xmlatex" id="nbp1" href="#pied1" ><sup>1</sup></a>. En effet, la rédaction d’une licence est un projet ambitieux. Il n’est pas rare que les nouvelles versions de licences
+prennent un ou deux ans avant d’être terminées. Un tel projet fait appel à des compétences particulières. Il est ainsi généralement plus sûr d’utiliser une licence largement répandue chez des grands
+groupes tels IBM, HP, Microsoft, Sun, Oracle, Google, etc.. Le seul aspect positif est la potentielle compatibilité avec la licence utilisée comme canevas, avantage bien faible compte tenu des autres
+solutions assurant une même compatibilité.</div>
+<div class="p_xmlatex" id="p16">Ainsi, la rédaction d’une nouvelle licence <span style="font-style:italic">open source</span>, si elle peut dans certains cas (limités) se justifier, ne doit pas être
+une solution «&nbsp;par défaut&nbsp;», mais au contraire le fruit d’une réflexion globale qui ne peut faire l’économie d’une sélection en amont d’une ou plusieurs licences «&nbsp;modèles&nbsp;». Elle
+devra par ailleurs être le fruit de professionnels, aptes à intégrer les contraintes de sécurité juridique face à l’écosystème existant du Libre et de l’<span style="font-style:italic">open
+source</span>.</div>
+<div class="p_xmlatex" id="p17">L’aspect politique pouvant, à lui seul, être la justification d’un tel choix, il est alors nécessaire de rappeler les éléments qui précèdent afin que les risques
+soient clairement identifiés (un mauvais choix en la matière pourra annuler l’intégralité des avantages qu’apporterait l’ouverture du projet).</div>
+<h5 class="t4_xmlatex" id="t4-2"><span class="t4_num_xmlatex">3.1.1.1.b</span> Le choix d’une licence adaptée</h5>
+<div class="p_xmlatex" id="p18">Plutôt que de «&nbsp;réinventer la roue&nbsp;», il est généralement conseillé d’utiliser une ou plusieurs licences existantes.</div>
+<h6 class="t5_xmlatex" id="t5-1">Le choix d’une licence</h6>
+<div class="p_xmlatex" id="p19">Le choix d’une licence est une juste combinaison de stratégie et de tactique.</div>
+<div class="p_xmlatex" id="p20">En termes <span style="font-style:italic">stratégiques</span>, le choix de la licence doit traduire les intérêts juridiques, techniques et commerciaux du projet (voire
+de la société). Par ailleurs, il doit intégrer les contraintes issues de la réutilisation de créations tierces, sous licence <span style="font-style:italic">open source</span> ou non.</div>
+<div class="p_xmlatex" id="p21">Il est nécessaire d’adopter la licence la plus adaptée à son projet en se concentrant sur ses obligations, son étendue, son élément déclencheur et éventuellement la
+compatibilité qu’elle organise. Il convient donc, dans un premier temps, de réaliser un«  cahier des charges et des besoins » et de dresser un inventaire des licences qui répondent, en totalité ou en
+partie, aux attentes. Dans un second temps, il peut être utile d’estimer l’intérêt des licences au regard du contexte&nbsp;: est-ce important d’utiliser une licence largement connue et testée&nbsp;?
+Doit-on s’inspirer des choix opérés par des projets concurrents analogues&nbsp;? Ces réponses ne peuvent être données qu’au cas par cas, en fonction de l’examen et de l’approche choisie.
+Incontestablement, une licence disposant d’une large notoriété participe avantageusement à la communication qui suivra la libération de la création. En revanche, le choix d’une licence similaire à un
+projet concurrent est un pari dont il faut bien mesurer les aléas&nbsp;: les contributions pouvant librement circuler d’un projet à l’autre, celui qui réunit la meilleure communauté risque de
+l’emporter et de détourner à son profit les contributeurs de son concurrent&nbsp;; à l’inverse, bénéficier de l’expérience et de l’expertise déployée par une société concurrente peut s’avérer être un
+choix judicieux.</div>
+<div class="p_xmlatex" id="p22">Une fois sélectionnée la licence (ou un nombre limité de licences), il est nécessaire de faire preuve de <span style="font-style:italic">tactique</span> de sorte à
+peaufiner l’usage fait de la licence afin de s’assurer qu’elle réponde en tout point aux objectifs de l’auteur ou du projet. La seule existence de plusieurs centaines de licences laisse présager un
+nombre tout aussi grand de situations particulières les ayant justifiées. Il faut néanmoins rester vigilant au phénomène d’incompatibilité que cette multiplication a favorisé (cf. <span style=
+"font-style:italic">supra</span>). Cette tactique peut prendre la forme d’interprétations ou d’exceptions.</div>
+<div class="p_xmlatex" id="p23">En cas de clauses imprécises ou équivoques, il peut être utile de préciser le sens attendu, voire de désigner une personne tierce -&nbsp;un médiateur ou <span style=
+"font-style:italic">proxy</span>&nbsp;- comme source d’interprétation. Cela confère une portée précise à la licence, qui tient les parties et le juge. C’est cette technique, dite de
+l’«&nbsp;interprétation&nbsp;» qu’utilisa Linus Torvalds sur le noyau Linux<a class="page_footnote_xmlatex" id="nbp2" href="#pied2" ><sup>2</sup></a>.</div>
+<div class="p_xmlatex" id="p24">L’usage des <span style="font-style:italic">exceptions</span> est une autre technique plus radicale qui consiste à modifier une licence préexistante en ajoutant, dans
+une clause jointe à la licence (ou insérée dans les en-têtes des fichiers), une spécificité qui déroge aux termes initiaux avec pour effet de rendre la licence finale plus ou moins contraignante.
+Cela permet, par exemple, de réduire efficacement la portée d’un <span style="font-style:italic">copyleft</span>, en lui fixant une étendue différente, en excluant plusieurs logiciels ou une
+catégorie entière de logiciels (plusieurs exceptions peuvent d’ailleurs être attachées à des parties différentes d’un logiciel<a class="page_footnote_xmlatex" id="nbp3" href="#pied3" ><sup>3</sup></a>). Il est à noter qu’en l’absence de stipulation contraire, une clause additionnelle qui ne fait «&nbsp;qu’ajouter des droits&nbsp;» pourra être supprimée par tout licencié au
+moment de la redistribution d’une copie de cette création<a class="page_footnote_xmlatex" id="nbp4" href="#pied4" ><sup>4</sup></a>.</div>
+<div class="p_xmlatex" id="p25">La maîtrise de plus en plus fine de la pratique contractuelle liée aux licences <span style="font-style:italic">open source</span> conduit aujourd’hui à conseiller une
+pratique réfléchie et adaptée de ces exceptions et interprétations. Les premières confèrent plus de souplesse aux licences<a class="page_footnote_xmlatex" id="nbp5" href="#pied5" ><sup>5</sup></a>, les secondes assurent une plus grande sécurité juridique. Un bon usage de celles-ci peut permettre de prévoir et de résoudre a priori la plupart des situations préjudiciables
+(obligations particulières du licencié, problèmes d’incompatibilité, failles au sein des licences, etc.).</div>
+<h6 class="t5_xmlatex" id="t5-2">Le choix du libre choix&nbsp;: les multilicences</h6>
+<div class="p_xmlatex" id="p26">On parle de multilicence lorsqu’une seule et même création est simultanément disponible sous différentes licences&nbsp;: qu’elles soient toutes <span style=
+"font-style:italic">open source</span> ou qu’au moins l’une d’elles le soit. On ne parle plus de «&nbsp;double licence&nbsp;» lorsque la licence <span style="font-style:italic">open source</span>
+n’est qu’une option au côté de licences propriétaires classiques. Multiplier les licences permet généralement d’associer leurs avantages&nbsp;: assurer une compatibilité au bénéfice de plusieurs
+licences, bénéficier de la renommée de l’une, consolider la cession de droits, etc.</div>
+<div class="p_xmlatex" id="p27">Contrairement à ce que beaucoup semblent croire, il s’agit d’une technique simple et efficace&nbsp;:</div>
+<ol>
+<li>
+<div class="p_xmlatex" id="p28">le contenu sous licence est dès lors compatible avec la totalité des licences qui lui sont adjointes -&nbsp;auxquelles se rajoutent les licences avec lesquelles
+celles-ci sont déjà elles-mêmes compatibles&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p29">le licencié dispose donc de beaucoup plus de droits -&nbsp;dès lors qu’il respecte au moins l’une des licences. En quelque sorte, cette pratique permet d’ajouter une
+liberté au licencié qui est celle du choix de la licence à laquelle il se soumet (chaque usage fait de la création doit être conforme au moins à l’une des licences)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p30">conséquence du point précédent, cette pratique permet de limiter le <span style="font-style:italic">copyleft</span> global qui s’applique à l’œuvre par cela même que,
+le licencié pouvant utiliser tout droit compris dans l’une au moins des licences, ce sont les dispositions de la licence la plus permissive qui l’emportent<a class="page_footnote_xmlatex" id="nbp6"
+href="#pied6" ><sup>6</sup></a>&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p31">enfin, en termes de sécurité juridique&nbsp;: si l’une des licences devait être annulée par une juridiction nationale, le licencié pourrait toujours revendiquer les
+droits conférés par l’autre<a class="page_footnote_xmlatex" id="nbp7" href="#pied7" ><sup>7</sup></a> (c’est aussi une source de prévisibilité pour celui qui utilise au moins une licence
+assurément valide -&nbsp;qui pourrait par exemple souhaiter utiliser une licence en langue française, conforme à son droit national, etc.).</div>
+</li>
+</ol>
+<div class="p_xmlatex" id="p32">C’est donc une solution qui, utilisée à bon escient par les auteurs, peut permettre optimiser la diffusion des créations et faciliter les contributions. Enfin, les
+motivations ne sont pas uniquement d’ordre juridique et il est possible de constater des situations où l’une des licences «&nbsp;contenant&nbsp;» déjà la seconde, la réunion des deux ne confère ainsi
+aucune prérogative spéciale au licencié<a class="page_footnote_xmlatex" id="nbp8" href="#pied8" ><sup>8</sup></a>. Inutile juridiquement, mais utile en termes de communication…</div>
+<div class="p_xmlatex" id="p33">Pour finir, ce mécanisme n’est pérenne dans son application sur un projet qu’autant que l’ensemble des contributions se fasse <span style="font-style:italic">a
+minima</span> sous licence multiple (quitte à ce que celles qui ne le seraient pas soient réécrites), ou licence permettant ces licences multiples (par exemple des licences du type MIT ou BSD).</div>
+<div id="fig1" style="float:left;"></div>
+<div class="figure_xmlatex" style="text-align:center;" id="f1">
+<div><img src="images/tableau_technique_licence_vignette.png" alt="" width="500px" height="284px" /><br />
+<a href="thumb2.xml#thumb2"><img class="lien_img" src="images/f_plus.png" alt="Agrandir" title="Agrandir" /></a></div>
+<div style="margin-top:10px;">F<span class="sc_xmlatex">igure</span> 3.1 - Différentes techniques appliquées à une même licence</div>
+</div>
+<h4 class="subsubsection_xmlatex" id="b2"><span class="subsubsection_num_xmlatex">3.1.1.2</span> Les conditions relatives à l’ajout d’une licence</h4>
+<div class="p_xmlatex" id="p34">L’ajout d’une licence libre à une création peut être du fait volontaire d’une personne physique ou morale qui diffuse l’œuvre (par exemple en application d’une
+politique globale à l’échelle de son entreprise ou du projet, etc.) ou par application des contraintes d’une licence (clause dite <span style="font-style:italic">copyleft</span>) qui imposerait
+l’extension des termes à d’autres composants (généralement du fait de leur combinaison ou d’une relation d’utilisation).</div>
+<div class="p_xmlatex" id="p35">Quel que soit le contexte, celui qui diffuse une création selon les termes d’une licence <span style="font-style:italic">open source</span> doit veiller à être en
+capacité de le faire. Il ne s’agit pas ici de savoir s’il a la capacité d’opérer sur le marché, mais de savoir si cela se fait en conformité avec les différents droits de propriété intellectuelle qui
+peuvent porter sur la création -&nbsp;les licences libres n’étant en effet que des outils juridiques dont l’effectivité repose sur la possession de droits de propriété intellectuelle suffisants. Deux
+statuts peuvent exister&nbsp;:</div>
+<ol>
+<li>
+<div class="p_xmlatex" id="p36">celui de titulaire des droits&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p37">celui de cessionnaire.</div>
+</li>
+</ol>
+<div class="p_xmlatex" id="p38">Finalement, un tel ajout est peu complexe vis-à-vis des créations que l’on contrôle personnellement (3.1.1.2.a), mais il en va autrement en présence de créations
+tierces soumises au respect de licences particulières (3.1.1.2.b).</div>
+<h5 class="t4_xmlatex" id="t4-3"><span class="t4_num_xmlatex">3.1.1.2.a</span> L’ajout d’une licence sur ses propres créations</h5>
+<div class="p_xmlatex" id="p39">Le titulaire des droits peut être le créateur originaire (ou son employeur si l’œuvre est créée «&nbsp;dans l’exercice de ses fonctions ou d’après les instructions de
+son employeur&nbsp;»<a class="page_footnote_xmlatex" id="nbp9" href="#pied9" ><sup>9</sup></a>) ou une personne qui se serait fait céder l’intégralité des droits (par exemple le
+bénéficiaire de la création dans le cadre d’un contrat de commande lorsqu’une telle répartition des droits est prévue). On ne saurait trop conseiller à une personne morale (société, association,
+etc.) de vérifier les droits qu’elle détient (par contrat, dévolution automatique ou du fait de ses propres démarches en cas de dépôts de brevet, marques, etc.).</div>
+<div class="p_xmlatex" id="p40">Le titulaire des droits va ainsi user de ses prérogatives patrimoniales<a class="page_footnote_xmlatex" id="nbp10" href="#pied10" ><sup>10</sup></a> afin
+d’organiser le partage de ses droits gracieusement<a class="page_footnote_xmlatex" id="nbp11" href="#pied11" ><sup>11</sup></a> au profit de détenteur de support ou de l’utilisateur de la
+création sur laquelle porte la licence. Cette cession non-exclusive n’empêche aucune autre exploitation ultérieure&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p41">le titulaire des droits qui communique son œuvre sous licence libre peut aussi (concomitamment ou ultérieurement) la diffuser d’une façon tout autre, et pas
+nécessairement libre ou <span style="font-style:italic">open source</span>&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p42">le contributeur qui doit diffuser sous licence libre ses propres contributions peut cumulativement le faire sous une autre licence, voire sous une licence non libre ou
+<span style="font-style:italic">open source</span> s’il trouve à les réutiliser dans d’autres contextes (pour résumer&nbsp;: sa contribution restera <span style="font-style:italic">a minima</span>
+aussi libre).</div>
+</li>
+</ul>
+<div class="encart_xmlatex ect_grissimple" style="border-color:rgb(0,0,0);border-width:0pt;padding:15pt;margin-left:-5pt;margin-right:-5pt;background-color:rgb(230,230,230);">
+<div class="encart_title_xmlatex ect_title_grissimple"><span style="font-weight:bold">Note</span></div>
+<div class="p_xmlatex" id="p43">Il y a donc une grande différence de situation entre la (ou les) personne(s) titulaire(s) de droit(s) et les personnes cessionnaires (en capacité d’exploiter l’œuvre).
+Ainsi la création serait véritablement libre lorsque, au surplus d’être soumise à une licence, elle est aussi partagée entre de multiples auteurs&nbsp;: la création devenant alors quasiment autonome
+-&nbsp;une <span style="font-style:italic">res communis</span> qui, de par sa nature, ne peut être appropriée&nbsp;- appartenant à tous, donc à personne.</div>
+</div>
+<div class="encart_xmlatex ect_cadresimple" style="border-left-color:rgb(0,0,0);border-left-width:0.8pt;padding-left:10pt;margin-left:25pt;margin-right:25pt;"><img src=
+"../images/encarts/remarque.png" class="encartico_xmlatex" />
+<div class="encart_title_xmlatex ect_title_cadresimple">L’œuvre d’un mineur</div>
+<div class="p_xmlatex" id="p44">L’auteur est celui qui crée l’œuvre originale&nbsp;: enfant, adulte, peu importe. Néanmoins, la question de sa capacité à s’engager se pose lorsque le concédant en est
+incapable (notamment entre enfant ou représentant légal).</div>
+<div class="p_xmlatex" id="p45">La réponse est en deux temps, selon qu’il s’agit du droit moral ou du droit patrimonial…</div>
+<div class="p_xmlatex" id="p46">En tant qu’auteur, le contrat est soumis à l’autorisation écrite de l’auteur (droit moral de divulgation), mais, en tant qu’incapable mineur, l’enfant ne peut pas
+exploiter son œuvre (droit patrimonial), car c’est un engagement qui dépasse les seuls actes de la vie courante et qui doit donc être confié à ses représentants.</div>
+<div class="p_xmlatex" id="p47">Ainsi, pour mettre sous licence libre l’œuvre d’un mineur (ou d’un quelconque incapable), il faut réunir les deux signatures&nbsp;: celle de l’auteur et celle de son
+représentant (on peut noter que la seconde est moins importante puisque la seule action disponible est l’action en rescision pour lésion&nbsp;: si l’acte est pécuniairement désavantageux pour le
+mineur, alors même que les licences libres sont en principe sans considération économique).</div>
+</div>
+<h5 class="t4_xmlatex" id="t4-4"><span class="t4_num_xmlatex">3.1.1.2.b</span> L’ajout d’une licence sur d’autres composants <span style="font-style:italic">open source</span> et les situations
+d’incompatibilité</h5>
+<div class="p_xmlatex" id="p48">Le second statut, celui de cessionnaire d’une licence, est régi par contrat et est généralement assorti d’un certain nombre de conditions&nbsp;: qu’il s’agisse d’une
+autre licence <span style="font-style:italic">open source</span> ou d’une cession limitée (il peut, par exemple, ne disposer que du droit de céder les droits, sans possibilité d’en jouir
+lui-même).</div>
+<div class="p_xmlatex" id="p49">Les conditions peuvent être plus ou moins contraignantes, mais il faut garder à l’esprit qu’il est impossible de simplement «&nbsp;remplacer&nbsp;» une licence et,
+ainsi, que toute utilisation d’une nouvelle licence doit respecter celles préexistantes -&nbsp;c’est la raison pour laquelle on parle d’ajouter une licence «&nbsp;<span style="font-style:italic">au
+surplus</span> de celle(s) déjà existante(s)&nbsp;».</div>
+<div class="p_xmlatex" id="p50">Ainsi, lorsque plusieurs licences nécessitent leur extension à un même composant, il convient de régler en amont les problèmes de compatibilité entre elles (la
+situation la plus simple étant lorsqu’une telle compatibilité est expressément assurée au sein de la licence) -&nbsp;en déterminant dans quelle mesure la distribution sous une licence spécifique
+respecte les autres licences&nbsp;- afin de vérifier ensuite que l’ajout est bien possible au regard de la licence d’origine.</div>
+<div class="p_xmlatex" id="p51">Il convient donc de déterminer les situations de superposition et, à défaut d’une compatibilité expresse, de vérifier l’existence d’une compatibilité logique entre les
+différentes licences (c’est-à-dire la possibilité de respecter l’une en utilisant l’autre, généralement parce qu’elle n’oblige pas moins et ne donne pas plus de droits). Cette problématique est
+relativement simple lorsque les licences font partie d’une même famille de licences<a class="page_footnote_xmlatex" id="nbp12" href="#pied12" ><sup>12</sup></a>, mais devient rapidement
+plus complexe lorsque les licences sont d’origines diverses. La dernière version de la GNU GPL (v.&nbsp;3) s’appuie sur ce principe pour accueillir en son sein une souplesse et une modularité qui lui
+permettent d’assurer la compatibilité à l’égard de licences libres et <span style="font-style:italic">open source</span> auparavant incompatibles<a class="page_footnote_xmlatex" id="nbp13" href=
+"#pied13" ><sup>13</sup></a>&nbsp;: en permettant, sur chaque nouvelle contribution, d’une part, l’ajout de <span style="font-style:italic">permissions additionnelles</span> et, d’autre
+part, l’ajustement par l’utilisation de certains <span style="font-style:italic">termes supplétifs</span> limitativement autorisés<a class="page_footnote_xmlatex" id="nbp14" href="#pied14" ><sup>14</sup></a>.</div>
+<div class="p_xmlatex" id="p52">Néanmoins, il peut arriver dans certaines situations que les obligations soient contradictoires et inconciliables (impossibles à respecter simultanément), y compris en
+présence seulement de composants <span style="font-style:italic">open source</span>, on parle alors d’<span style="font-style:italic">incompatibilité</span> entre les licences&nbsp;: la création
+ainsi composée ne peut être exploitée en respectant cumulativement toutes les licences. Parfois, la lecture des licences peut permettre, matériellement<a class="page_footnote_xmlatex" id="nbp15"
+href="#pied15" ><sup>15</sup></a> ou techniquement, de résoudre certaines incompatibilités (par exemple dans l’hypothèse de certaines formes de distribution<a class=
+"page_footnote_xmlatex" id="nbp16" href="#pied16" ><sup>16</sup></a>, certains modes de distribution<a class="page_footnote_xmlatex" id="nbp17" href="#pied17" ><sup>17</sup></a> et certaines constructions de la création<a class="page_footnote_xmlatex" id="nbp18" href="#pied18" ><sup>18</sup></a>). Mais de tels contournements compliquent
+la compréhension de la licence et ne sont généralement pas souhaitables -&nbsp;ou possibles&nbsp;- et, à défaut de solution à cette incompatibilité, il faudra renoncer à l’utilisation d’un composant
+(ce qui revient souvent à le réécrire), voire à la diffusion d’un ensemble de composants, ou encore se rapprocher de l’auteur (ou des auteurs<a class="page_footnote_xmlatex" id="nbp19" href="#pied19"
+><sup>19</sup></a>) de la création afin qu’il consente soit à une exception expresse<a class="page_footnote_xmlatex" id="nbp20" href="#pied20" ><sup>20</sup></a> indiquant à
+quel logiciel il entend ne pas étendre sa licence<a class="page_footnote_xmlatex" id="nbp21" href="#pied21" ><sup>21</sup></a> (dans un fichier supplémentaire distribué avec le logiciel
+et sa licence), soit à l’utilisation d’une autre licence<a class="page_footnote_xmlatex" id="nbp22" href="#pied22" ><sup>22</sup></a>.</div>
+<div class="encart_xmlatex ect_cadresimple" style="border-left-color:rgb(0,0,0);border-left-width:0.8pt;padding-left:10pt;margin-left:25pt;margin-right:25pt;"><img src=
+"../images/encarts/remarque.png" class="encartico_xmlatex" />
+<div class="encart_title_xmlatex ect_title_cadresimple">La théorie des ensembles et la compatibilité</div>
+<div class="p_xmlatex" id="p53">Cette réflexion peut se traduire mathématiquement grâce à la théorie des ensembles sous la forme qui suit&nbsp;: la licence B est dite compatible (c’est-à-dire qu’elle
+peut être utilisée pour redistribuer le logiciel en respectant les termes de la licence originaire A) si et seulement si l’ensemble des droits de la licence B est inclus dans la licence A et que
+l’ensemble des obligations de la licence A est inclus dans la licence B.</div>
+</div>
+<h3 class="subsection_xmlatex" id="u2"><span class="subsection_num_xmlatex">3.1.2</span> Respecter le formalisme lié à l’utilisation des licences libres</h3>
+<div class="p_xmlatex" id="p54">La maîtrise effective des éléments constitutifs de la création est essentielle dans les projets <span style="font-style:italic">open source</span> puisque ce n’est que
+lorsque l’utilisateur est matériellement en mesure d’en user que les droits cédés par la licence trouvent leur utilité<a class="page_footnote_xmlatex" id="nbp23" href="#pied23" ><sup>23</sup></a> -&nbsp;rendant indispensable l’accès à un certain nombre d’éléments matériels (code source, documents préparatoires, scripts, etc.).</div>
+<div class="p_xmlatex" id="p55">Ainsi, au-delà de la simple cession de droits, les licences libres et <span style="font-style:italic">open source</span> contiennent généralement un ensemble de
+dispositifs pratiques qui ont pour fonctions principales d’assurer aux utilisateurs une bonne information (3.1.2.1) et une réception effective de la création (3.1.2.2). C’est sur leur fondement que
+la cour de Munich avait, courant 2007, rendu une décision en ce sens lors de l’affaire Welte vs. Skype Technologies SA, condamnant la société Skype qui n’incluait ni une copie de la GNU GPL ni le
+code source correspondant au binaire conformément au texte de la licence (Skype incluait néanmoins l’URL de celui-ci par l’intermédiaire d’un flyer).</div>
+<h4 class="subsubsection_xmlatex" id="b3"><span class="subsubsection_num_xmlatex">3.1.2.1</span> Le respect du formalisme assurant une bonne information</h4>
+<div class="p_xmlatex" id="p56">La reconnaissance par les pairs, ainsi que l’entretien d’une «&nbsp;image&nbsp;» liée à leurs activités créatrices (pour des raisons artistiques ou économiques), sont
+des éléments moteurs pour de nombreux individus. Les mentions légales, obligatoires, y pourvoient, mais sans indiquer précisément quelles sont les actions attendues et quel formalisme doit
+accompagner la réutilisation et la diffusion de leurs œuvres (les juges appréciant au regard des «&nbsp;usages du métier&nbsp;»).</div>
+<div class="p_xmlatex" id="p57">C’est ce manque -&nbsp;moins présent pour les œuvres non logicielles<a class="page_footnote_xmlatex" id="nbp24" href="#pied24" ><sup>24</sup></a>&nbsp;-
+que comblent les contraintes des licences relatives au formalisme, sous la forme d’une série d’obligations qui assurent une bonne information quant à l’origine du code et des conditions de son
+exploitation auprès des utilisateurs. Ces obligations vont parfois plus loin que les simples mentions légales -&nbsp;telles les clauses dites «&nbsp;de publicité&nbsp;» qui s’étendent à tous les
+documents commerciaux publicitaires relatifs au logiciel qui les contient.</div>
+<div class="p_xmlatex" id="p58">Ainsi, il est possible de distinguer les obligations opérant une mise à disposition passive des informations légales (3.1.2.1.a) et celles contraignant à un affichage
+actif (3.1.2.1.b).</div>
+<h5 class="t4_xmlatex" id="t4-5"><span class="t4_num_xmlatex">3.1.2.1.a</span> La mise à disposition passive des informations légales</h5>
+<div class="p_xmlatex" id="p59">Les informations légales (y compris le texte des licences) figurent dans les en-têtes des fichiers et (si nécessaire) dans des fichiers joints aux sources.</div>
+<div class="p_xmlatex" id="p60">De manière générale, tout fichier (comprenant du code sous licence libre ou non) devrait contenir un en-tête affichant les «&nbsp;mentions légales
+minimums&nbsp;»&nbsp;: c’est-à-dire rappelant le nom et la qualité du titulaire de droits, la date de la création (et éventuellement des ajouts), et les licences utilisées. Une mention excluant toute
+garantie est aussi à prévoir dans le cadre des licences libres. Elle peut être assez courte pour les petits fichiers, et reprendre l’intégralité de la clause d’exclusion de garantie de la licence
+utilisée pour les fichiers plus importants.</div>
+<div class="p_xmlatex" id="p61">Pour éviter d’alourdir inutilement le code distribué, toutes les mentions trop longues pour être insérées en l’état dans chaque en-tête peuvent être transférées dans
+des fichiers joints aux sources&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p62">les textes des licences<a class="page_footnote_xmlatex" id="nbp25" href="#pied25" ><sup>25</sup></a>, leurs éventuelles traductions et modalités
+spécifiques d’application (fichier license(s).txt)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p63">le fichier explicatif permettant à l’utilisateur ou au licencié de comprendre où trouver les informations qu’il recherche, le fonctionnement du projet, comment
+contribuer au projet, les éventuels composants soumis à d’autres licences, etc. (fichier readme.txt)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p64">la liste exhaustive des contributeurs originaux et subséquents au logiciel, avec les dates de chacune de leur contribution (fichier authors.txt)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p65">les autres informations (documentation du logiciel -&nbsp;qui rappellera par ailleurs les mentions légales du logiciel&nbsp;-, une FAQ -&nbsp;qui permettra de lever
+toute ambiguïté&nbsp;-, etc.).</div>
+</li>
+</ul>
+<div class="p_xmlatex" id="p66">Il s’agit ici de bon sens et de bonnes pratiques, les licences n’imposant généralement que des mentions «&nbsp;raisonnables&nbsp;»<a class="page_footnote_xmlatex" id=
+"nbp26" href="#pied26" ><sup>26</sup></a> de ces éléments, d’autres fichiers peuvent venir compléter cette liste&nbsp;: changelog.txt, legal.txt, export.txt, etc.</div>
+<div class="encart_xmlatex ect_cadresimple" style="border-left-color:rgb(0,0,0);border-left-width:0.8pt;padding-left:10pt;margin-left:25pt;margin-right:25pt;"><img src=
+"../images/encarts/remarque.png" class="encartico_xmlatex" />
+<div class="encart_title_xmlatex ect_title_cadresimple">Faut-il impérativement utiliser le signe ©&nbsp;?</div>
+<div class="p_xmlatex" id="p67">En matière de copyright, le droit américain s’est longtemps différencié du système latin du droit d’auteur, et ceci notamment en conditionnant l’action en justice à un
+enregistrement des œuvres auprès de l’United States Copyright Office pour agir en justice.</div>
+<div class="p_xmlatex" id="p68">En parallèle, et afin de reconnaître des droits aux auteurs étrangers dont les œuvres n’étaient pas soumises à ce formalisme, une procédure plus légère fut assimilée à
+cet enregistrement, consistant en l’apposition d’une mention comportant «&nbsp;de façon nette le symbole ©, accompagné du nom du titulaire du droit d’auteur et de l’année de publication de
+l’œuvre&nbsp;».</div>
+<div class="p_xmlatex" id="p69">Depuis l’adhésion des États-Unis à la Convention de Berne, en 1989, un assouplissement du formalisme américain a rapproché celui-ci du système du droit d’auteur qui
+protège les œuvres du simple fait de leur conception. Ainsi, une simple mention de l’auteur et de la date de conception devrait permettre à toute personne de revendiquer ses droits.</div>
+<div class="p_xmlatex" id="p70">Néanmoins, cette <span style="font-style:italic">notice de copyright</span> doit être considérée comme une présomption de titularité des droits, et la rédaction
+«&nbsp;à l’américaine&nbsp;», notamment recommandée par l’article III.1 de la Convention Universelle, conserve ainsi une certaine utilité.</div>
+</div>
+<h5 class="t4_xmlatex" id="t4-6"><span class="t4_num_xmlatex">3.1.2.1.b</span> L’affichage actif des mentions légales</h5>
+<div class="p_xmlatex" id="p71">Dépassant l’affichage classique des mentions légales, quelques licences demandent aux licenciés de s’assurer par un comportement actif que les utilisateurs auront bien
+connaissance des mentions légales, de la licence, etc.</div>
+<div class="p_xmlatex" id="p72">Ainsi peut-on regrouper les clauses qui ont pour vocation d’assurer&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p73"><span style="font-style:italic">la visibilité de l’affichage des mentions légales</span>. Les licences peuvent demander à ce que les mentions légales soient clairement
+affichées&nbsp;: à certains moments et dans certains contextes (telle la GNU GPL en présence d’interface utilisateur interactive<a class="page_footnote_xmlatex" id="nbp27" href="#pied27" ><sup>27</sup></a>) ou telles qu’elles étaient affichées à la réception de l’œuvre (telles les licences Yahoo Public License ou Zimbra Public License<a class="page_footnote_xmlatex" id="nbp28"
+href="#pied28" ><sup>28</sup></a>)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p74"><span style="font-style:italic">l’affichage d’attributions particulières</span>. Ces clauses vont un peu plus loin que les simples mentions légales et demandent que
+soient ajoutées certaines mentions ou phrases lors de la distribution et/ou l’utilisation du logiciel<a class="page_footnote_xmlatex" id="nbp29" href="#pied29" ><sup>29</sup></a>&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p75"><span style="font-style:italic">la publicité autour du logiciel</span>. Ainsi était-ce notamment le cas de la licence Apache version&nbsp;1.0 ou de la version initiale
+de la BSD (4-clause BSD) -&nbsp;ces deux licences étant encore utilisées sur le logiciel Truecrypt<a class="page_footnote_xmlatex" id="nbp30" href="#pied30" ><sup>30</sup></a>. Ces
+clauses, bénignes à leur origine, deviennent lourdes de conséquences lorsque leurs effets se cumulent ou s’accroissent. Ainsi en est-il lors de la multiplication de clauses de publicité, la plus
+renommée pour sa dégénérescence étant celle de la licence BSD<a class="page_footnote_xmlatex" id="nbp31" href="#pied31" ><sup>31</sup></a>. Elle contraignait à citer le donneur de licence
+dans toute publicité relative au logiciel ou à son utilisation, provoquant de lourds problèmes lorsque les contributeurs choisirent d’utiliser cette licence en modifiant la citation en leur
+faveur&nbsp;: la multiplication des citations devint rapidement extrêmement fastidieuse et gênante. La FSF s’est rapidement prononcée contre l’«&nbsp;<a class="link_xmlatex" href=
+"http://www.gnu.org/philosophy/bsd.html">odieuse clause de publicité BSD</a>&nbsp;» (Richard Stallman rapporte ainsi avoir décompté en 1997 plus de 75 mentions publicitaires obligatoires attachées à
+la distribution de NetBSD).</div>
+</li>
+</ul>
+<h4 class="subsubsection_xmlatex" id="b4"><span class="subsubsection_num_xmlatex">3.1.2.2</span> Le respect du formalisme assurant une réception effective de l’œuvre</h4>
+<div class="p_xmlatex" id="p76">Il s’agit ici du code source correspondant (3.1.2.2.a), de la documentation (3.1.2.2.b) et tout autre élément utile pour l’appréhension de la création
+(3.1.2.2.c).</div>
+<h5 class="t4_xmlatex" id="t4-7"><span class="t4_num_xmlatex">3.1.2.2.a</span> Le code source correspondant</h5>
+<div class="p_xmlatex" id="p77">De nombreuses licences définissent la notion de code source comme la forme de la création préférée pour faire des modifications sur celle-ci.</div>
+<div class="p_xmlatex" id="p78">Les licences vont dorénavant plus loin et la GNU GPL requiert la «&nbsp;source correspondante&nbsp;» du logiciel fourni en exécutable, défini comme étant «&nbsp;tout
+le code source nécessaire pour générer, installer et (pour une création exécutable) exécuter le code objet et modifier la création, y compris les scripts pour contrôler ces activités&nbsp;». Les
+bibliothèques systèmes et autres éléments habituellement disponibles dans un environnement de développement sont cependant exclus pour des raisons pratiques.</div>
+<div class="p_xmlatex" id="p79">Le plus simple est généralement que la source accompagne le binaire (ou soit disponible sur le même serveur). Or, ce n’est cependant pas toujours possible ou souhaité
+et d’autres alternatives sont généralement proposées&nbsp;: telle l’offre de fournir les sources correspondantes à la demande (mais avec d’autres problématiques comme le délai raisonnable de cette
+communication des sources).</div>
+<div class="encart_xmlatex ect_cadresimple" style="border-left-color:rgb(0,0,0);border-left-width:0.8pt;padding-left:10pt;margin-left:25pt;margin-right:25pt;"><img src=
+"../images/encarts/remarque.png" class="encartico_xmlatex" />
+<div class="encart_title_xmlatex ect_title_cadresimple">Non respect de la GNU GPL sur GNU EMACS ?</div>
+<div class="p_xmlatex" id="p80">Il est toujours bon de se rappeler que même les meilleurs sont faillibles. Ainsi, RMS a récemment publié un article annonçant que plusieurs versions de son logiciel
+GNU Emacs ne respectaient pas la GNU GPL (Emacs distributions are not GPL-compliant)<a class="page_footnote_xmlatex" id="nbp32" href="#pied32" ><sup>32</sup></a>&nbsp;:</div>
+<div class="p_xmlatex" id="p81"><code class="verb_xmlatex">From: Richard Stallman</code></div>
+<div class="p_xmlatex" id="p82"><code class="verb_xmlatex">Subject: Re: Compiled files without sources????</code></div>
+<div class="p_xmlatex" id="p83"><code class="verb_xmlatex">Date: Thu, 28 Jul 2011 19:00:17 -0400</code></div>
+<div class="p_xmlatex" id="p84"><code class="verb_xmlatex">They are in Emacs releases 23.2 and 23.3. They have been in all pretests since emacs-23.1.90, dated 2009-12-09. They were merged into the
+Emacs trunk in bzr 97804, dated 2009-09-28; here’s a URL for that: (URL).</code></div>
+<div class="p_xmlatex" id="p85"><code class="verb_xmlatex">We have made a very bad mistake. Anyone redistributing those versions is violating the GPL, through no fault of his own.</code></div>
+<div class="p_xmlatex" id="p86"><code class="verb_xmlatex">We need to fix those releases retroactively (or else delete them), and we need to do it right away.</code></div>
+<div class="p_xmlatex" id="p87"><code class="verb_xmlatex">I see two quick ways to fix them: to delete the compiled files, or to add the sources they are made from.</code></div>
+<div class="p_xmlatex" id="p88"><code class="verb_xmlatex">--</code></div>
+<div class="p_xmlatex" id="p89"><code class="verb_xmlatex">Dr Richard Stallman</code></div>
+<div class="p_xmlatex" id="p90"><code class="verb_xmlatex">President, Free Software Foundation</code></div>
+<div class="p_xmlatex" id="p91">Cette erreur est bien entendu aujourd’hui corrigée.</div>
+</div>
+<h5 class="t4_xmlatex" id="t4-8"><span class="t4_num_xmlatex">3.1.2.2.b</span> La documentation</h5>
+<div class="p_xmlatex" id="p92">La documentation d’un code et d’un logiciel (ou d’une création utilitaire qui sera ou non amenée à évoluer) est une condition nécessaire à sa bonne prise en main. Deux
+types de documentation peuvent être distribués&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p93">la documentation relative à l’installation et au paramétrage du logiciel. Son statut juridique est calqué sur celui du logiciel et certaines licences imposent sa
+communication dans les mêmes termes (notamment l’OSL)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p94">la documentation «&nbsp;utilisateur&nbsp;» qui est protégée de manière indépendante et pour laquelle la société peut parfaitement utiliser une licence différente (la
+GNU FDL étant généralement la plus adaptée en raison de son étendue très large qui permet d’assurer de conserver une documentation entièrement libre).</div>
+</li>
+</ul>
+<h5 class="t4_xmlatex" id="t4-9"><span class="t4_num_xmlatex">3.1.2.2.c</span> Autres éléments</h5>
+<div class="p_xmlatex" id="p95">Enfin, dans l’hypothèse où certains composants pourraient être <span style="font-style:italic">certifiés</span> (ou simplement qualifiés, selon le secteur industriel),
+la problématique d’une mutualisation des coûts engendrés par cette certification peut venir s’ajouter aux réflexions sur l’<span style="font-style:italic">open source</span>&nbsp;: le matériel de
+certification pourra ainsi être librement communiqué (afin de favoriser la diffusion et utilisation du logiciel) ou, au contraire, être réservé à un groupe de sociétés afin de mutualiser le coût au
+sein d’une communauté d’utilisateurs. Ces problématiques sont très fortes dans des secteurs tels l’aéronautique, l’aérospatiale, le ferrovière, l’automobile, etc.</div>
+<h2 class="section_xmlatex" id="s2"><span class="section_num_xmlatex">3.2</span> Diffuser sous licences libres</h2>
+<div class="p_xmlatex" id="p96">Le courant des licences libres, malgré sa jeunesse et sa relative complexité, a rapidement donné naissance à un nouveau système. Ainsi, c’est l’organisation des
+acteurs privés qui doit être examinée (3.2.1) avant de se pencher sur l’organisation relative à la diffusion du logiciel sous licence libre (3.2.2).</div>
+<h3 class="subsection_xmlatex" id="u3"><span class="subsection_num_xmlatex">3.2.1</span> Se positionner dans l’écosystème du logiciel libre</h3>
+<div class="p_xmlatex" id="p97">Par leur organisation, les acteurs privés ont dessiné un nouveau système dont il convient de présenter les acteurs (3.2.1.1) et les interactions qui le caractérisent
+(3.2.1.2)<a class="page_footnote_xmlatex" id="nbp33" href="#pied33" ><sup>33</sup></a>.</div>
+<h4 class="subsubsection_xmlatex" id="b5"><span class="subsubsection_num_xmlatex">3.2.1.1</span> Les acteurs du système du logiciel libre</h4>
+<div class="p_xmlatex" id="p98">Les licences libres ne sont que des outils. Le corollaire est que tous les types de personnes (physiques ou morales, privées ou publiques, de tout secteur ou métier)
+les utilisent, avec une pluralité de motivations, mais au profit de la constitution d’un «&nbsp;pot commun&nbsp;» qui les réunit (chacun étant libre d’y verser comme d’y puiser). Les individus, les
+associations et autres organismes à but non lucratif ont souvent un rapport au Libre complexe qui mêle philosophie, idéologie, et des arguments plus raisonnés comme le coût ou l’indépendance
+qu’offrent les solutions logicielles libres. Tandis que les entreprises, neutres par essence<a class="page_footnote_xmlatex" id="nbp34" href="#pied34" ><sup>34</sup></a>, ainsi que les
+collectivités et administration adoptent le Libre par opportunité et pragmatisme (les logiciels libres assurant, outre une maîtrise des coûts, les avantages d’une grande flexibilité et d’un
+développement rapide).</div>
+<div class="p_xmlatex" id="p99">Parmi tous les courants et même s’il n’est peut-être pas le plus connu du grand public (le mouvement de l’Open Data est par exemple «&nbsp;très vendeur&nbsp;»), le
+secteur le plus avancé et structuré est incontestablement celui du logiciel&nbsp;: 50&nbsp;% des entreprises interrogées par Gartner<a class="page_footnote_xmlatex" id="nbp35" href="#pied35" ><sup>35</sup></a>. ont adopté les logiciels libres dans le cadre de leur stratégie informatique. Ainsi, l’industrie du logiciel libre devrait représenter 10&nbsp;% du marché de demandes en
+logiciels et services français d’ici 2 ans<a class="page_footnote_xmlatex" id="nbp36" href="#pied36" ><sup>36</sup></a> (renforçant ainsi la compétitivité de la France en matière de
+développement de logiciels).</div>
+<div class="p_xmlatex" id="p100">Les développements qui suivent seront donc dédiés au système qui caractérise le logiciel libre. On s’aperçoit que les frontières entre les différents acteurs
+(éditeurs des logiciels, intégrateurs, constructeurs et utilisateurs) sont beaucoup moins étanches que dans le secteur traditionnel du logiciel&nbsp;: les éditeurs intègrent de plus en plus de
+composants <span style="font-style:italic">open source</span> dans leurs logiciels, les intégrateurs peuvent prendre le rôle d’éditeur vis-à-vis de leur client (support de niveau 3, développement de
+nouvelles fonctionnalités, etc.) et les utilisateurs eux-mêmes se réunissent en «&nbsp;une communauté d’utilisateurs éditrice<a class="page_footnote_xmlatex" id="nbp37" href="#pied37" ><sup>37</sup></a>&nbsp;». Néanmoins, si on distingue les entreprises simples utilisatrices de composants <span style="font-style:italic">open source</span> de celles qui orientent leur modèle
+économique en rapport avec cet usage, et qu’on se concentre sur ces dernières seulement, on peut distinguer différents rôles&nbsp;: éditeurs (3.2.1.1.a), intégrateurs (3.2.1.1.b), constructeurs
+(3.2.1.1.c), grands utilisateurs clients (3.2.1.1.d), fondations et communautés (3.2.1.1.e) et centres de recherche (3.2.1.1.f).</div>
+<h5 class="t4_xmlatex" id="t4-10"><span class="t4_num_xmlatex">3.2.1.1.a</span> Les éditeurs <span style="font-style:italic">open source</span></h5>
+<div class="p_xmlatex" id="p101">Il s’agit ici de l’entreprise distribuant sous licence libre un logiciel qu’elle édite. De multiples adoptions de l’<span style="font-style:italic">open source</span>
+coexistent dans le monde de l’édition&nbsp;: en fonction de l’éditeur (et de son histoire), du type de produit édité et de ses utilisateurs. Le choix n’est pas systématique, mais les éditeurs qui
+souhaitent construire un modèle économique innovant, voire disruptif, ont besoin de s’appuyer sur une communautés, préexistante ou nouvellement créée, qui va jouer le rôle de soutènement (renforçant
+le logiciel, se substituant parfois à la société, et constituant une réserve de clients voire de salariés pour la société). À partir de là, le modèle économique de la société est généralement issu
+d’un équilibre entre ce qui est cédé et le contrôle, plus ou moins fort, conservé par l’éditeur (par un droit exclusif, sur la feuille de route, etc.). Se concentrant sur les seules pratiques
+juridiques sans que la liste soit exhaustive, les principaux mécanismes (librement combinables) sont l’usage du droit des marques, la proposition de licence commerciale complémentaire, la mise à
+disposition décalée ou encore le contrat.</div>
+<div class="p_xmlatex" id="p102">Le plus souvent, les éditeurs assurent la protection de leur produit par l’usage complémentaire du droit des marques<a class="page_footnote_xmlatex" id="nbp38" href=
+"#pied38" ><sup>38</sup></a>&nbsp;: le logiciel est librement diffusé sous licence <span style="font-style:italic">open source</span>, mais tout usage de la marque est soumis à
+autorisation. Cette faculté qu’offre le cumul de droits exclusifs concurrents sur un même objet a ici l’avantage de rendre quasi inexistant le coût d’entrée pour les utilisateurs, tout en assurant à
+l’éditeur principal un contrôle sur l’évolution, la distribution des copies et l’exploitation globale du logiciel. Dans l’usage de ce droit, il est possible de distinguer les sociétés commerciales
+qui ont tendance à en user de façon très agressive -&nbsp;au point parfois de réduire les libertés concédées par la licence <span style="font-style:italic">open source</span> sur le logiciel<a class=
+"page_footnote_xmlatex" id="nbp39" href="#pied39" ><sup>39</sup></a>&nbsp;- tandis que les structures non commerciales en font un usage plus modéré, équilibré, qui a principalement pour
+objectif de défendre l’image associée au logiciel<a class="page_footnote_xmlatex" id="nbp40" href="#pied40" ><sup>40</sup></a>. Le risque inhérent à ce type d’utilisation du droit des
+marques est que l’éditeur, trop mercantile, se mette à dos la communauté qui s’émancipe alors en enlevant toute allusion à la marque du logiciel et en reprenant à son compte les logiciels diffusés
+sous licence <span style="font-style:italic">open source</span><a class="page_footnote_xmlatex" id="nbp41" href="#pied41" ><sup>41</sup></a>. Aux États-Unis, les brevets sont aussi
+utilisés comme un levier supplémentaire permettant de convaincre les investisseurs et les clients (Novell en étant le meilleur exemple). On observe le même phénomène en Europe, même si l’utilisation
+des brevets parallèlement à une licence libre reste heureusement un comportement isolé et très critiquable.</div>
+<div class="p_xmlatex" id="p103">Par ailleurs, il est fréquent que les éditeurs ne fassent pas le choix exclusif de l’<span style="font-style:italic">open source</span> et développent de façon
+périphérique des offres commerciales en associant à la version libre des <span style="font-style:italic">add-ons</span> ou <span style="font-style:italic">plug-ins</span> (greffon) sous licence
+commerciale<a class="page_footnote_xmlatex" id="nbp42" href="#pied42" ><sup>42</sup></a>. Dans le même esprit, il est possible de proposer le même logiciel sous une licence commerciale
+présentée comme alternative à la licence <span style="font-style:italic">open source</span><a class="page_footnote_xmlatex" id="nbp43" href="#pied43" ><sup>43</sup></a> ou de proposer un
+service autour d’une version non encore distribuée du logiciel (à noter néanmoins que ces deux solutions sont conditionnées au fait que la société détienne tous les droits sur le logiciel<a class=
+"page_footnote_xmlatex" id="nbp44" href="#pied44" ><sup>44</sup></a> ou que les licences des composants <span style="font-style:italic">open source</span> utilisés n’interdisent pas de
+telles utilisations ou distributions fermées). Dans ce second cas, il est possible de penser à un modèle du type <span style="font-style:italic">free cloud</span> telle que l’offre <span style=
+"font-style:italic">Drupal Garden</span> de la société Acquia&nbsp;: un ou plusieurs services fournis sur la plate-forme de l’éditeur (par exemple création et hébergement d’un site) s’harmonisent
+avec la distribution <span style="font-style:italic">open source</span> du logiciel puisque l’utilisateur peut à tout moment exporter le code et le contenu générés pour les installer sur sa propre
+instance. Dans ces hypothèses, mixer licences <span style="font-style:italic">open source</span> et commerciales<a class="page_footnote_xmlatex" id="nbp45" href="#pied45" ><sup>45</sup></a> permet divers montages dans lesquels les communautés continuent à trouver leur intérêt à utiliser et collaborer au développement du logiciel grâce à la licence <span style=
+"font-style:italic">open source,</span> tandis que les utilisateurs professionnels préfèrent à terme opter pour une licence commerciale<a class="page_footnote_xmlatex" id="nbp46" href="#pied46" ><sup>46</sup></a>.</div>
+<div class="p_xmlatex" id="p104">De façon assez similaire, certaines sociétés proposent des mises à jour plus simples et régulières à leurs clients (non immédiatement accessible aux utilisateurs de
+la version communautaire)&nbsp;: soit par une mise à disposition systématiquement décalée (de quelques mois ou quelques semaines)&nbsp;; soit par une mise à disposition graduelle des mises à jour
+pour les clients (alors qu’elles seraient regroupées pour la version complémentaire). Ce décalage peut être matériel ou juridique (les mises à jour ne sont considérées comme <span style=
+"font-style:italic">divulguées</span> qu’à compter d’une certaine période).</div>
+<div class="p_xmlatex" id="p105">Enfin, certaines sociétés usent du droit des contrats afin de limiter accessoirement l’utilisateur dans les libertés que lui concède la licence <span style=
+"font-style:italic">open source</span>&nbsp;: que ce soit lors de la vente de services aux utilisateurs qui souhaitent bénéficier du support et des mises à jour<a class="page_footnote_xmlatex" id=
+"nbp47" href="#pied47" ><sup>47</sup></a> ou dans les rapports entre distributeurs et revendeurs <a class="page_footnote_xmlatex" id="nbp48" href="#pied48" ><sup>48</sup></a>.
+Les contrats sont aussi essentiels pour les logiciels orientés métiers demandant de concevoir plus finement la collaboration entre les différents industriels<a class="page_footnote_xmlatex" id=
+"nbp49" href="#pied49" ><sup>49</sup></a>&nbsp;: la licence <span style="font-style:italic">open source</span> n’étant alors plus qu’une partie du cadre contractuel (s’ils sont
+concurrents, une licence <span style="font-style:italic">copyleft</span> sera une condition <span style="font-style:italic">sine qua non</span> afin d’assurer une relative pérennité et équité dans le
+développement du logiciel) -&nbsp;un contrat de consortium complétant éventuellement tous les aspects non couverts par la licence (comité de direction, procédé de développement, prise en compte des
+orientations, marketing et communication, etc.)<a class="page_footnote_xmlatex" id="nbp50" href="#pied50" ><sup>50</sup></a>.</div>
+<div class="encart_xmlatex ect_grissimple" style="border-color:rgb(0,0,0);border-width:0pt;padding:15pt;margin-left:-5pt;margin-right:-5pt;background-color:rgb(230,230,230);">
+<div class="encart_title_xmlatex ect_title_grissimple"><span style="font-weight:bold">Par exemple...</span></div>
+<div class="p_xmlatex" id="p106">Révélateur de l’intérêt de l’<span style="font-style:italic">open source</span>, les diverses structures représentatives de l’industrie du logiciel se positionnent
+progressivement sur le sujet et mettent en place des commissions <span style="font-style:italic">open source</span>.</div>
+<div class="p_xmlatex" id="p107">Ainsi, Syntec Numérique a rédigé un Guide Open Source<a class="page_footnote_xmlatex" id="nbp51" href="#pied51" ><sup>51</sup></a> et créé un comité
+<span style="font-style:italic">open source</span> avec pour mission de « fixer le cadre contractuel et d’usage en matière de projets informatiques incluant du logiciel libre&nbsp;: comment s’inscrit
+le logiciel libre dans l’architecture des projets informatiques, en matière technique, juridique, business model, organisationnelle et distribution.&nbsp;»</div>
+<div class="p_xmlatex" id="p108">À son tour, l’AFDEL qui avait abordé les logiciels libres au travers d’un guide<a class="page_footnote_xmlatex" id="nbp52" href="#pied52" ><sup>52</sup></a>, a récemment mis en place une commission dédiée, présidée par Bertrand Diard (Talend), avec pour mission de «&nbsp;réunir et fédérer les éditeurs de logiciels en France pour
+débattre de thèmes spécifiques liés au modèle open source, et rédiger des conclusions et propositions sur ces thèmes.&nbsp;»&nbsp;</div>
+<div class="p_xmlatex" id="p109">Le Cigref a aussi récemment publié son guide intitulé «&nbsp;Maturité et gouvernance de l’Open Source&nbsp;: la vision des grandes entreprises&nbsp;» (<a class=
+"link_xmlatex" href="http://www.cigref.fr/cigref_publications/2011/03/maturite-gouvernance-open-source-vision-grandes-entreprises.html">http://www.cigref.fr</a>).</div>
+</div>
+<div class="encart_xmlatex ect_cadresimple" style="border-left-color:rgb(0,0,0);border-left-width:0.8pt;padding-left:10pt;margin-left:25pt;margin-right:25pt;"><img src=
+"../images/encarts/remarque.png" class="encartico_xmlatex" />
+<div class="encart_title_xmlatex ect_title_cadresimple">Microsoft et l’open source</div>
+<div class="p_xmlatex" id="p110">Le comportement de cette société peut, à divers égards, sembler paradoxal&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p111">Microsoft a ouvertement qualifié le mouvement du logiciel libre de «&nbsp;cancer&nbsp;»<a class="page_footnote_xmlatex" id="nbp53" href="#pied53" ><sup>53</sup></a> avant de rédiger ses propres licences labellisées <span style="font-style:italic">open source</span> (<a class="link_xmlatex" href=
+"http://www.microsoft.com/opensource/licenses.mspx">Microsoft Public License (Ms-PL)</a> et <a class="link_xmlatex" href="http://www.microsoft.com/opensource/licenses.mspx">Microsoft Reciprocal
+License (Ms-RL)</a>) au sein du programme <a class="link_xmlatex" href="http://www.microsoft.com/resources/sharedsource/default.mspx">Shared Source Initiative</a> (initiative destinée à favoriser
+l’innovation technique, elle permet un accès favorisé au code source des logiciels de la société au profit des clients, partenaires, chercheurs et développeurs)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p112">un laboratoire <span style="font-style:italic">open source</span> a été mis en place, et Microsoft <a class="link_xmlatex" href=
+"http://www.microsoft.com/presspass/features/2009/Jul09/07-20LinuxQA.mspx">s’enorgueillit</a> de contribuer à plusieurs projets libres (voir le billet intitulé« Microsoft Contributes Linux Drivers to
+Linux Community&nbsp;», sur Microsoft.com)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p113">la société a une politique en matière de brevets généralement contraire à l’<span style="font-style:italic">open source</span>&nbsp;: elle oppose régulièrement ses
+brevets contre des projets <span style="font-style:italic">open source</span>&nbsp;; et a racheté des brevets de Novell par l’intermédiaire d’un consortium (CPTN Holdings LLC) qu’elle dirige&nbsp;;
+même si elle a par ailleurs publié deux promesses de non-agression (« <a class="link_xmlatex" href=
+"http://www.microsoft.com/openspecifications/en/us/programs/other/interoperability-principles-patent-pledges/default.aspx">Patent Pledge for Open Source Developers</a>&nbsp;»&nbsp;; « <a class=
+"link_xmlatex" href="http://www.microsoft.com/openspecifications/en/us/default.aspx">Microsoft Approach to Interoperability</a>&nbsp;»)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p114">la société s’est rapprochée de l’éditeur Novell au sein d’un <a class="link_xmlatex" href="http://www.moreinterop.com/">Interop Ability Lab</a> (interopérabilité
+entre Windows serveur et Suse Linux Entreprise&nbsp;: http://www.moreinterop.com)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p115">la WebApp de Microsoft comporte par ailleurs des clauses interdisant aux développeurs d’utiliser directement ou indirectement des composants sous licence <span style=
+"font-style:italic">open source</span> (voir Computing.co.uk, «&nbsp;<a class="link_xmlatex" href="http://www.computing.co.uk/ctg/news/2027347/microsoft-restricts-source-apps#ixzz1WXd4RpST">Microsoft
+restricts use of open source in app</a>&nbsp;»)&nbsp;: «&nbsp;the application must not include software, documentation, or other materials that, in whole or in part, are governed by or subject to an
+’excluded license’, or that would otherwise cause the application to be subject to the terms of an excluded license.&nbsp;». Sont ainsi exclues les licences GNU GPL et AGPL, et équivalentes…</div>
+</li>
+</ul>
+<div class="p_xmlatex" id="p116">Depuis peu, la société communique sur son modèle économique intitulé Open Surface (un <span style="font-style:italic">cloud</span> qui mêle logiciels libres et
+propriétaires).</div>
+</div>
+<h5 class="t4_xmlatex" id="t4-11"><span class="t4_num_xmlatex">3.2.1.1.b</span> Les intégrateurs</h5>
+<div class="p_xmlatex" id="p117">De leur côté, les intégrateurs de logiciels libres et <span style="font-style:italic">open source</span> (ou de solutions partiellement composées de ceux-ci)
+subissent généralement plus les licences qu’ils ne les choisissent&nbsp;: leur seule préoccupation étant que les briques logicielles puissent aisément se combiner entre elles. Il n’y a donc pas
+d’usage du droit des marques à l’égard des produits, mais surtout une expertise approfondie des combinaisons de licences leur permettant de s’assurer de la faisabilité du projet et de s’engager sur
+ce point auprès de leurs clients et dans leurs contrats (les clients demandant aujourd’hui la garantie de telle compétence ainsi que la livraison de certaines études précises sur ces questions).
+Transférant généralement un logiciel qu’il n’a pas (à priori) lui-même développé, mais seulement adapté au besoin de son client, l’intégrateur est lui-même limité par sa qualité de licencié à l’égard
+des auteurs des logiciels libres sur lesquels il intervient, et, ne <span style="font-style:italic">pouvant céder plus de droits qu’il n’en possède lui-même</span>, il communiquera à ses clients
+cesdits logiciels sous leur licence <span style="font-style:italic">open source</span> d’origine (ou toute autre licence compatible).</div>
+<div class="p_xmlatex" id="p118">En ce qui concerne leurs contributions spécifiques, les pratiques sont multiples, mais il semblerait finalement que le plus avantageux pour l’ensemble des parties
+soit que la titularité des droits soit conservée par celui qui maintient et édite le logiciel (généralement l’intégrateur). Ainsi celui-ci cède l’ensemble de ses développements sous licence libre au
+client et conserve la titularité des droits. Ce compromis reste fidèle au procédé de création <span style="font-style:italic">open source</span> dans lequel l’auteur reste titulaire de droits et cède
+sous licence <span style="font-style:italic">open source</span> de façon non exclusive, afin de permettre tant au client de mutualiser les résultats de la prestation, qu’à l’intégrateur de valoriser
+les travaux par tous moyens appropriés<a class="page_footnote_xmlatex" id="nbp54" href="#pied54" ><sup>54</sup></a>.</div>
+<h5 class="t4_xmlatex" id="t4-12"><span class="t4_num_xmlatex">3.2.1.1.c</span> Les constructeurs</h5>
+<div class="p_xmlatex" id="p119">Concourant à la création d’une industrie réunissant innovations matérielles et logicielles, les constructeurs (tels HP, Intel, IBM ou Dell) embarquent de plus en plus
+de logiciels et se rapprochent à ce titre des différents projets de logiciels libres (et l’<span style="font-style:italic">open cloud</span>) -&nbsp;devenant de jour en jour des contributeurs majeurs
+dans les projets OS (Linux, Busybox, etc.) au point de faire de leurs contributions respectives des éléments différenciant.</div>
+<div class="p_xmlatex" id="p120">En effet, de tels logiciels permettent, en plus d’écorner certains monopoles, de réduire le coût de développement, d’optimiser l’interaction entre les logiciels et
+leurs matériels (ou <span style="font-style:italic">a minima</span> d’assurer la compatibilité avec leur produit).</div>
+<div class="p_xmlatex" id="p121">À l’instar des intégrateurs, les constructeurs sont généralement désireux d’une compatibilité maximum entre les licences des logiciels <span style=
+"font-style:italic">open source</span> utilisés, même s’ils peuvent avoir intérêt à définir certaines politiques&nbsp;: favorables à certaines licences permissives (par exemple dans le secteur du
+mobile, avec la diffusion d’Android sous licence Apache)&nbsp;; ou exemptes de certaines obligations (par exemple, de licences de brevets) qui seraient incompatibles avec leur politique plus vaste
+relative à la propriété intellectuelle.</div>
+<div class="p_xmlatex" id="p122">De nombreux secteurs sont concernés par une certification (ou qualification, cf. <span style="font-style:italic">supra</span>) de leur produit&nbsp;: l’<span style=
+"font-style:italic">open source</span> est pour eux une solution qui permet de mutualiser les frais de développement tout en conservant le bénéfice personnel de la certification de leur
+version.</div>
+<h5 class="t4_xmlatex" id="t4-13"><span class="t4_num_xmlatex">3.2.1.1.d</span> Les utilisateurs</h5>
+<div class="p_xmlatex" id="p123">Contrairement aux logiciels traditionnels, les logiciels libres sont généralement accessibles à toutes catégories d’utilisateurs, dans les mêmes conditions. Ainsi,
+libre à chacun (individu, société, organisme à but non lucratif, collectivité ou État) de s’installer un forum (Phpbb), un wiki (Mediawiki), voire un Facebook-like (Elgg) ou un Youtube-like
+(Mediacore), etc.</div>
+<div class="p_xmlatex" id="p124">Les utilisateurs d’un projet <span style="font-style:italic">open source</span> sont particulièrement sensibles à la licence du projet&nbsp;: l’impact de cette
+dernière étant fonction de l’utilisation qu’ils en font (par exemple, si des services sont proposés sur la base de ces logiciels libres) voire de leur forme (société, GIE, association, etc.).</div>
+<div class="p_xmlatex" id="p125">Lorsqu’il s’agit de sociétés «&nbsp;utilisatrices poussées&nbsp;», elles peuvent faire appel à des intégrateurs ou consultants pour mettre en place les solutions
+<span style="font-style:italic">open source</span> dans leur SI -&nbsp;ce qui les place dans une situation analogue aux utilisateurs standards, avec quelques spécificités relatives aux contrats
+passés avec ces prestataires. En l’absence de tels intermédiaires, il est aussi possible de se tourner vers des solutions d’assurance (telle l’offre américaine <a class="link_xmlatex" href=
+"http://www.osriskmanagement.com/">Open Source Risk Management</a> proposée par la société OSRM).</div>
+<div class="p_xmlatex" id="p126">Néanmoins, l’impact de l’utilisation des logiciels libres peut être lié à des politiques stratégique ou économique particulières&nbsp;: par exemple en cas
+d’externalisation quasi totale du support, maintenance, veille <span style="font-style:italic">open source</span> à partir d’un SI essentiellement composé de logiciels libres, ou, au contraire, lors
+de la mise en place d’une entité informatique interne qui gère le déploiement de solutions en logiciels libres au sein de toute la structure (avec une vraie logique de service et d’édition). Dans
+toutes ces situations, les utilisateurs veillent à ce que les développements réalisés pour leur compte soient ensuite mis à disposition du (et si possible intégrés dans) projet <span style=
+"font-style:italic">open source</span> -&nbsp;gardant à l’esprit qu’il est généralement aussi cher de maintenir un composant logiciel dans la durée que de le faire développer.</div>
+<h5 class="t4_xmlatex" id="t4-14"><span class="t4_num_xmlatex">3.2.1.1.e</span> Les organisations à but lucratif et non lucratif</h5>
+<div class="p_xmlatex" id="p127">En plus des acteurs précédents, on retrouve plusieurs types de groupements sur lesquels s’appuient les projets libres et <span style="font-style:italic">open
+source</span>&nbsp;: ils sont commerciaux (tels les sociétés ou GIE) ou non (associations ou fondations), avec une personnalité morale ou non (association de fait -&nbsp;fréquent lors du lancement
+d’un projet&nbsp;- ou consortium), voire multiples (tel OpenOffice.org qui reposait sur l’association TeamEV, mais dont les droits de PI étaient gérés par Sun puis Oracle).</div>
+<div class="p_xmlatex" id="p128">Les fondations et autres organisations à but non lucratif occupent une place prépondérante dans le système du Libre. Elles peuvent être classées en deux
+catégories<a class="page_footnote_xmlatex" id="nbp55" href="#pied55" ><sup>55</sup></a>&nbsp;: celles qui concourent directement au développement d’un logiciel et celles qui y concourent
+indirectement.</div>
+<div class="p_xmlatex" id="p129">Les premières sont productrices de code, de créations (qu’elles soient ou non titulaires de droits)&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p130">organisations avec base de code diversifiée (Linux Foundation, Apache Foundation, Eclipse Foundation, OW2 Consortium, Adullact)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p131">organisations supportant une ligne de produits (Libreoffice, Mozilla.org, VideoLan, Genivi, Open Handset Alliance)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p132">communautés orientées technologie (FreeBSD, Ruby, Rails, Joomla).</div>
+</li>
+</ul>
+<div class="p_xmlatex" id="p133">Les secondes concourent indirectement au développement de projets (ne produisent pas de code <span style="font-style:italic">per se</span>)&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p134">organisations fournissant des ressources organisationnelles (administratif, hébergement, conseil, etc.) aux projets (Software Freedom Conservancy, Eclipse, Linux
+Foundation)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p135">organisations fournissant des ressources légales (Free Software Foundation, Open Source Initiative, Software Freedom Law Center, VVL)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p136">organisations de standards (W3C, IEEE, ODF Alliance, OSGI Alliance, ETSI)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p137">organisations de lobbying et de promotion (April, Aful, Framasoft, Open Source for America, Ubuntu-fr, Fedora Fr, Adullact, etc.)</div>
+</li>
+</ul>
+<h5 class="t4_xmlatex" id="t4-15"><span class="t4_num_xmlatex">3.2.1.1.f</span> Les centres de recherche</h5>
+<div class="p_xmlatex" id="p138">L’implication et l’utilisation des logiciels libres par les centres de recherche sont si importantes qu’il est impossible de ne pas considérer les centres de
+recherches<a class="page_footnote_xmlatex" id="nbp56" href="#pied56" ><sup>56</sup></a> (et, dans une moindre mesure les universités<a class="page_footnote_xmlatex" id="nbp57" href=
+"#pied57" ><sup>57</sup></a>) comme des acteurs à part entière du système que nous décrivons (notamment pour au regard de leur recherche à application industrielle).</div>
+<div class="p_xmlatex" id="p139">Leur apport est néanmoins limité aux domaines directement liés à leur activité de recherche et ils ne prennent ainsi qu’un rôle passif dans l’animation des
+communautés ou la proposition de services. Ainsi, et même si la situation semble évoluer, on s’aperçoit que leur action se limite aujourd’hui au stade qui précède la valorisation de leurs projets
+Open Source&nbsp;: cette dernière phase étant réalisée par des sociétés existantes, partenaires ou non, ou nouvellement créées (le transfert en faveur de <span style="font-style:italic">spin
+off</span> se multiplie).</div>
+<h4 class="subsubsection_xmlatex" id="b6"><span class="subsubsection_num_xmlatex">3.2.1.2</span> Les relations entre le projet et les acteurs du système</h4>
+<div class="p_xmlatex" id="p140">Enfin, il est fréquent que l’intégrateur soit tenu de contribuer aux projets <span style="font-style:italic">open source</span> en fournissant les modifications
+réalisées pour le client&nbsp;: il s’agit là d’une sécurité tant pour le client qui s’assure ainsi que les versions ultérieures du projet intégreront ces développements (et qu’il n’aura ainsi pas à
+le payer une seconde fois) que pour l’intégrateur qui ne souhaite généralement pas endosser la responsabilité d’un éditeur.</div>
+<div class="p_xmlatex" id="p141">Chaque relation mérite néanmoins un examen dédié&nbsp;: entre un projet et ses utilisateurs (3.2.1.2.a), entre un projet et ses contributeurs (3.2.1.2.b), entre le
+projet et les autres groupements (3.2.1.2.c) et entre les sociétés (3.2.1.2.d).</div>
+<h5 class="t4_xmlatex" id="t4-16"><span class="t4_num_xmlatex">3.2.1.2.a</span> Les relations entre un projet et ses utilisateurs</h5>
+<div class="p_xmlatex" id="p142">Les utilisateurs sont les premiers destinataires des logiciels. Ils contribuent généralement en livrant des retours sur leur expérience. Ils sont aussi souvent les
+premiers générateurs de valeur, le nombre d’utilisateurs d’un logiciel étant généralement un facteur multipliant la valeur du logiciel vis-à-vis de ceux qui ne l’utilisent pas encore. La licence
+utilisée sur l’œuvre logicielle est souvent le seul document les intéressant et, au sein de ce dernier, seuls les droits d’utilisation les concernent véritablement. Dans le cadre de certains projets,
+il arrive que des limitations s’ajoutent, en raison, par exemple, de composants commerciaux&nbsp;: l’utilisateur y consentira alors lors du téléchargement, de l’exécution ou de l’installation du
+logiciel.</div>
+<div class="p_xmlatex" id="p143">Ces utilisateurs peuvent néanmoins devenir clients, contributeurs et/ou partenaires potentiels, voire concurrents du projet, et il est toujours utile de prévoir à
+leur attention des documents les informant de leurs droits et devoirs au terme de la licence, des conditions d’utilisation des marques, logos et noms du projet, voire, s’il y a lieu, du processus
+leur permettant de contribuer au projet (ainsi que la politique du projet en matière de propriété intellectuelle).</div>
+<div class="encart_xmlatex ect_cadresimple" style="border-left-color:rgb(0,0,0);border-left-width:0.8pt;padding-left:10pt;margin-left:25pt;margin-right:25pt;"><img src=
+"../images/encarts/remarque.png" class="encartico_xmlatex" />
+<div class="encart_title_xmlatex ect_title_cadresimple">Exemple pratique</div>
+<div class="p_xmlatex" id="p144">Par application d’un effet de réseau, les logiciels libres gagnent en intérêt et fonctionnalité au fur et à mesure que la communauté d’utilisateurs (et de
+développeurs) s’en approche. Ainsi, les utilisateurs de téléphones Android ont formé des projets, tel le projet <a class="link_xmlatex" href="http://www.cyanogenmod.com">CyanogenMod</a>, qui
+distribue des ROM optimisées pour de nombreux portables, permettant de bénéficier des dernières versions d’Android sur les téléphones qui ne sont plus maintenus par leur constructeur. Cela grâce à la
+version communautaire du système d’exploitation Android qui est publiée par Google sous licence Apache (et sans embarquer les applications propriétaires telles google maps, voice, search,
+etc.).</div>
+</div>
+<h5 class="t4_xmlatex" id="t4-17"><span class="t4_num_xmlatex">3.2.1.2.b</span> La collaboration avec les contributeurs</h5>
+<div class="p_xmlatex" id="p145">Les caractères évolutifs et participatifs étant l’essence même du logiciel libre, il n’est pas exclu que certains contributeurs souhaitent apporter leur lot de
+développements (envisagés sur un mode projet, en constante amélioration).</div>
+<div class="p_xmlatex" id="p146">Dans la situation d’un éditeur (ou la communauté qui revêt ce rôle) déjà identifié sur le projet, il peut proposer plusieurs schémas de contribution qui
+conditionneront la reprise du code au sein du projet&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p147">lorsque ces développements concernent le logiciel lui-même, il est souvent demandé une cession globale (ou suffisante) des droits (il est aussi fréquent, au sein des
+projets commerciaux, que les sociétés rachètent ou réécrivent les contributions qui les intéressent)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p148">lorsque ces développements portent sur des modules communautaires, les solutions sont généralement liées au choix initial de la licence du projet (mais il est aussi
+possible que l’éditeur n’héberge ou ne maintienne la contribution qu’en cas de cession de droits ou d’une politique de licence précise.</div>
+</li>
+</ul>
+<div class="p_xmlatex" id="p149">Dès les premières contributions au projet, il devient nécessaire d’avoir une réflexion pointue sur la gestion de la propriété intellectuelle, donnant éventuellement
+naissance à une politique en la matière, que celle-ci soit très protectionniste ou au contraire très ouverte.</div>
+<h6 class="t5_xmlatex" id="t5-3">Les enjeux et problématiques liés à la détention des droits de propriété intellectuelle</h6>
+<div class="p_xmlatex" id="p150">La question de la détention des droits de propriété intellectuelle, de la «&nbsp;titularité&nbsp;», est d’une importance variable dans un projet <span style=
+"font-style:italic">open source.</span> En fonction de la licence (surtout si cette dernière est <span style="font-style:italic">copyleft</span>) et du type de projets, la détention peut être
+cruciale en ce qu’elle confère un certain contrôle sur le projet (par exemple pour toutes les sociétés qui pratiquent les doubles licences, dit <span style="font-style:italic">dual licensing</span>).
+Cette détention peut au contraire être très faible lorsque la licence choisie est très ouverte, lorsque le projet est soumis aux licences de composants <span style="font-style:italic">open
+source</span> qu’il intègre, ou encore lorsque trop de contributeurs se partagent cette titularité.</div>
+<div class="p_xmlatex" id="p151">Pour remédier à cette division de la propriété, de nombreux projets recourent à des politiques de licences spécifiques, de cession de droits ou de «&nbsp;copropriété
+libre&nbsp;» (chaque copropriétaire pouvant exploiter librement les droits détenus)&nbsp;: par le biais de <span style="font-style:italic">Contributor License Agreements</span>, <span style=
+"font-style:italic">Copyright Assignment</span> ou de <span style="font-style:italic">Joint Copyright</span> qui conditionnent généralement la possibilité pour un développeur de voir sa contribution
+être acceptée dans un projet ou, dans le cadre professionnel, pour un client qui souhaite que ses développements soient maintenus par le projet. C’est une politique que l’on retrouve à l’égard des
+salariés d’une société -&nbsp;qui sont aujourd’hui les principaux contributeurs, sur tout type de contenu<a class="page_footnote_xmlatex" id="nbp58" href="#pied58" ><sup>58</sup></a>.</div>
+<div class="p_xmlatex" id="p152">Inversement, afin de se prémunir face à un éventuel contrôle sur un logiciel libre du fait de la détention des droits par un ou plusieurs, certains peuvent chercher à
+bloquer l’exercice de ces prérogatives en imposant une convention de copropriété (ou d’indivision) qui lie les parties quant à l’exploitation conformément à la licence <span style=
+"font-style:italic">open source</span> du projet<a class="page_footnote_xmlatex" id="nbp59" href="#pied59" ><sup>59</sup></a>.</div>
+<h6 class="t5_xmlatex" id="t5-4">Les <span style="font-style:italic">Contributor License Agreement</span>, <span style="font-style:italic">Copyright Assignment</span> ou de <span style=
+"font-style:italic">Join Copyright</span></h6>
+<div class="p_xmlatex" id="p153">Il est ainsi fréquent que le nombre de contributeurs (et donc de titulaires de droits) dépasse la dizaine voire le millier. Leur anonymat ainsi que leur dispersion
+géographique sont parfois des obstacles infranchissables pour la suite du projet&nbsp;: l’absence de consentement d’un seul interdit toute décision concernant la création dans son ensemble et la
+seule échappatoire reste alors de supprimer les contributions pour lesquelles il manque cette autorisation.</div>
+<div class="p_xmlatex" id="p154">C’est pour cette raison que, très tôt, certains développeurs ou organismes, telle la FSF, ont mis en place des documents qui permettent aux contributeurs d’un projet
+soit de leur céder leur copyright -&nbsp;pour centraliser la prise de décision (notamment le changement de licence<a class="page_footnote_xmlatex" id="nbp60" href="#pied60" ><sup>60</sup></a>), la gestion, et la défense de l’œuvre&nbsp;- soit de leur consentir une licence très large. On parle de <span style="font-style:italic">Copyright Assignement</span> en
+présence d’un vrai transfert (cession exclusive) de droits, la structure devenant la seule et unique titulaire de droit. On parle de <span style="font-style:italic">Contributor License
+Agreement</span> lorsque le contrat opère une cession (non exclusive) très large au profit de la structure sans que le contributeur soit lui-même dessaisi de ses prérogatives. Ils sont généralement
+doublés d’un second document à destination des employeurs lorsque les contributions sont réalisées dans un cadre salarial. Chacun de ces contrats est rédigé en fonction de l’équilibre particulier du
+projet, de l’implication des contributeurs dans celui-ci et de la confiance dont bénéficie l’organisme collecteur.</div>
+<div class="p_xmlatex" id="p155">Devant le constat de la multiplicité, de la diversité et de la complexité de ces documents, de nombreux industriels, professionnels et associations du libre ont formé
+un groupe de travail pour plancher sur la rédaction de documents types à destination des communautés et entreprises&nbsp;: leur épargnant un travail d’écriture en même temps qu’ils épargnent à leurs
+utilisateurs-contributeurs un travail de lecture (et de compréhension). Le <a class="link_xmlatex" href="http://harmonyagreements.org">projet Harmony</a>, s’il permet de mutualiser les politiques
+auparavant éclatées<a class="page_footnote_xmlatex" id="nbp61" href="#pied61" ><sup>61</sup></a>, ne résout néanmoins pas la difficulté du rapport que cela génère entre les parties, les
+uns voulant un engagement fort des contributeurs -&nbsp;notamment par le biais de clauses de responsabilité et de garantie&nbsp;-, les autres voulant un engagement fort des collecteurs
+-&nbsp;notamment quant à l’exploitation des contributions.</div>
+<div class="p_xmlatex" id="p156">Par ailleurs, ces contrats ne sont réellement fiables qu’en cas de certitude quant à l’identification du contributeur. C’est la raison pour laquelle la Free Software
+Foundation (mais Mozilla aussi) envoie un contrat papier qu’il convient de retourner signé. De même, l’Eclipse Foundation à mis en place un processus complet visant à sécuriser les relations entre
+les différents acteurs (<a class="link_xmlatex" href="http://www.eclipse.org/legal/EclipseLegalProcessPoster.pdf">Eclipse Legal Process</a>).</div>
+<h5 class="t4_xmlatex" id="t4-18"><span class="t4_num_xmlatex">3.2.1.2.c</span> La collaboration avec d’autres groupements</h5>
+<div class="p_xmlatex" id="p157">Il est très fréquent que les différents projets ou organisations se réunissent pour travailler de concert sur des projets communs&nbsp;: soit qu’ils aient des
+compétences ou expériences complémentaires, transverses (tels les aspects juridiques liés aux licences et aux brevets), soit qu’ils mettent en commun leurs forces pour le développement d’une solution
+plus vaste.</div>
+<h5 class="t4_xmlatex" id="t4-19"><span class="t4_num_xmlatex">3.2.1.2.d</span> La collaboration entre sociétés</h5>
+<div class="p_xmlatex" id="p158">Une société éditrice de logiciels qui met en place son modèle commercial prend généralement en considération ses partenaires, ses concurrents et ses clients. Il est
+assez simple de séparer les uns des autres&nbsp;: la société est liée par contrat avec ses partenaires (distributeurs, revendeurs, etc.) et ses clients (contrats souvent négociés pour les premiers et
+imposés pour les seconds), et n’entretient que des relations contractuelles exceptionnelles avec ses concurrents.</div>
+<div class="p_xmlatex" id="p159">Les licences libres modifient cet ordre puisqu’elles s’adressent autant aux individus -&nbsp;personnes physiques&nbsp;- qu’aux entreprises commerciales. Ainsi, les
+concurrents comme les partenaires pourront en revendiquer le bénéfice, leur permettant notamment d’utiliser ou de proposer des services autour des logiciels édités par un autre avec pour seule limite
+le respect de la licence libre du projet et éventuellement de la politique de marque.</div>
+<div class="p_xmlatex" id="p160">On peut y voir un paradoxe puisque les partenaires risquent d’être «&nbsp;moins libres&nbsp;» que les concurrents, du fait de clauses supprimant le bénéfice de la
+licence, qui peuvent être comprises dans leurs engagements avec l’éditeur<a class="page_footnote_xmlatex" id="nbp62" href="#pied62" ><sup>62</sup></a>.</div>
+<h6 class="t5_xmlatex" id="t5-5">Gérer les risques de <span style="font-style:italic">fork</span></h6>
+<div class="p_xmlatex" id="p161">On parle de <span style="font-style:italic">fork</span> lorsqu’une partie d’une communauté décide de s’éloigner du projet principal pour en développer une version
+différente. De manière générale, les <span style="font-style:italic">forks</span> préjudicient à tous&nbsp;: l’ancienne et la nouvelle communautés, les utilisateurs et les projets.</div>
+<div class="p_xmlatex" id="p162">C’est la raison pour laquelle il est généralement conseillé d’augmenter l’investissement dans un projet plutôt que d’initier son propre projet<a class=
+"page_footnote_xmlatex" id="nbp63" href="#pied63" ><sup>63</sup></a>.</div>
+<div class="encart_xmlatex ect_cadresimple" style="border-left-color:rgb(0,0,0);border-left-width:0.8pt;padding-left:10pt;margin-left:25pt;margin-right:25pt;"><img src=
+"../images/encarts/remarque.png" class="encartico_xmlatex" />
+<div class="encart_title_xmlatex ect_title_cadresimple">De StarOffice à LibreOffice</div>
+<div class="p_xmlatex" id="p163">Récemment, la communauté d’OpenOffice.org s’est détachée du projet pour proposer sa propre version (nommée LibreOffice) au sein d’une fondation créée à cet
+effet&nbsp;: la Document Foundation. Cette dernière abrite le code de LibreOffice, mais aussi de tout autre produit qui souhaiterait dériver de ses sources. Lors de la formation du projet
+OpenOffice.org en 2000, la mise en place d’une telle fondation avait été annoncée par Sun. Dix ans après, et pour se protéger de la nouvelle politique commerciale imposée par Oracle (qui a racheté
+Sun) sur ses produits, les principaux responsables communautaires du projet ont pensé qu’il était temps de monter une fondation vraiment indépendante. Il n’y a pas de rupture avec le projet,
+simplement une communauté suffisamment mature pour prendre son destin en main et ne plus dépendre d’un décideur unique. LibreOffice (ou LibO) est une suite bureautique, développée par la fondation,
+qui s’appuie sur les sources d’OpenOffice.org et contient des patchs fournis par ses contributeurs (les plus assidus étant Novell, Red Hat et Debian, mais il y en a de plus en plus chaque
+jour).</div>
+<div class="p_xmlatex" id="p164">Quelques mois après ces évènements et pour répondre à une demande forte d’IBM, Oracle a « donné » son code et ses marques à la fondation Apache qui distribue ainsi
+OpenOffice.org sous licence Apache.</div>
+<div class="p_xmlatex" id="p165">Il faudrait certainement se projeter dans quelques années pour mesurer l’impact de ce <span style="font-style:italic">fork</span> (sur l’entreprise, les communautés,
+voire, plus globalement, le projet global), mais beaucoup y voient une excellente nouvelle et de nombreux concurrents d’Oracle commencent à retrouver un intérêt dans le développement de cette version
+dont le succès dépendra de tous et non plus majoritairement d’une société (ne serait-ce que par la détention du patrimoine immatériel). Gageons aussi que cette «&nbsp;insurrection&nbsp;» sera perçue
+comme une épée de Damoclès pour toute société qui chercherait à trop contrôler un projet qui se veut ouvert. Espérons aussi que les deux projets parviennent à mutualiser leurs efforts.</div>
+</div>
+<h3 class="subsection_xmlatex" id="u4"><span class="subsection_num_xmlatex">3.2.2</span> Organiser la diffusion (accompagner l’ouverture du code)</h3>
+<div class="p_xmlatex" id="p166">L’organisation de la diffusion est souvent la clé qui assure la pérennité d’un projet, sa stagnation ou son abandon. Malheureusement, il n’y a pas une organisation
+idéale, une structure parfaite, mais uniquement des cas d’espèce. Pour une entreprise, cela implique de se reposer sur un ensemble hétérogène de personnes au sein de l’entreprise qui perçoivent les
+enjeux de l’<span style="font-style:italic">open source</span> et qui s’assure du respect des licences.</div>
+<div class="p_xmlatex" id="p167">Ainsi, que ce soit pour ce seul projet ou pour une multitude, il est nécessaire d’entamer une telle réflexion et, une fois les besoins identifiés, d’organiser
+l’accompagnement -&nbsp;que ce soit en interne ou en externe<a class="page_footnote_xmlatex" id="nbp64" href="#pied64" ><sup>64</sup></a>.</div>
+<h4 class="subsubsection_xmlatex" id="b7"><span class="subsubsection_num_xmlatex">3.2.2.1</span> Gérer les licences libres</h4>
+<div class="p_xmlatex" id="p168">La mise en place d’une bonne gestion des licences libres passe nécessairement par une étude des enjeux pour la société et/ou le projet (3.2.2.1.a), la définition des
+besoins (3.2.2.1.b) et l’organisation de l’accompagnement (3.2.2.1.c).</div>
+<h5 class="t4_xmlatex" id="t4-20"><span class="t4_num_xmlatex">3.2.2.1.a</span> Mesurer les enjeux liés au respect des licences</h5>
+<div class="p_xmlatex" id="p169">Quelles sont les sanctions juridiques, mais aussi commerciales ou marketing, susceptibles de découler du non-respect des licences libres&nbsp;? De nombreuses
+sociétés, pourtant importantes, ont ainsi dû baisser l’échine face aux actions des communautés qui leur reprochaient l’absence de prise en compte des licences sur des composants utilisés (ce qui
+inclut <a class="link_xmlatex" href="http://www.internetnews.com/bus-news/article.php/3853311/Best-Buy-Caught-in-GPL-Tussle.htm">BestBuy</a>, <a class="link_xmlatex" href=
+"http://www.internetnews.com/dev-news/article.php/3897231/GPL-Enforcement-Notches-Another-Victory.htm">Westinghouse</a> et <a class="link_xmlatex" href=
+"http://blog.internetnews.com/skerner/2009/05/cisco-settles-gpl-lawsuit-with.html">Cisco</a>). Ajoutons que les titulaires de droits, généralement seuls aptes à faire respecter leur licence, ont
+tendance à les accompagner l’utilisation de leur logiciel <span style="font-style:italic">open source</span>).</div>
+<div class="p_xmlatex" id="p170">En effet, tout non-respect de licence emporte le risque de se voir qualifier de contrefacteur&nbsp;: tout usage n’entrant pas dans le cadre de la licence est un usage
+non autorisé et donc contrefaisant. Par ailleurs, en cas de violation, par certains usages de droits de propriété intellectuelle, ou plus fréquemment, du non-respect du formalisme de la licence,
+celle-ci sera généralement automatiquement résiliée et l’ancien licencié se trouvera rapidement contrefacteur pour tout usage de la création. Cela vaut pour l’entreprise mais aussi pour ses clients
+et partenaires qui redistribuent les logiciels« non conformes » (on perçoit d’ailleurs une telle prise de conscience en Asie).</div>
+<div class="p_xmlatex" id="p171">Au minimum (mais ce n’est pas toujours vrai), il est possible de considérer que lors de l’utilisation d’un composant <span style="font-style:italic">open
+source</span> sans modification, la simple redistribution (tel qu’il a été reçu) devrait suffire. Au contraire, une démarche plus lourde serait nécessaire en cas de modification. La solution la plus
+fiable est néanmoins de mettre en place un formalisme générique, construit sur le modèle de la licence la plus contraignante, de manière à ce que son respect suffise pour remplir les attentes
+classiques de l’ensemble des licences. Enfin, des procédures particulières peuvent être élaborées afin de prendre en compte les spécificités des utilisateurs (professionnels du métier ou non, de
+nationalité précise, etc.) ou du domaine d’exploitation (embarqué, SaaS, etc.).</div>
+<h5 class="t4_xmlatex" id="t4-21"><span class="t4_num_xmlatex">3.2.2.1.b</span> Définir les besoins</h5>
+<div class="p_xmlatex" id="p172">En fonction des enjeux, plusieurs besoins peuvent être identifiés&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p173">la mise en place de bonnes pratiques (<span style="font-style:italic">guidelines</span>). Il s’agit ici de l’édiction de procédures relatives au respect du formalisme
+des licences ainsi qu’une procédure associée à l’usage de toutes nouvelles licences/composants <span style="font-style:italic">open source</span>. Celles-ci permettraient par ailleurs de rendre
+transparente la gestion des droits de propriété intellectuelle tant à l’intérieur qu’à l’extérieur de la société&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p174">la mise en place d’une veille relative aux licences, pratiques afférentes et outils d’audit de codes (il est en effet important de rester connecté aux usages qui se
+développent, voire d’y confronter ses nouvelles pratiques, afin de se tenir informé tout en conservant un regard critique)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p175">la création d’un support relatif aux questions liées à l’utilisation des licences ou autres questions juridiques. Il s’agit ici des problématiques liées à l’ajout de
+licences et aux enjeux de compatibilité, mais un support juridique étendu peut permettre de résoudre certaines difficultés liées à la propriété intellectuelle ou à d’autres dispositions légales
+(comme l’exportation de certains produits)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p176">une procédure d’audit de codes. Pour ce faire, il peut être très utile d’utiliser les outils réalisés pour faciliter ces missions&nbsp;: notamment le logiciel
+<span style="font-style:italic">open source</span> Fossology qui peut permettre un examen systématique de code et l’outil commercial Protex de la société Black Duck qui offrira une analyse beaucoup
+plus poussée<a class="page_footnote_xmlatex" id="nbp65" href="#pied65" ><sup>65</sup></a>. Les deux solutions<a class="page_footnote_xmlatex" id="nbp66" href="#pied66" ><sup>66</sup></a> peuvent utilement être combinées&nbsp;: la première étant systématique et la seconde préalable à certaines mises à dispositions ou distributions du code&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p177">la labellisation de composants et de licences. Cette politique de labellisation permettrait d’accélérer la réutilisation de composants, modifiés ou non, déjà audités
+et considérés comme conformes à la politique du groupement (techniquement et juridiquement), alors que le suivi d’une procédure particulière obligatoire accompagnerait l’utilisation de composants non
+encore certifiés. La même pratique pourrait être élaborée au profit des licences libres et <span style="font-style:italic">open source</span> <span style="font-style:italic">a priori</span>
+considérées comme «&nbsp;conformes à la politique du projet/du groupement&nbsp;». Une procédure particulière serait alors attachée à l’acceptation de composants <span style="font-style:italic">open
+source</span> soumis à d’autres licences (de nombreuses sociétés ont ainsi constitué en leur sein de tels catalogues de composants <span style="font-style:italic">open source</span>, éventuellement
+aidées pour cela par des logiciels comme l’outil <span style="font-style:italic">Code Center</span> de la société Black Duck).</div>
+</li>
+</ul>
+<h5 class="t4_xmlatex" id="t4-22"><span class="t4_num_xmlatex">3.2.2.1.c</span> Organiser l’accompagnement</h5>
+<div class="p_xmlatex" id="p178">À ce stade, il s’agit de définir quelles sont les tâches qui peuvent être externalisées et quelles sont celles qui doivent être conservées en interne.</div>
+<h6 class="t5_xmlatex" id="t5-6">La création d’une structure <span style="font-style:italic">ad hoc</span></h6>
+<div class="p_xmlatex" id="p179">Une externalisation totale semble difficile en raison de l’interpénétration des notions juridiques et techniques d’une part, et de la criticité de ces enjeux d’autre
+part. Tout au plus est-il possible de penser à l’intervention de tiers quant à l’audit initial (en cas de solution préexistante), à l’édiction d’une gouvernance, voire en préalable à toute
+distribution -&nbsp;pour le reste, une personne, voire une équipe interne, doit être référente afin de résoudre (ou transmettre à cette fin) les difficultés qui se présentent à elle et
+«&nbsp;infuser&nbsp;» les bonnes pratiques. Une solution intermédiaire pourrait être de rejoindre une structure plus grande (comme une fondation) qui permette de mutualiser une partie de la
+fonction.</div>
+<div class="p_xmlatex" id="p180">L’internalisation elle-même peut prendre différentes formes, qu’il s’agisse de créer une entité <span style="font-style:italic">ad hoc</span> (référent <span style=
+"font-style:italic">open source</span>, comité <span style="font-style:italic">open source</span>, etc.) ou de modifier les structures existantes pour y intégrer ces besoins, notamment par
+l’intégration de règles générales, comme la définition de politique en matière de licences, la validation de paquets logiciels, etc.. De nombreux paramètres entrent dans cette équation, mais il est
+généralement conseillé, lorsque la taille le permet, de commencer par la mise en place d’entités autonomes, de sorte qu’elles s’éclipsent une fois la nouvelle culture infusée et les réflexes intégrés
+-&nbsp;au risque sinon de buter sur la résistance des collaborateurs (surtout dans le cas du passage d’une politique de licence traditionnelle à une politique ouverte&nbsp;: la longue domination du
+paradigme antérieur, engendrant de nombreux réflexes et habitudes profondément ancrées, peut entraîner le rejet irrationnel de ce mode alternatif d’édition).</div>
+<div class="p_xmlatex" id="p181">Quelle que soit l’organisation choisie, il est nécessaire que cet accompagnement s’appuie sur des relais locaux (<span style="font-style:italic">scouts</span>), des
+correspondants aptes à faire remonter et redescendre les informations utiles.</div>
+<div class="p_xmlatex" id="p182">À la fois structure de référence et structure inter-services, un tel organisme permet de mutualiser le travail d’accompagnement, de rationaliser les décisions, de
+définir des politiques globales et d’automatiser le traitement des questions. Par ailleurs, pour qu’une telle structure puisse être suivie d’effet, il est nécessaire qu’elle soit facilement
+joignable, qu’elle bénéficie d’un pouvoir décisionnel et, dans l’idéal, qu’elle soit suivie par un membre de la direction. Enfin, elle seule doit être consultée pour autoriser et décider de
+l’utilisation de briques logicielles sous licences libres et <span style="font-style:italic">open source</span> et de la diffusion sous de telles licences (quitte à ce que ses décisions soient
+avalisées par la direction).</div>
+<h6 class="t5_xmlatex" id="t5-7">Gérer les contributions au sein de la société</h6>
+<div class="p_xmlatex" id="p183">Comme nous l’avons vu, les licences s’étendent graduellement à l’ensemble des droits de propriété intellectuelle. Une vigilance accrue s’observe donc chez les
+sociétés qui mixent une culture libre (<span style="font-style:italic">open source</span>) et propriétaire&nbsp;: l’enjeu est alors de délimiter très précisément (généralement par des politiques
+<span style="font-style:italic">open source</span> très soignées), voire de cloisonner, les portefeuilles de droits relatifs au projet afin de s’assurer que l’activité <span style=
+"font-style:italic">open source</span> ne vienne pas impacter et dévaloriser certains droits de propriété intellectuelle qui restent très attractifs pour la société.</div>
+<div class="p_xmlatex" id="p184">C’est ce type d’attention qui explique par exemple la renonciation au bénéfice de la dévolution légale de droits relative à certains développements qui doivent être
+reversés à des projets placés sous des licences trop contraignantes (au profit des salariés qui conservent ainsi leurs droits)<a class="page_footnote_xmlatex" id="nbp67" href="#pied67" ><sup>67</sup></a>. De la même façon, une responsabilité particulière pèse sur les services juridiques qui doivent s’assurer que les engagements contractuels avec les sous-traitants,
+fournisseurs, etc. soient bien respectés et maintenus lors de la diffusion sous licence libre et <span style="font-style:italic">open source</span>.</div>
+<div class="p_xmlatex" id="p185">Pour une société, il arrive parfois qu’il soit plus simple, voire nécessaire, d’envisager un cession de droits au profit de projets qui assureront le maintient et
+l’intégration des différentes contributions. Dans cette solution, tant l’entreprise que le salarié seront généralement signataires d’un document de cession de droits au profit du projet. Il peut
+aussi être envisagé, lorsque la mission du salarié l’exige ou en raison du contrat particulier qui le lie à la société, que celle-ci lui délègue le pouvoir de mettre sous licences libres les
+contributions réalisées dans le cadre de ses missions salariales&nbsp;: le risque est faible pour l’entreprise lorsque celui-ci travaille dans un tel environnement, et cela lui permettra de sécuriser
+les contributions de son salarié vis-à-vis des communautés et des projets dans lesquels il intervient.</div>
+<h6 class="t5_xmlatex" id="t5-8">Faire travailler ensemble les différentes équipes</h6>
+<div class="p_xmlatex" id="p186">De façon pragmatique, lorsque l’on exploite du contenu sous licence libre en entreprise ou ailleurs, il est nécessaire d’adapter la procédure de validation juridique
+et contractuelle, l’analyse devant être réalisée autant en amont des projets qu’en aval. Un travail est nécessaire dès en amont afin de déterminer la faisabilité juridique des propositions techniques
+et s’assurer que les engagements puissent être respectés (en gardant en tête le leitmotiv&nbsp;: «&nbsp;on ne peut donner plus de droits que l’on en possède&nbsp;», c’est d’ailleurs cette seule idée
+qui ressort des contentieux français ayant mis en jeu la GNU GPL). Enfin, une dernière étude juridique est nécessaire en aval pour confirmer le choix final de la licence et procéder, s’il y a lieu,
+aux ajustements contractuels en fonction du produit, des attentes et bien évidemment des licences en présence.</div>
+<div class="p_xmlatex" id="p187">Ainsi, ce travail ne peut être mené que conjointement entre l’équipe technique, seule apte à fournir les informations détaillées sur le logiciel, et l’équipe
+juridique. Les données brutes nécessaires à l’étude juridique sont&nbsp;: le détail des briques logicielles utilisées, leur(s) licence(s) respective(s) (comprenant leur version, et toute autre
+information influant sur ces licences&nbsp;: restriction, interprétation, exception, etc.), et enfin les interactions existantes entre chacune de ces briques (en pratique, un schéma). Un dialogue
+s’établit par la suite pour affiner les derniers détails, et de nombreuses navettes permettront de compléter l’analyse.</div>
+<div class="p_xmlatex" id="p188">D’une manière plus générale, le succès d’une politique active en faveur de l’<span style="font-style:italic">open source</span> repose sur une implication de
+l’ensemble des collaborateurs dans le processus de restructuration et une montée des compétences de ces derniers afin qu’ils comprennent et partagent ce nouveau paradigme&nbsp;: par l’organisation de
+formations, la rédaction et la mise à disposition des informations qui leurs sont utiles, l’organisation de leurs contributions au sein de chartes (contribution, développements, processus de
+validation, etc.).</div>
+<h6 class="t5_xmlatex" id="t5-9">S’équiper avec de bons outils</h6>
+<div class="p_xmlatex" id="p189">Enfin, l’usage de certaines solutions logicielles peut simplifier, voire approfondir<a class="page_footnote_xmlatex" id="nbp68" href="#pied68" ><sup>68</sup></a> cette mission, en automatisant l’audit de code<a class="page_footnote_xmlatex" id="nbp69" href="#pied69" ><sup>69</sup></a> voire la gestion au quotidien de la
+base de code validée. Tous les outils ne sont pas équivalents, et tous n’ont pas vocation à être utilisés au même moment ou par les mêmes personnes (dans le cadre de <span style=
+"font-style:italic">due diligence</span>, les audits demanderont ponctuellement l’utilisation d’outils très poussés, alors que la vérification automatique et journalière des développements réalisés
+pourra être plus superficielle).</div>
+<div class="p_xmlatex" id="p190">Enfin, le projet <span style="font-style:italic">Software Package Data Exchange</span><a class="page_footnote_xmlatex" id="nbp70" href="#pied70" ><sup>70</sup></a> (<a class="link_xmlatex" href="http://spdx.org">SPDX</a>) a récemment introduit un format standard pour communiquer les éléments, les licences et droits d’auteur associés à
+un logiciel (et ainsi faciliter la prise de connaissance des obligations et le respect des licences). Ainsi, chaque société ayant réalisé ce travail d’audit pourra dorénavant accompagner la livraison
+de son logiciel d’un fichier SPDX qui recensera tous les composants utilisés et leur(s) licence(s).</div>
+<h4 class="subsubsection_xmlatex" id="b8"><span class="subsubsection_num_xmlatex">3.2.2.2</span> Gérer les autres aspects juridiques</h4>
+<div class="p_xmlatex" id="p191">Comme vu précédemment, différents documents peuvent être mis en place pour accompagner l’organisation vis-à-vis des tiers et notamment pour donner un cadre formel à
+la collaboration&nbsp;(3.2.2.2.a), et la rédaction d’une politique en matière de marque précise à l’intention des tiers et des licenciés (3.2.2.2.b).</div>
+<h5 class="t4_xmlatex" id="t4-23"><span class="t4_num_xmlatex">3.2.2.2.a</span> Structurer le projet</h5>
+<div class="p_xmlatex" id="p192">Que le projet soit ouvert ou fermé, la mise en place d’un cadre propice à son développement et son exploitation nécessite une réflexion quant à l’organisation du
+groupement autour du projet et vis-à-vis des tiers.</div>
+<div class="p_xmlatex" id="p193">Tant que l’organisation du projet est suffisamment attractive pour motiver des contributions extérieures et qu’il répond aux contraintes des mainteneurs, il n’y a
+aucune raison de changer celle-ci.</div>
+<div class="p_xmlatex" id="p194">Si le projet souhaite s’ouvrir de manière à impliquer plus de contributeurs, plusieurs schémas peuvent être construits pour organiser les développements
+collaboratifs, avec leurs avantages et inconvénients (création d’une entité juridique distincte, mise en place d’un consortium, l’appui d’un partenaire leader -&nbsp;voire une absence délibérée).
+Notons que la mise en place d’un consortium est la solution la plus légère (généralement la première utilisée par les sociétés qui cherchent à collaborer en raison de la faiblesse de l’engagement),
+éventuel premier jalon d’une autonomisation quasi-systématique des projets dès lors qu’ils gagnent en contributeurs.</div>
+<div class="p_xmlatex" id="p195">Dans l’hypothèse de la libération d’un projet, il est préférable de structurer un minimum dès le début (donner simplement l’accès au code et le processus pour
+contribuer) quitte à mettre ensuite en place une organisation adaptée.</div>
+<div class="p_xmlatex" id="p196">Enfin, la gouvernance des groupements est généralement découpée entre les aspects stratégiques, les aspects techniques et les aspects communication/sensibilisation
+(lien avec les utilisateurs et la communauté).</div>
+<h5 class="t4_xmlatex" id="t4-24"><span class="t4_num_xmlatex">3.2.2.2.b</span> Les politiques en matière de marque</h5>
+<div class="p_xmlatex" id="p197">Le droit des marques retrouve toute sa noblesse dans l’industrie de l’<span style="font-style:italic">open source</span>, puisqu’il reste bien souvent le meilleur
+garde-fou pour empêcher certains types d’exploitation d’un projet qui est pourtant librement disponible (notamment en termes d’image, mais aussi de comportement commercial). Néanmoins, il est parfois
+nécessaire de relativiser l’usage qui peut en être fait au regard des prérogatives qu’il confère à son titulaire, car la tentation est grande pour certains d’essayer de récupérer là un contrôle
+qu’ils ont abandonné en faisant le choix de l’<span style="font-style:italic">open source</span>.</div>
+<div class="p_xmlatex" id="p198">Ainsi, les politiques en matière de marque sont généralement des documents publics qui précisent quelles sont les marques détenues par le projet et les conditions de
+leur utilisation&nbsp;: une seule marque pouvant être utilisée différemment selon le contexte (lorsque la création est modifiée ou non) ou plusieurs marques pouvant être utilisées pour différencier
+les usages permis sur chacune (par exemple en autorisant seulement les partenaires à utiliser la marque figurative).</div>
+<div class="p_xmlatex" id="p199">Les meilleurs exemples existants, à cet égard, sont ceux des projets du type OpenOffice.org, LibreOffice, Firefox, Linux, etc. qui réunissent à la fois entreprises,
+associations et fondations, contributeurs individuels et grand public.</div>
+<br />
+<div id="footnote">
+<hr class="ligne_xmlatex_foot" />
+<div class="text_footnote_xmlatex" id="o1"><a class="pied_footnote_xmlatex" id="pied1" href="#nbp1" >1.</a> C’est d’ailleurs ce constat qui explique en partie l’insuccès des licences
+CeCILL&nbsp;: alors que l’initiative était réellement novatrice, il n’y avait qu’une seule personne qui s’occupait - parmi bien d’autres tâches&nbsp;- de la mise à jour du site, de la FAQ, des
+relations avec les différentes instances de l’écosystème (OSI, FSF, etc.).</div>
+<div class="text_footnote_xmlatex" id="o2"><a class="pied_footnote_xmlatex" id="pied2" href="#nbp2" >2.</a> « The "user program" exception is not an exception at all, for example, it’s
+just a more clearly stated limitation on the "derived work" issue&nbsp;», <span class="sc_xmlatex">Torvalds</span> (Linus), <span style="font-style:italic">op. cit.</span>. Le texte ajouté par
+l’auteur&nbsp;: «&nbsp;NOTE! This copyright does *not* cover user programs that use kernel services by normal system calls - this is merely considered normal use of the kernel, and does *not* fall
+under the heading of ’derived work’.&nbsp;»</div>
+<div class="text_footnote_xmlatex" id="o3"><a class="pied_footnote_xmlatex" id="pied3" href="#nbp3" >3.</a> Tel Sencha qui offre une exception pour les applications différentes de
+l’exception pour le Framework (plus ouverte).</div>
+<div class="text_footnote_xmlatex" id="o4"><a class="pied_footnote_xmlatex" id="pied4" href="#nbp4" >4.</a> Ceci valant bien sûr pour les licences dites permissives, mais aussi pour toute
+licence <span style="font-style:italic">copyleft</span> puisque le <span style="font-style:italic">copyleft</span> ne perpétue que les termes <span style="font-style:italic">stricto sensu</span> de
+la licence. Enfin, cette remarque n’est pas valable si la clause additionnelle contient aussi des obligations supplémentaires.</div>
+<div class="text_footnote_xmlatex" id="o5"><a class="pied_footnote_xmlatex" id="pied5" href="#nbp5" >5.</a> Dans un article dédié, la troisième version de la GNU GPL invite même à user de
+cette faculté sur ses propres contributions (en distinguant d’une part les permissions additionnelles qui peuvent être ajoutées sans limitation et les termes supplétifs à tirer parmi une liste de
+sept types de clauses).</div>
+<div class="text_footnote_xmlatex" id="o6"><a class="pied_footnote_xmlatex" id="pied6" href="#nbp6" >6.</a> Une double licence MPL/GNU GPL permet d’appliquer les deux licences, ou l’une
+au choix, dans les limites du <span style="font-style:italic">copyleft</span> de la MPL.</div>
+<div class="text_footnote_xmlatex" id="o7"><a class="pied_footnote_xmlatex" id="pied7" href="#nbp7" >7.</a> Par exemple, en utilisant conjointement les licences GNU GPL/CeCILL ou
+BSD/CeCILL-B, puisque les secondes sont expressément conformes au droit français.</div>
+<div class="text_footnote_xmlatex" id="o8"><a class="pied_footnote_xmlatex" id="pied8" href="#nbp8" >8.</a> L’exemple révélateur est le navigateur Firefox, sous MPL, GNU LGPL et GNU GPL.
+Si la double licence MPL/LGPL est sans conteste utile, l’ajout de la licence GNU GPL semble l’être beaucoup moins puisque tout code sous GNU LGPL peut expressément être licencié sous GNU GPL.</div>
+<div class="text_footnote_xmlatex" id="o9"><a class="pied_footnote_xmlatex" id="pied9" href="#nbp9" >9.</a> <span style="font-style:italic">Cf. supra</span>.</div>
+<div class="text_footnote_xmlatex" id="o10"><a class="pied_footnote_xmlatex" id="pied10" href="#nbp10" >10.</a> Voir par exemple <span class="sc_xmlatex">Vivant</span> (Michel),
+<span style="font-style:italic">Un jeu de prérogatives à caractère patrimonial</span>, dans <span style="font-style:italic">Lamy droit de l’informatique et des réseaux</span>, 2005, p.&nbsp;192
+<span style="font-style:italic">sq</span>..</div>
+<div class="text_footnote_xmlatex" id="o11"><a class="pied_footnote_xmlatex" id="pied11" href="#nbp11" >11.</a> Art. L122-7 CPI prévoit la cession de ces droits à titre onéreux ou
+gratuit, dans la limite de ce qui est expressément stipulé dans le contrat.</div>
+<div class="text_footnote_xmlatex" id="o12"><a class="pied_footnote_xmlatex" id="pied12" href="#nbp12" >12.</a> La plus connue est certainement la famille des licences GNU (GPL, LGPL,
+AGPL, etc.), mais bien d’autres peuvent être citées pour l’exemple&nbsp;: CeCILL (CeCILL-A, CeCILL -B, CeCILL -C), OSL (OSL, AFL), etc.</div>
+<div class="text_footnote_xmlatex" id="o13"><a class="pied_footnote_xmlatex" id="pied13" href="#nbp13" >13.</a> Notamment les licences plus permissives comme les licences Apache, LaTeX,
+etc.</div>
+<div class="text_footnote_xmlatex" id="o14"><a class="pied_footnote_xmlatex" id="pied14" href="#nbp14" >14.</a> Il convient donc de confronter chaque licence aux différentes clauses, au
+cas par cas, afin d’être certain de leur compatibilité -&nbsp;avec le risque d’une divergence d’interprétation, comme c’était déjà le cas les licences GPL et Apache.</div>
+<div class="text_footnote_xmlatex" id="o15"><a class="pied_footnote_xmlatex" id="pied15" href="#nbp15" >15.</a> Les licences modulaires du type MPL sont justement optimisées en ce sens
+puisqu’elles permettent, par leur étendue limitée aux seuls fichiers, la conception de logiciels complexes soumis à différentes licences, ce qui réduit la nécessité de clause particulière assurant
+leur compatibilité. À noter néanmoins que la seconde version de la MPL devrait organiser une compatibilité au profit des licences GNU (le problème venant du fait que celles-ci ont des étendues très
+larges qui favorisent les situations d’incompatibilité).</div>
+<div class="text_footnote_xmlatex" id="o16"><a class="pied_footnote_xmlatex" id="pied16" href="#nbp16" >16.</a> Par exemple un exécutable, tant que les sources des modifications sont
+disponibles par ailleurs.</div>
+<div class="text_footnote_xmlatex" id="o17"><a class="pied_footnote_xmlatex" id="pied17" href="#nbp17" >17.</a> On pense notamment aux logiciels dont seul le client est distribué alors
+que le serveur est hébergé chez l’éditeur.</div>
+<div class="text_footnote_xmlatex" id="o18"><a class="pied_footnote_xmlatex" id="pied18" href="#nbp18" >18.</a> Par exemple la construction modulaire pour l’utilisation de composants
+sous licence du type MPL, voire LGPL.</div>
+<div class="text_footnote_xmlatex" id="o19"><a class="pied_footnote_xmlatex" id="pied19" href="#nbp19" >19.</a> Le nombre et la dispersion des auteurs et contributeurs restant néanmoins
+un écueil notable.</div>
+<div class="text_footnote_xmlatex" id="o20"><a class="pied_footnote_xmlatex" id="pied20" href="#nbp20" >20.</a> Qui n’est en réalité qu’un avenant au contrat.</div>
+<div class="text_footnote_xmlatex" id="o21"><a class="pied_footnote_xmlatex" id="pied21" href="#nbp21" >21.</a> Des exemples d’exceptions sont proposés par la FAQ de la GPL&nbsp;:
+«&nbsp;Linking ABC statically or dynamically with other modules is making a combined work based on ABC. Thus, the terms and conditions of the GNU General Public License cover the whole combination.
+In addition, as a special exception, the copyright holders of ABC give you permission to combine ABC program with free software programs or libraries that are released under the GNU LGPL and with
+independent modules that communicate with ABC solely through the ABCDEF interface. You may copy and distribute such a system following the terms of the GNU GPL for ABC and the licenses of the other
+code concerned, provided that you include the source code of that other code when and as the GNU GPL requires distribution of source code. Note that people who make modified versions of ABC are not
+obligated to grant this special exception for their modified versions; it is their choice whether to do so. The GNU General Public License gives permission to release a modified version without this
+exception; this exception also makes it possible to release a modified version which carries forward this exception&nbsp;» (<a class="link_xmlatex" href=
+"">http://www.gnu.org/licenses/gpl-faq.html</a>).</div>
+<div class="text_footnote_xmlatex" id="o22"><a class="pied_footnote_xmlatex" id="pied22" href="#nbp22" >22.</a> Sur ces points, voir aussi <a class="link_xmlatex" href=
+"http://www.softwarefreedom.org/resources/2007/gpl-non-gpl-collaboration.html">Software Freedom Law Center</a>, <span style="font-style:italic">Maintaining Permissive-Licensed Files in a GPL-Licensed
+Project: Guidelines for Developers</span>, 2007.</div>
+<div class="text_footnote_xmlatex" id="o23"><a class="pied_footnote_xmlatex" id="pied23" href="#nbp23" >23.</a> Voir/écouter à cet égard <span class="sc_xmlatex">Peterson</span> (Scott)
+(Senior Counsel Hewlett-Packard Company), «&nbsp;Current trends in the hardware sector: the HP Experience&nbsp;», EOLE 2010. Ainsi que <span class="sc_xmlatex">Marr</span> (Dave) (Director Legal ,
+Open Source Group Products and Technology Law, Sun Microsystems, Inc), «&nbsp;GPLv3 from an Embedded Industry Perspective &nbsp;», EOLE 2009.</div>
+<div class="text_footnote_xmlatex" id="o24"><a class="pied_footnote_xmlatex" id="pied24" href="#nbp24" >24.</a> Ce qui explique qu’elles imposent un formalisme beaucoup plus léger, qui
+peut le plus souvent être rempli par l’indication du titre de l’œuvre, son auteur, sa date, la licence et un lien vers l’œuvre originale. Les exemples qu’elles fournissent sont généralement très
+simples à mettre en œuvre (voir notamment la LAL ou la GNU FDL).</div>
+<div class="text_footnote_xmlatex" id="o25"><a class="pied_footnote_xmlatex" id="pied25" href="#nbp25" >25.</a> Certaines, très courtes, telles les licences BSD, peuvent néanmoins se
+retrouver en en-tête.</div>
+<div class="text_footnote_xmlatex" id="o26"><a class="pied_footnote_xmlatex" id="pied26" href="#nbp26" >26.</a> Voir le texte de la GNU GPL v.&nbsp;3, Art. 7&nbsp;: «&nbsp;b) Exigeant le
+maintien de mentions légales spécifiées ou de mentions d’attribution de paternité spécifiées raisonnables au sein de cette contribution ou dans les Mentions Légales Appropriées affichées par les
+créations la contenant&nbsp;; c) Interdisant une indication erronée de l’origine de cette contribution, ou exigeant que les versions modifiées de cette contribution soient marquées de façon
+raisonnable comme étant différent de la version originale&nbsp;; ou (…).</div>
+<div class="text_footnote_xmlatex" id="o27"><a class="pied_footnote_xmlatex" id="pied27" href="#nbp27" >27.</a> Une interface utilisateur interactive affiche des «&nbsp;Mentions Légales
+Appropriées&nbsp;» dans la mesure où elle inclut un dispositif pratique et visible de façon proéminente qui (1) affiche une mention de droit d’auteur appropriée et (2) indique à l’utilisateur qu’il
+n’y a aucune garantie portant sur la création (sauf si des garanties sont accordées ), que les licenciés peuvent transmettre la création sous cette licence, et comment voir une copie de cette
+licence. Si l’interface intègre une liste de commandes ou d’options utilisateur, tel qu’un menu, un élément proéminent dans la liste remplit ce critère.</div>
+<div class="text_footnote_xmlatex" id="o28"><a class="pied_footnote_xmlatex" id="pied28" href="#nbp28" >28.</a> «&nbsp;3 - Intellectual Property Rights (…) 3.2 - In any copy of the
+Software or in any Modification you create, You must retain and reproduce, any and all copyright, patent, trademark, and attribution notices that are included in the Software in the same form as they
+appear in the Software. This includes the preservation of attribution notices in the form of trademarks or logos that exist within a user interface of the Software.&nbsp;»</div>
+<div class="text_footnote_xmlatex" id="o29"><a class="pied_footnote_xmlatex" id="pied29" href="#nbp29" >29.</a> Par exemple&nbsp;: «&nbsp;This product includes PHP software, freely
+available from &lt;http://www.phpnet/software/&gt;&nbsp;» ou «&nbsp;RSA Data Security, Inc. MD5 Message-Digest Algorithm&nbsp;» ou «&nbsp;derived from the RSA Data Security, Inc. MD5 Message-Digest
+Algorithm&nbsp;», pour toute distribution du logiciel modifié.</div>
+<div class="text_footnote_xmlatex" id="o30"><a class="pied_footnote_xmlatex" id="pied30" href="#nbp30" >30.</a> Ce qui oblige à cumuler les deux mentions suivantes&nbsp;: «&nbsp;This
+product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit. (http://www.openssl.org/)&nbsp;»&nbsp;; «&nbsp;This product includes cryptographic software written by Eric
+Young (eay@cryptsoft.com).&nbsp;»</div>
+<div class="text_footnote_xmlatex" id="o31"><a class="pied_footnote_xmlatex" id="pied31" href="#nbp31" >31.</a> Qui figurait dans son article 3&nbsp;: «&nbsp;All advertising materials
+mentioning features or use of this software must display the following acknowledgement: This product includes software developed by the University of California, Berkeley and its
+contributors.&nbsp;», supprimé en 1999 par l’Université de Californie.</div>
+<div class="text_footnote_xmlatex" id="o32"><a class="pied_footnote_xmlatex" id="pied32" href="#nbp32" >32.</a> Source&nbsp;:
+http://lists.gnu.org/archive/html/emacs-devel/2011-07/msg01155.html.</div>
+<div class="text_footnote_xmlatex" id="o33"><a class="pied_footnote_xmlatex" id="pied33" href="#nbp33" >33.</a> On pourra accessoirement se reporter au Rapport Ernst &amp; Young,
+<span style="font-style:italic">Open source software in business-critical environments</span>, 2011 (sur <a class="link_xmlatex" href="http://www.ey.com">http://www.ey.com</a>).</div>
+<div class="text_footnote_xmlatex" id="o34"><a class="pied_footnote_xmlatex" id="pied34" href="#nbp34" >34.</a> Voir notamment <span class="sc_xmlatex">Frison-Roche</span>
+(Marie-Anne)&nbsp;: «&nbsp;Qu’est-ce qu’agir de façon neutre&nbsp;», dans <span style="font-style:italic">La neutralité dans les systèmes de régulation économique</span>, Colloque annuel de
+<span style="font-style:italic">The Journal of Regulation (JR).</span></div>
+<div class="text_footnote_xmlatex" id="o35"><a class="pied_footnote_xmlatex" id="pied35" href="#nbp35" >35.</a> «&nbsp;Gartner Survey Reveals More than Half of Respondents Have Adopted
+Open-Source Software Solutions as Part of IT Strategy&nbsp;», Fevrier 2011 (<a class="link_xmlatex" href="">http://www.gartner.com</a>).</div>
+<div class="text_footnote_xmlatex" id="o36"><a class="pied_footnote_xmlatex" id="pied36" href="#nbp36" >36.</a> Étude OPIIEC Mars 2009&nbsp;: «&nbsp;Les métiers du logiciel libre en
+France&nbsp;» (<a class="link_xmlatex" href="http://www.syntec-informatique.fr/">www.syntec-informatique.fr</a> - tendance 2008-2009 du logiciel libre, <a class="link_xmlatex" href=
+"http://www.ob2l.com/">www.ob2l.com</a>). Voir aussi le <span style="font-style:italic">Rapport de la Commission pour la libération de la croissance française</span>, sous la présidence de Jacques
+Attali, <span style="font-style:italic">La documentation française</span>, 2008 (<a class="link_xmlatex" href=
+"http://lesrapports.ladocumentationfrancaise.fr/BRP/084000041/0000.pdf">http://lesrapports.ladocumentationfrancaise.fr</a>).</div>
+<div class="text_footnote_xmlatex" id="o37"><a class="pied_footnote_xmlatex" id="pied37" href="#nbp37" >37.</a> Voir <span class="sc_xmlatex">Élie</span> (François), <span style=
+"font-style:italic">Économie du logiciel libre</span>, Paris, Eyrolles, 2009.</div>
+<div class="text_footnote_xmlatex" id="o38"><a class="pied_footnote_xmlatex" id="pied38" href="#nbp38" >38.</a> <span style="font-style:italic">Cf. supra</span> concernant l’étude du
+droit des marques.</div>
+<div class="text_footnote_xmlatex" id="o39"><a class="pied_footnote_xmlatex" id="pied39" href="#nbp39" >39.</a> Un très bon exemple est la société américaine Red Hat&nbsp;: elle
+n’autorise aucun usage de ses marques, sauf&nbsp;: pour un usage non commercial par des établissements éducatifs, des associations à but non lucratif, aux groupes d’utilisateurs et leurs personnels
+correspondants&nbsp;; pour un usage personnel ou professionnel issu d’une version originale sous la condition de non-redistribution… Mandriva propose, elle, une licence de marque pour la distribution
+d’une version non modifiée d’un produit Mandriva lorsque celui-ci est disponible gratuitement sur son site internet.</div>
+<div class="text_footnote_xmlatex" id="o40"><a class="pied_footnote_xmlatex" id="pied40" href="#nbp40" >40.</a> La Mozilla Foundation limite par exemple l’usage des marques Firefox et
+Thunderbird selon la version du logiciel (licence complète sur la version binaire non modifiée, licence large pour les versions officielles localisées, licence réduite pour la version communautaire
+et enfin aucune licence pour une version du logiciel trop modifiée).</div>
+<div class="text_footnote_xmlatex" id="o41"><a class="pied_footnote_xmlatex" id="pied41" href="#nbp41" >41.</a> Red Hat a ainsi vu naître CentOS, version «&nbsp;expurgée&nbsp;» de la
+première (opération qui est par ailleurs techniquement compliquée par Red Hat), et Firefox s’est vu opposer Iceweasel (avec un succès plus mitigé) - aujourd’hui GNU IceCat.</div>
+<div class="text_footnote_xmlatex" id="o42"><a class="pied_footnote_xmlatex" id="pied42" href="#nbp42" >42.</a> Cette pratique est surtout répandue en matière de distribution ou
+compilation de logiciel, c’est-à-dire des situations où des briques non libres peuvent être mêlées à d’autres qui le sont. C’est notamment le cas de Red Hat et Mandriva.</div>
+<div class="text_footnote_xmlatex" id="o43"><a class="pied_footnote_xmlatex" id="pied43" href="#nbp43" >43.</a> Encore faut-il que cette licence soit suffisamment contraignante pour
+intéresser au choix de la licence commerciale. Ce sont les exemples de MySQL AB, Sleepycat Software Inc., TrollTech AS, etc. Ainsi, MySQL AB qui propose MySQL Entreprise sous licence GNU GPL v&nbsp;2
+(avec exception en faveur d’autres logiciels libres) ou sous licence propriétaire pour ceux qui ne désirent pas respecter la licence (notamment pour développer ou distribuer un projet propriétaire)
+ou veulent bénéficier de mises à jour, de service support et assurance.</div>
+<div class="text_footnote_xmlatex" id="o44"><a class="pied_footnote_xmlatex" id="pied44" href="#nbp44" >44.</a> Ce dont MySQL s’assure en n’intégrant dans le produit que les
+contributions qu’elle a pu réécrire ou racheter.</div>
+<div class="text_footnote_xmlatex" id="o45"><a class="pied_footnote_xmlatex" id="pied45" href="#nbp45" >45.</a> Le terme peut sembler ambigu&nbsp;: une licence <span style=
+"font-style:italic">open source</span> autorise parfaitement un usage commercial du logiciel, mais elle n’en restera pas moins une cession non exclusive gracieuse&nbsp;; à l’inverse, une licence dite
+commerciale sera conditionnée au paiement d’une souscription quelconque.</div>
+<div class="text_footnote_xmlatex" id="o46"><a class="pied_footnote_xmlatex" id="pied46" href="#nbp46" >46.</a> À la différence de la licence <span style="font-style:italic">open
+source</span> par ailleurs proposée (probablement <span style="font-style:italic">copyleft</span> ou tout du moins suffisamment contraignante pour que l’utilisateur ait un intérêt à opter pour la
+licence commerciale), la licence commerciale de l’éditeur offre aux clients des avantages comme la possibilité de ne pas diffuser le contenu de leur création dérivée (échappant ainsi à la réciprocité
+afin de continuer de disposer de leur monopole).</div>
+<div class="text_footnote_xmlatex" id="o47"><a class="pied_footnote_xmlatex" id="pied47" href="#nbp47" >47.</a> C’est notamment le cas de Red Hat avec les produits comme <span style=
+"font-style:italic">JBoss Enterprise Middleware</span>, <span style="font-style:italic">Red Hat Directory Server</span>, <span style="font-style:italic">Red Hat Certificate System</span>, etc.</div>
+<div class="text_footnote_xmlatex" id="o48"><a class="pied_footnote_xmlatex" id="pied48" href="#nbp48" >48.</a> On retrouve ce type de limitation dans les contrats de MySQL, Ingres,
+Alfresco, etc. Le revendeur se retrouvant bien souvent contraint de ne pas utiliser ou conseiller la version communautaire.</div>
+<div class="text_footnote_xmlatex" id="o49"><a class="pied_footnote_xmlatex" id="pied49" href="#nbp49" >49.</a> La licence <span style="font-style:italic">open source</span> assurera la
+confiance entre ces derniers vis-à-vis de ce qui est créé et permettra éventuellement à d’autres acteurs de bénéficier d’un coût d’entrée quasi inexistant -&nbsp;de façon à ce qu’ils puissent par la
+suite éventuellement rejoindre le cercle des partenaires&nbsp;; par ailleurs, le consortium jouera le rôle d’un contrat d’indivision par lequel les partenaires s’organisent pour la gestion du projet
+(en amont lors de la création et en aval pour l’exploitation du projet).</div>
+<div class="text_footnote_xmlatex" id="o50"><a class="pied_footnote_xmlatex" id="pied50" href="#nbp50" >50.</a> De type consortium&nbsp;: l’exemple du consortium Objectweb (aujourd’hui
+OW2) est le parfait exemple d’un regroupement de grandes sociétés autour de logiciels communs développés sous licence libre.</div>
+<div class="text_footnote_xmlatex" id="o51"><a class="pied_footnote_xmlatex" id="pied51" href="#nbp51" >51.</a> Disponible sur&nbsp;: <a class="link_xmlatex" href=
+"http://guideopensource.info">http://guideopensource.info</a>. Voir <span class="sc_xmlatex">Jean</span> (Benjamin) et <span class="sc_xmlatex">Flipo</span> (Olivia), « Bonnes pratiques en matière de
+conception et de pilotage de projets informatiques incluant ou composés de briques logicielles libres&nbsp;», EOLE 2009.</div>
+<div class="text_footnote_xmlatex" id="o52"><a class="pied_footnote_xmlatex" id="pied52" href="#nbp52" >52.</a> Voir notamment l’étude «&nbsp;Propriété intellectuelle et logiciels, la
+position de l’association Française des éditeurs de logiciels&nbsp;», AFDEL, 2007.</div>
+<div class="text_footnote_xmlatex" id="o53"><a class="pied_footnote_xmlatex" id="pied53" href="#nbp53" >53.</a> Voir <span class="sc_xmlatex">Green</span> ( Thomas C.),
+«&nbsp;Ballmer&nbsp;: ’Linux is a cancer’&nbsp;; Contaminates all other software with Hippie GPL rubbish&nbsp;» (<span style="font-style:italic">The Register</span>, 2001), qui cite les propos de
+Steve Ballmer lors d’une interview pour le <span style="font-style:italic">Chicago Sun-Times</span>&nbsp;: «&nbsp;Linux is a cancer that attaches itself in an intellectual property sense to
+everything it touches&nbsp;».</div>
+<div class="text_footnote_xmlatex" id="o54"><a class="pied_footnote_xmlatex" id="pied54" href="#nbp54" >54.</a> L’intégrateur se révèle être le mieux disposé pour faire évoluer le
+produit et assurer la pérennité de son développement. au travers, notamment, d’un reversement systématique au bénéfice des communautés. Sa situation d’intermédiaire lui permet par ailleurs d’être
+idéalement placé pour favoriser les échanges indirects de contributions entre ses différents clients -&nbsp;l’évolution des solutions étant aussi dans l’intérêt de ceux-ci, tout le monde profite de
+cette collaboration.</div>
+<div class="text_footnote_xmlatex" id="o55"><a class="pied_footnote_xmlatex" id="pied55" href="#nbp55" >55.</a> Distinction basée sur les travaux présentés par Jean-Pierre Laisné lors de
+l’OWF 2011.</div>
+<div class="text_footnote_xmlatex" id="o56"><a class="pied_footnote_xmlatex" id="pied56" href="#nbp56" >56.</a> L’INRIA et le CNRS étant les deux centres français les plus actifs sur le
+sujet.</div>
+<div class="text_footnote_xmlatex" id="o57"><a class="pied_footnote_xmlatex" id="pied57" href="#nbp57" >57.</a> L’Université de technologie de Compiègne (UTC) est ainsi à l’origine de
+nombreux projets Open Source dans le domaine du logiciel (<a class="link_xmlatex" href="http://scenari-platform.org/projects/scenari/fr/pres/co/">scenari-platform</a> pour n’en nommer qu’un) et en
+dehors.</div>
+<div class="text_footnote_xmlatex" id="o58"><a class="pied_footnote_xmlatex" id="pied58" href="#nbp58" >58.</a> Pour rappel, la dévolution légale des droits en faveur de l’employeur ne
+joue qu’en présence d’une création salariale logicielle. Voir notamment <span class="sc_xmlatex">Bensamoun</span> (Alexandra), «&nbsp;La titularité des droits patrimoniaux sur une création
+salariée&nbsp;: du paradis artificiel à l’artifice du paradis&nbsp;», dans <span style="font-style:italic">Revue Lamy Droit de l’Immatériel</span>, n°67, 2011.</div>
+<div class="text_footnote_xmlatex" id="o59"><a class="pied_footnote_xmlatex" id="pied59" href="#nbp59" >59.</a> C’est notamment le choix pris pour l’ENT Lilie commandée par la Région
+Île-de-France.</div>
+<div class="text_footnote_xmlatex" id="o60"><a class="pied_footnote_xmlatex" id="pied60" href="#nbp60" >60.</a> Plusieurs situations de blocage peuvent être prises comme exemple&nbsp;:
+le changement de licence du contenu du site de Debian au profit d’une licence compatible avec la GNU GPL, l’ajout des licences GNU LGPL, et sur le navigateur Firefox (en faisant une <a class=
+"link_xmlatex" href="http://mozillazine-fr.org/archive.phtml?article=4155">triple licence MPL/LGPL/GPL</a>) ou encore le noyau Linux qui utilise actuellement volontairement la seule version&nbsp;2 de
+la GNU GPL.</div>
+<div class="text_footnote_xmlatex" id="o61"><a class="pied_footnote_xmlatex" id="pied61" href="#nbp61" >61.</a> Voir <span class="sc_xmlatex">Meeks</span> (Michael), «&nbsp;Some brief
+thoughts on Project Harmony&nbsp;», 2011 (disponible sur <a class="link_xmlatex" href="">http://people.gnome.org</a>).</div>
+<div class="text_footnote_xmlatex" id="o62"><a class="pied_footnote_xmlatex" id="pied62" href="#nbp62" >62.</a> Clauses d’usage dans les contrats de partenariats proposés par MySQL,
+Ingres, Talend, etc.</div>
+<div class="text_footnote_xmlatex" id="o63"><a class="pied_footnote_xmlatex" id="pied63" href="#nbp63" >63.</a> Voir notamment la présentation de <span class="sc_xmlatex">Prouty</span>
+(Tim), «&nbsp;<a class="link_xmlatex" href="http://sambaxp.org/fileadmin/user_upload/SambaXP2009-DATA/Tim_Prouty.pdf">Becoming a Samba Developer</a>&nbsp;», Isilon Systems, 2009 (disponible sur
+http://sambaxp.org).</div>
+<div class="text_footnote_xmlatex" id="o64"><a class="pied_footnote_xmlatex" id="pied64" href="#nbp64" >64.</a> Voir le <span style="font-style:italic">Guide Open Source</span>,
+<span style="font-style:italic">op. cit.</span> (http://guideopensource.info/).</div>
+<div class="text_footnote_xmlatex" id="o65"><a class="pied_footnote_xmlatex" id="pied65" href="#nbp65" >65.</a> La société éditrice propose un certain nombre d’offres pour les projets
+communautaires -&nbsp;à commencer d’ailleurs par l’<span style="font-style:italic">Eclipse Foundation</span>.</div>
+<div class="text_footnote_xmlatex" id="o66"><a class="pied_footnote_xmlatex" id="pied66" href="#nbp66" >66.</a> La liste n’est néanmoins pas exhaustive et d’autres produits similaires
+existent, édités par des sociétés américaines (telles Palamida, OpenLogic ou ProteCode) ou françaises (comme Antelink).</div>
+<div class="text_footnote_xmlatex" id="o67"><a class="pied_footnote_xmlatex" id="pied67" href="#nbp67" >67.</a> On peut ici citer l’exemple d’HP vis-à-vis de la GNU GPL v.&nbsp;3 (qui
+pourrait impacter la valeur de son portefeuille de brevets).</div>
+<div class="text_footnote_xmlatex" id="o68"><a class="pied_footnote_xmlatex" id="pied68" href="#nbp68" >68.</a> Par exemple avec une comparaison du code du projet avec celui de leur
+base.</div>
+<div class="text_footnote_xmlatex" id="o69"><a class="pied_footnote_xmlatex" id="pied69" href="#nbp69" >69.</a> Voir à cet égard les solutions décrites dans le <span style=
+"font-style:italic">Guide Open Source</span>, partie 1.2.2. «&nbsp;Description du code source&nbsp;», <span style="font-style:italic">op. cit.</span></div>
+<div class="text_footnote_xmlatex" id="o70"><a class="pied_footnote_xmlatex" id="pied70" href="#nbp70" >70.</a> Le projet SPDX (pour Software Package Data Exchange) est un format
+standard pour la communication des composants, licences et mentions légales associées à la distribution d’un logiciel. Le site a été réalisé sous la direction de la Linux Foundation, avec la
+participation de nombreuses sociétés parmi lesquelles Alcatel-Lucent, Antelink, Black Duck Software, Canonical, HP, Micro Focus, Motorola Mobility, nexB Inc, OpenLogic, Palamida, Protecode, Source
+Auditor, Texas Instruments et Wind River.</div>
+</div>
+</div>
+</body>
+</html>

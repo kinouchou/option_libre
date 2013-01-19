@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<package version="2.0" unique-identifier="uid" xmlns="http://www.idpf.org/2007/opf">
+
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+
+<dc:title>Option libre. Du bon usage des licences libres</dc:title>
+<dc:subject>licences libres, open source, droit, juridique</dc:subject>
+<dc:description>À l'heure où les manœuvres politiques et lobbyistes cherchent à étendre et renforcer les droits de propriété intellectuelle, un nouveau système construit sur la base des licences libres vient concurrencer et devancer le précédent en termes d'innovation et de création.
+Dans leurs fondements juridiques, les licences libres interrogent à plus d'un titre les usages de la propriété intellectuelle en cours depuis des siècles. En moins de trente ans, le mouvement du Libre a réalisé une telle révolution, à la fois technique et culturelle, que le nombre de licences n'a cessé d'augmenter, formalisant de multiples manières les rapports entre les auteurs, les utilisateurs et l'oeuvre.
+Quelle stratégie adopter dans le choix d'une licence et comment concilier ce choix avec un modèle économique ? Quelles sont les compatibilités entre les licences et comment envisager l'équilibre entre les droits existants et éprouvés (droit d'auteur, brevets, etc.) et la permissivité propre au Libre ? Dans cet ouvrage documenté, objectif et pédagogique, Benjamin Jean élabore une base saine et pérenne de discussions et d'échanges entre tous les acteurs du Libre. Se livrant à un véritable inventaire des pratiques juridiques dans ce domaine, l'auteur nous permet de les appréhender finement et encourage à les perfectionner et les porter dans d'autres secteurs.
+Après une présentation du cadre légal associé aux créations de l'esprit, initialement conçu comme un système en équilibre, l'ouvrage plonge le lecteur dans ce nouveau paradigme des licences libres. Tout en évitant la simple exposition de règles et de normes, c'est de manière méthodique que seront abordées les notions juridiques à la base des nouveaux rapports entre les acteurs. Une sérieuse analyse de la maturation de ce système et un repérage des bons réflexes et des principaux écueils, permettront enfin d'aborder une étude pratique et éclairée des quelques licences libres les plus utilisées.
+********************
+Benjamin Jean est un juriste spécialisé en propriété intellectuelle. Il travaille sur les nouveaux usages et collaborations qui se développent autour de la création et de l'innovation. Il a notamment œuvré pour leur prise en compte au sein des gouvernances de multiples acteurs privés et publics, et formé de nombreuses équipes aux aspects juridiques afférents.
+Actif depuis près de dix ans dans ce domaine, il enseigne la propriété intellectuelle dans plusieurs Masters, intervient comme consultant au sein du cabinet Gilles Vercken (Paris) et achève une thèse sur les systèmes collaboratifs. Il a codirigé au sein du Syntec Numérique la rédaction du guide Open Source intitulé Réflexions sur la construction et le pilotage d'un projet Open Source, et créé et dirigé le premier Centre Juridique Open Source. À l'échelle européenne, il organise les conférences annuelles EOLE (European Open Source &amp; Free Software Law Event) et il est membre de l'European Legal Network (FSF Europe).
+Très présent dans les communautés du logiciel libre, il est cofondateur de Veni Vidi Libri et de la SARD (Société d'Acceptation et de Répartition des Dons). En 2011, il a créé sa propre société, Inno3, qui accompagne les entreprises et acteurs publics dans l'ouverture de leur politique d'innovation en faveur de processus partagés et collaboratifs.
+</dc:description>
+<dc:publisher>Framasoft</dc:publisher>
+<dc:contributor></dc:contributor>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:source></dc:source>
+<dc:language>fr</dc:language>
+<dc:coverage></dc:coverage>
+<dc:rights>LAL 1.3, GNU FDL 1.3 et CC By-SA 3.0</dc:rights>
+<dc:date>Décembre 2011</dc:date>
+<dc:creator>Benjamin Jean</dc:creator>
+<dc:identifier opf:scheme="URL" id="uid">http://forge.framabook.org/optionlibre/</dc:identifier>
+<dc:relation>http://forge.framabook.org/optionlibre/</dc:relation>
+
+
+</metadata>
+
+<manifest>
+	
+	<item id="chapter-1" href="chapitre-136-fr.xml" media-type="application/xhtml+xml"/>
+                <item id="chapter-2" href="chapitre-20-fr.xml" media-type="application/xhtml+xml"/>
+                <item id="chapter-3" href="chapitre-132-fr.xml" media-type="application/xhtml+xml"/>
+                <item id="chapter-4" href="chapitre-115-fr.xml" media-type="application/xhtml+xml"/>
+                <item id="chapter-5" href="chapitre-133-fr.xml" media-type="application/xhtml+xml"/>
+                <item id="chapter-6" href="chapitre-117-fr.xml" media-type="application/xhtml+xml"/>
+                <item id="part-7" href="part-7.xml" media-type="application/xhtml+xml"/>
+<item id="chapter-8" href="chapitre-114-fr.xml" media-type="application/xhtml+xml"/>
+                <item id="chapter-9" href="chapitre-135-fr.xml" media-type="application/xhtml+xml"/>
+                <item id="chapter-10" href="chapitre-128-fr.xml" media-type="application/xhtml+xml"/>
+                <item id="part-11" href="part-11.xml" media-type="application/xhtml+xml"/>
+<item id="chapter-12" href="chapitre-122-fr.xml" media-type="application/xhtml+xml"/>
+                <item id="chapter-13" href="chapitre-134-fr.xml" media-type="application/xhtml+xml"/>
+                <item id="chapter-14" href="chapitre-124-fr.xml" media-type="application/xhtml+xml"/>
+                <item id="chapter-15" href="chapitre-127-fr.xml" media-type="application/xhtml+xml"/>
+                <item id="part-16" href="part-16.xml" media-type="application/xhtml+xml"/>
+<item id="chapter-17" href="chapitre-126-fr.xml" media-type="application/xhtml+xml"/>
+                <item id="part-18" href="part-18.xml" media-type="application/xhtml+xml"/>
+<item id="chapter-19" href="chapitre-71-fr.xml" media-type="application/xhtml+xml"/>
+                <item id="chapter-20" href="chapitre-131-fr.xml" media-type="application/xhtml+xml"/>
+                <item id="chapter-21" href="chapitre-79-fr.xml" media-type="application/xhtml+xml"/>
+                <item id="chapter-22" href="chapitre-80-fr.xml" media-type="application/xhtml+xml"/>
+                <item id="thumb1" href="thumb1.xml" media-type="application/xhtml+xml"/>
+<item id="thumb2" href="thumb2.xml" media-type="application/xhtml+xml"/>
+<item id="thumb3" href="thumb3.xml" media-type="application/xhtml+xml"/>
+<item id="thumb4" href="thumb4.xml" media-type="application/xhtml+xml"/>
+
+
+	<item id="xmlatex" href="css/xmlatex.css" media-type="text/css"/>
+
+	<item id="img0" href="images/optionlibre_1ere_couverture.jpg" media-type="image/jpeg"/>
+<item id="img1" href="images/Logo_framabook_grand.png" media-type="image/png"/>
+<item id="img2" href="images/tableau_etendue_licence_versionWEB.png" media-type="image/png"/>
+<item id="img3" href="images/tableau_etendue_licence_vignette.png" media-type="image/png"/>
+<item id="img4" href="images/tableau_technique_licenceversionWEB.png" media-type="image/png"/>
+<item id="img5" href="images/tableau_technique_licence_vignette.png" media-type="image/png"/>
+<item id="img6" href="images/table_compatibilite_tout_objet_versionWEB.png" media-type="image/png"/>
+<item id="img7" href="images/table_compatibilite_tout_objet_vignette.png" media-type="image/png"/>
+<item id="img8" href="images/table_compatibilite_docu_versionWEB.png" media-type="image/png"/>
+<item id="img9" href="images/table_compatibilite_documentation_vignette.png" media-type="image/png"/>
+<item id="img_f_plus" href="images/f_plus.png" media-type="image/png"/>
+
+
+
+	<item id="ncx" href="navigation.ncx" media-type="application/x-dtbncx+xml"/>
+
+</manifest>
+
+<spine toc="ncx">
+	
+	<itemref idref="chapter-1" linear="yes"/>
+                <itemref idref="chapter-2" linear="yes"/>
+                <itemref idref="chapter-3" linear="yes"/>
+                <itemref idref="chapter-4" linear="yes"/>
+                <itemref idref="chapter-5" linear="yes"/>
+                <itemref idref="chapter-6" linear="yes"/>
+                <itemref idref="part-7" linear="yes"/>
+<itemref idref="chapter-8" linear="yes"/>
+                <itemref idref="chapter-9" linear="yes"/>
+                <itemref idref="chapter-10" linear="yes"/>
+                <itemref idref="part-11" linear="yes"/>
+<itemref idref="chapter-12" linear="yes"/>
+                <itemref idref="chapter-13" linear="yes"/>
+                <itemref idref="chapter-14" linear="yes"/>
+                <itemref idref="chapter-15" linear="yes"/>
+                <itemref idref="part-16" linear="yes"/>
+<itemref idref="chapter-17" linear="yes"/>
+                <itemref idref="part-18" linear="yes"/>
+<itemref idref="chapter-19" linear="yes"/>
+                <itemref idref="chapter-20" linear="yes"/>
+                <itemref idref="chapter-21" linear="yes"/>
+                <itemref idref="chapter-22" linear="yes"/>
+                <itemref idref="thumb1" linear="yes"/>
+<itemref idref="thumb2" linear="yes"/>
+<itemref idref="thumb3" linear="yes"/>
+<itemref idref="thumb4" linear="yes"/>
+
+	
+</spine>
+
+<guide>
+	
+	<reference type="title-page" title="Partie"  href="part-1.xml"/><reference type="title-page" title="Couv"  href="part-2.xml"/><reference type="acknowledgements" title="thanks"  href="part-3.xml"/><reference type="preface" title="preface"  href="part-4.xml"/><reference type="notes" title="conventions"  href="part-5.xml"/><reference type="text" title="Partie d’introduction"  href="part-6.xml"/><reference type="text" title="I Le cadre légal associé aux créations de l’esprit"  href="part-7.xml"/><reference type="text" title="Introduction"  href="chapitre-114-fr.xml"/><reference type="text" title="1 Le bénéfice d’une propriété littéraire et artistique"  href="chapitre-135-fr.xml"/><reference type="text" title="II Le système construit par les licences libres, les bases d’un nouvel équilibre"  href="part-11.xml"/><reference type="text" title="Introduction"  href="chapitre-122-fr.xml"/><reference type="text" title="1 La maturation d’un nouvel équilibre grâce aux licences libres"  href="chapitre-134-fr.xml"/><reference type="text" title="2 Les bons repères pour s’orienter parmi les licences libres"  href="chapitre-124-fr.xml"/><reference type="text" title="III Quelques études de licences libres"  href="part-16.xml"/><reference type="text" title="Annexes"  href="part-18.xml"/><reference type="text" title="A Tableaux de compatibilité"  href="chapitre-71-fr.xml"/><reference type="bibliography" title="biblio"  href="part-21.xml"/><reference type="index" title="index"  href="part-22.xml"/>
+	
+</guide>
+
+</package>

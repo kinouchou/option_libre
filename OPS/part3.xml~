@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta name="generator" content="La Poule ou l'Oeuf" />
+<title>Quelques études de licences libres</title>
+<link rel="stylesheet" href="css/xmlatex.css" type="text/css" />
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+</head>
+<body>
+<div class="chapterhead_epub">
+<div class="chapter_epub"></div>
+<div class="chapter_pos_epub"></div>
+<div class="chaptertitle_epub">Quelques études de licences libres</div>
+</div>
+<div id="page1">
+<div class="p_xmlatex" id="p1">La diversité des licences s’explique par la diversité des projets et des modèles commerciaux qui suivent le courant de l’<span style="font-style:italic">open
+source</span>. On observe néanmoins une forte parenté entre ces licences, le nombre de celles réputées pleinement «&nbsp;originales&nbsp;» devant être d’une petite dizaine dans le seul domaine du
+logiciel (GNU GPL, MPL, OSL, EUPL, Apache voire EPL). L’analyse de ces dernières permet de donner un aperçu fidèle de leur écosystème.</div>
+<div class="p_xmlatex" id="p2">Nous allons donc nous intéresser aux licences suivantes&nbsp;: AFL, Apache, APSL, EPL, EUPL, GNU (GPL, LGPL et Affero GPL), MIT, MPL, CeCILL(-A, -B, -C), Creative
+Commons, LAL, ODbL, PHP License, OSL, et la TAPR Open Hardware License.</div>
+<div class="p_xmlatex" id="p3">Chacune d’elle sera analysée conformément à la grille de lecture proposée précédemment<a class="page_footnote_xmlatex" id="nbp1" href="#pied1" ><sup>1</sup></a>&nbsp;: droits et obligations, étendue, élément déclencheur et clause de compatibilité.</div>
+<h2 class="sectionss_xmlatex" id="g1">AFL v&nbsp;3.0 (Academic Free License)</h2>
+<div class="p_xmlatex" id="p4">Assez similaire à la licence Apache, l’<a class="link_xmlatex" href="http://www.opensource.org/licenses/afl-3.0.php">Academic Free License</a> est la petite sœur
+permissive de l’OSL (toutes les clauses lui sont identiques, à l’exception de celles instaurant le <span style="font-style:italic">copyleft</span>) rédigée par l’avocat américain Lawrence Rosen. Elle
+est dite «&nbsp;de contenu libre&nbsp;», c’est-à-dire qu’elle a vocation à être utilisée sur toutes œuvres originales (ce qui inclut donc les logiciels, mais aussi les documentations, images, etc.
+-&nbsp;avec comme intention de pouvoir s’appliquer à tout ce qui accompagne le logiciel). La version&nbsp;1.1 date de 2002 et fut certifiée <span style="font-style:italic">open source</span> par
+l’Open Source Initiative (OSI), mais déclarée incompatible avec la DFSG par la communauté Debian&nbsp;; la version&nbsp;2.0 date de 2003, et la dernière version fut publiée en 2005.</div>
+<div class="p_xmlatex" id="p5">En termes de <span style="font-style:italic">droits</span>, c’est une licence conforme à l’OSD qui autorise expressément les sous-licenciements (sous la même licence).
+Elle est gratuite (mais la communication de l’œuvre peut être payante), non exclusive et perpétuelle et porte sur les droits d’auteur comme sur ceux des brevets contenus dans le code soumis à la
+licence (elle cherche à créer ici un pot commun de brevets, équivalent à celui issu de l’usage des licences <span style="font-style:italic">copyleft</span>). Enfin, la licence incorpore une
+limitation - et non pas une exclusion - de garantie (de la provenance des sources) et de responsabilité à l’égard du concédant ; solution bien plus pragmatique puisqu’il s’agit de ce qui est, dans
+les faits, le minimum légal.</div>
+<div class="p_xmlatex" id="p6">En termes d’<span style="font-style:italic">obligations</span>, la licence n’est pas <span style="font-style:italic">copyleft</span>, mais quiconque poursuit l’auteur
+original ou ses utilisateurs pour violation de brevet contenu dans le logiciel soumis à cette licence voit toutes les licences qui lui étaient accordées se terminer immédiatement. Toute action ou
+poursuite doit se faire devant un tribunal de la juridiction du lieu où le concédant exerce son activité principale -&nbsp;tous les frais d’avocats seront à la charge de la partie qui poursuit.</div>
+<div class="p_xmlatex" id="p7">L’<span style="font-style:italic">élément déclencheur</span> de la licence est l’<span style="font-style:italic">external deployment</span>, c’est-à-dire
+«&nbsp;l’utilisation, la distribution ou la communication de l’œuvre originale ou dérivée d’une façon telle que cette œuvre originale ou dérivée puisse être utilisée par toute autre personne que
+vous<a class="page_footnote_xmlatex" id="nbp2" href="#pied2" ><sup>2</sup></a>.</div>
+<div class="p_xmlatex" id="p8">L’<span style="font-style:italic">étendue</span> de la licence s’appuie sur les distinctions du copyright quant à la portée de l’œuvre dérivée. À noter que le code
+source, tel que défini par l’OSL, inclut la «&nbsp;documentation décrivant comment modifier l’œuvre originale&nbsp;».</div>
+<div class="p_xmlatex" id="p9">En termes de <span style="font-style:italic">compatibilité</span>, la licence est relativement souple dès lors que ses obligations sont respectées&nbsp;: ce qui la
+rendait incompatible avec la GNU GPL v2 (elle serait néanmoins compatible avec la troisième version), mais entièrement compatible avec sa grande sœur de l’OSL (rédigée sur le même canevas).</div>
+<div class="p_xmlatex" id="p10">Enfin, la licence elle-même est copyrightée et ne peut donc servir de base à une nouvelle licence<a class="page_footnote_xmlatex" id="nbp3" href="#pied3" ><sup>3</sup></a>.</div>
+<h2 class="sectionss_xmlatex" id="g2">Apache License (APL)</h2>
+<div class="p_xmlatex" id="p11">Seule l’utilisation de la version&nbsp;2.0, publiée le 1<sup>er</sup> mars 2004, de l’<a class="link_xmlatex" href=
+"http://www.apache.org/licenses/LICENSE-2.0%20">Apache Public License</a> est aujourd’hui préconisée (notamment, par défaut, pour tous les projets de la fondation Apache)<a class=
+"page_footnote_xmlatex" id="nbp4" href="#pied4" ><sup>4</sup></a>. C’est aussi une licence permissive par laquelle les contributeurs partagent leur monopole en matière de droit d’auteur et
+éventuellement de brevets portant sur ces contributions (cette licence tombe en cas d’action à l’encontre des contributeurs).</div>
+<div class="p_xmlatex" id="p12">En termes de <span style="font-style:italic">droits</span>, la licence autorise expressément les sous-licences.</div>
+<div class="p_xmlatex" id="p13">En termes d’<span style="font-style:italic">obligations</span>, on retrouve les mentions traditionnelles relatives à la paternité et à la licence (avec notamment la
+nécessité de distinguer les différentes contributions et le respect d’un formalisme quant aux mentions légales attachées aux œuvres dérivées). Toute contribution reversée au concédant pour inclusion
+dans son logiciel est, sauf mention contraire, réputée être soumise à la même licence. Enfin, une sanction est prévue à l’encontre de tout licencié qui agirait sur la base d’une violation de brevet
+dans l’usage d’un logiciel sous licence Apache ou ses contributions (toutes les licences de brevets qu’il tire de la licence Apache se terminent au jour de l’assignation).</div>
+<div class="p_xmlatex" id="p14">L’<span style="font-style:italic">étendue</span> de la licence est, pour l’essentiel, limitée à la portion du code sous licence Apache, mais certaines obligations
+(notamment celles concernant les mentions légales du logiciel final) s’étendent aussi aux logiciels dérivés (basés sur ou incluant des composants sous licences Apache).</div>
+<div class="p_xmlatex" id="p15">L’élément déclencheur est la distribution de copies du logiciel (l’accès au code offert à un tiers).</div>
+<div class="p_xmlatex" id="p16">La licence ne prévoit pas de <span style="font-style:italic">compatibilité</span> particulière, mais plusieurs licences peuvent être utilisées, dont la GNU GPL
+v.&nbsp;3 si sont précisées les obligations supplémentaires liées à la licence Apache.</div>
+<h2 class="sectionss_xmlatex" id="g3">Apple Public Source License v2.0</h2>
+<div class="p_xmlatex" id="p17">Licence utilisée depuis 2003 sur une partie du système d’exploitation MacOS X d’Apple, la <a class="link_xmlatex" href="http://www.opensource.apple.com/apsl">APSL</a>
+n’a pas vocation à être utilisée sur d’autres projets et la firme Apple est citée à plusieurs reprises (ce qui est d’autant plus logique que cette licence est elle-même une adaptation de la licence
+MPL).</div>
+<div class="p_xmlatex" id="p18">Ainsi, en termes d’<span style="font-style:italic">obligations</span> peut-on remarquer que la licence est <span style="font-style:italic">copyleft</span> et organise
+une licence en matière de brevets. En cas de non-respect de la licence, la licence prévoit une certaine souplesse qui permet éventuellement de corriger le comportement défaillant. La compétence
+territoriale est fixée en Californie.</div>
+<div class="p_xmlatex" id="p19">En termes d’<span style="font-style:italic">étendue</span>, la licence est modulaire et opère par fichier<a class="page_footnote_xmlatex" id="nbp5" href="#pied5" ><sup>5</sup></a>autorisant donc le lien vers d’autres fichiers qui peuvent être entièrement propriétaires.</div>
+<div class="p_xmlatex" id="p20">Son <span style="font-style:italic">élément déclencheur</span> est celui du déploiement externe<a class="page_footnote_xmlatex" id="nbp6" href="#pied6" ><sup>6</sup></a> (<span style="font-style:italic">external deployment</span>), ce qui la met à l’échelle des licences du type OSL ou GNU Affero GPL.</div>
+<div class="p_xmlatex" id="p21">La licence ne prévoit aucune <span style="font-style:italic">compatibilité</span> particulière.</div>
+<h2 class="sectionss_xmlatex" id="g4">Eclipse Public License (EPL)</h2>
+<div class="p_xmlatex" id="p22">L’<a class="link_xmlatex" href="http://www.eclipse.org/legal/epl-v10.html">Eclipse Public License</a> est la licence qui a succédé à la CPL sur le projet Eclipse
+(cette dernière ayant elle-même succédé à la licence IBM <span style="font-style:italic">Public License</span>).</div>
+<div class="p_xmlatex" id="p23">Concernant ses <span style="font-style:italic">obligations</span>, la licence Eclipse est elle aussi <span style="font-style:italic">copyleft</span>, et comporte une
+clause en matière de brevets qui est sensiblement similaire à celle de la licence Apache (en cas d’action basée sur une violation de brevet dans l’usage du logiciel sous EPL, toutes les licences de
+brevets tirées de la licence sont terminées).</div>
+<div class="p_xmlatex" id="p24">L’<span style="font-style:italic">étendue</span> de l’EPL est basée sur la définition américaine de l’œuvre dérivée, interprétée de manière plus restrictive que pour
+la GNU GPL&nbsp;: la licence ne s’étend pas aux modules séparés développés autour du logiciel, ni aux autres travaux qui ne seraient pas directement dérivés du programme<a class=
+"page_footnote_xmlatex" id="nbp7" href="#pied7" ><sup>7</sup></a>.</div>
+<div class="p_xmlatex" id="p25">L’<span style="font-style:italic">élément déclencheur</span> est, classiquement, celui de la distribution.</div>
+<div class="p_xmlatex" id="p26">La licence précise que la loi applicable est celle de l’état de New York et des États-Unis en matière de propriété intellectuelle.</div>
+<h2 class="sectionss_xmlatex" id="g5">European Union Public License (EUPL)</h2>
+<div class="p_xmlatex" id="p27">Disponible en 22 langues (chacune de ses traductions ayant la même valeur contractuelle), l’<a class="link_xmlatex" href=
+"http://www.osor.eu/eupl/european-union-public-licence-eupl-v.1.1">European Union Public License</a> est sans conteste la licence la plus internationale.</div>
+<div class="p_xmlatex" id="p28">Elle est <span style="font-style:italic">copyleft</span> et contient une <span style="font-style:italic">licence de brevets</span> dans la «&nbsp;mesure nécessaire à
+l’exercice des droits qui […] sont concédés sur l’œuvre distribuée sous la […] licence&nbsp;». La terminaison de la licence est automatique en cas de son non-respect.</div>
+<div class="p_xmlatex" id="p29">En termes d’<span style="font-style:italic">étendue</span>, la licence renvoie à la loi «&nbsp;applicable en matière de droit d’auteur dans le pays désigné à
+l’article&nbsp;15&nbsp;» (pays du concédant, voire loi belge si ce dernier n’est pas européen ou s’il s’agit de la Commission européenne).</div>
+<div class="p_xmlatex" id="p30">En termes d’<span style="font-style:italic">élément déclencheur</span>&nbsp;: tant la distribution que la communication au public (même de façon indirecte, ce qui
+comprend notamment l’usage d’un logiciel en <span style="font-style:italic">Software as a Service</span>)<a class="page_footnote_xmlatex" id="nbp8" href="#pied8" ><sup>8</sup></a>.</div>
+<div class="p_xmlatex" id="p31">La loi applicable et le tribunal compétent sont ceux de «&nbsp;l’État membre de l’Union européenne où le donneur de licence réside ou a établi son siège social&nbsp;»
+(pays du concédant, voire loi belge si ce dernier n’est pas européen ou s’il s’agit de la Commission européenne). La licence contient une garantie d’éviction (l’assurance que chaque concédant est
+bien titulaire de droits sur ses contributions) et repose sur un mécanisme de sous-licence.</div>
+<div class="p_xmlatex" id="p32">Enfin, la licence est expressément <span style="font-style:italic">compatible</span> avec cinq autres licences similaires&nbsp;: une clause venant spécialement
+autoriser la redistribution sous un certain nombre de licences dès lors qu’une œuvre dérivée combine composants sous licence EUPL et composants sous l’une de ces licences compatibles<a class=
+"page_footnote_xmlatex" id="nbp9" href="#pied9" ><sup>9</sup></a>.</div>
+<h2 class="sectionss_xmlatex" id="g6">GNU General Public License (GNU GPL)</h2>
+<div class="p_xmlatex" id="p33">Première licence libre, la GNU GPL fut la première à contractualiser la notion de pot commun, avec pour objectif de faciliter l’accès aux codes sources et leurs
+interactions. La GNU GPL est, historiquement, réservée aux logiciels et elle est de mieux en mieux rédigée au fur et à mesure de ses versions.</div>
+<div class="p_xmlatex" id="p34">L’<span style="font-style:italic">étendue</span> ainsi que la <span style="font-style:italic">portée</span> (droit d’auteur, droit des brevets, droit des topographies
+des semi-conducteurs, DRM, etc.) très larges de la licence GNU GPL sont ses principales caractéristiques.</div>
+<div class="p_xmlatex" id="p35">Deux versions de la licence (la deuxième et la troisième) sont actuellement utilisées et méritent un examen spécifique.</div>
+<h3 class="subsectionss_xmlatex" id="h1">GNU GPL v.&nbsp;2</h3>
+<div class="p_xmlatex" id="p36">En termes d’<span style="font-style:italic">obligations</span>&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p37">tout est fait pour que les mentions légales soient accessibles sinon publiées&nbsp;: ainsi, dans l’hypothèse d’un programme lisant habituellement des instructions de
+façon interactive lorsqu’on l’exécute, celui-ci doit imprimer ou afficher une annonce comprenant une mention relative aux droits d’auteur, à l’absence de garantie, et à la soumission à la GNU
+GPL&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p38">la livraison du code source doit être réalisée dans sa forme préférentielle&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p39">la licence est bien sûr <span style="font-style:italic">copyleft</span>.</div>
+</li>
+</ul>
+<div class="p_xmlatex" id="p40">L’étendue de la GNU GPL est très large puisque tout logiciel basé sur un composant sous GNU GPL doit être distribué sous cette même licence et que le logiciel lui-même
+est envisagé «&nbsp;comme un tout&nbsp;». Le flou de ces notions induit plusieurs interprétations. La Free Software Foundation prône la plus extensive (par laquelle toute liaison avec un composant
+sous cette licence emporterait son extension).</div>
+<div class="p_xmlatex" id="p41">Ainsi, dans le cas du logiciel auquel est associé de multiples modules&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p42">les modules développés autour du logiciel sont, <a class="link_xmlatex" href="http://www.gnu.org/licenses/gpl-faq.html">selon la FAQ de la licence</a>, des
+«&nbsp;créations basées&nbsp;» (<span style="font-style:italic">based on</span>) sur le logiciel. En tant que telles, elles doivent donc être diffusées sous la même licence que le logiciel<a class=
+"page_footnote_xmlatex" id="nbp10" href="#pied10" ><sup>10</sup></a>&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p43">si le logiciel est distribué simultanément avec des modules sous cette licence, alors celle-ci doit s’étendre au logiciel «&nbsp;comme un tout&nbsp;», c’est-à-dire au
+logiciel et ses différents modules.</div>
+</li>
+</ul>
+<div class="p_xmlatex" id="p44">Concernant l’<span style="font-style:italic">élément déclencheur</span>, les obligations de la licence ne sont opposées aux licencié que s’il distribue le programme.
+Le <span style="font-style:italic">copyleft</span> s’applique uniquement au programme et non à ses sorties, par exemple un portail web utilisant une version modifiée privée d’un CMS (Content
+Management System) sous GPL ne sera pas obligé de livrer ses sources (élément traité par la GNU Affero GPL) tant qu’il n’aura pas donné accès à une copie du logiciel.</div>
+<div class="p_xmlatex" id="p45">Intransigeante, même envers les autres licences libres et <span style="font-style:italic">open source</span>, la licence GNU GPL n’organise elle-même aucune
+compatibilité.</div>
+<h3 class="subsectionss_xmlatex" id="h2">GNU GPL v.&nbsp;3</h3>
+<div class="p_xmlatex" id="p46">Un lot de nouvelles stipulations précise ou étend les obligations de la précédente version&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p47">la notion de code source est précisée et étendue<a class="page_footnote_xmlatex" id="nbp11" href="#pied11" ><sup>11</sup></a>&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p48">vis-à-vis des mesures techniques, de protection et d’information (ADPIC, EUCD, DADVSI)&nbsp;: l’auteur d’un logiciel sous GPL renonce à ce que celui-ci soit considéré
+comme une mesure technique (à priori, autant de protection que d’information -&nbsp;MTP/MTI) et ne peut limiter la jouissance tirée de la licence par une interdiction du contournement de mesures
+techniques.</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p49">Le <span style="font-style:italic">peer to peer</span> est enfin pris en considération en tant que distribution (sans pour autant que les personnes qui téléchargent le
+logiciel par ce canal n’aient à fournir les sources)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p50"><span style="font-style:italic">Tivoïzation</span><a class="page_footnote_xmlatex" id="nbp12" href="#pied12" ><sup>12</sup></a>&nbsp;: stipulation réservée
+aux «&nbsp;produits de consommation&nbsp;» (non applicable à un usage interne ou entre professionnels), elle interdit de limiter l’usage d’un produit embarquant du code sous GNU GPL v.&nbsp;3 à la
+seule version fournie par le constructeur&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p51">en matière de brevet, la GNU GPL garantit une «&nbsp;licence de brevet non exclusive, mondiale et gratuite, sur les revendications essentielles de brevet du
+contributeur pour réaliser, utiliser, vendre, commercialiser, importer et ainsi qu’exécuter, modifier et propager les contenus de sa version contributive&nbsp;» et impose à tout bénéficiaire de
+brevets de rendre le code source disponible, renoncer au bénéfice de licences sur cesdits brevets ou s’engager à étendre la licence au destinataire du logiciel&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p52">la <span style="font-style:italic">terminaison automatique des droits,</span> avec procédure de semonce (article&nbsp;8) est tempérée lorsqu’il s’agit d’une première
+violation et en fonction de la réaction du concédant&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p53">en termes de <span style="font-style:italic">compatibilité&nbsp;</span>: on notera une compatibilité expresse au profit de la GNU Affero GPL et l’ajout d’une
+modularité qui permet à la licence de se rendre compatible avec plusieurs licences permissives grâce à l’ajout autorisé de termes additionnels&nbsp;: soit pour donner plus de droits&nbsp;; soit pour
+ajouter quelques obligations limitativement énumérées (la GNU GPL liste dans son article&nbsp;7 six termes supplétifs).</div>
+</li>
+</ul>
+<h3 class="subsectionss_xmlatex" id="h3">Exceptions à la GNU GPL</h3>
+<div class="p_xmlatex" id="p54">La GNU GPL étant la licence la plus utilisée, il n’est pas étonnant qu’une pratique se soit développée atour des aménagements qui pouvaient lui être apportés par le
+biais d’exceptions expresses. La GPL Linking exception et la FOSS exception sont les deux plus connues.</div>
+<h4 class="subsubsectionss_xmlatex" id="k1">La <span style="font-style:italic">GPL with special linking exception</span></h4>
+<div class="p_xmlatex" id="p55">Pour répondre aux besoins de certains projets libres importants souhaitant autoriser le développement de plug-ins propriétaires, une exception (<span style=
+"font-style:italic">GPL Linking exception</span>) a été rédigée (elle est actuellement utilisée par des projets comme GNU Guile, GNAT ou GNU Classpath). Elle contient les mêmes libertés que la GNU
+LGPL en ce qu’elle permet expressément les liaisons entre programmes, mais sans requérir les conditions posées par la LGPL quant à la fourniture des informations nécessaires à la modification de la
+bibliothèque.</div>
+<div class="p_xmlatex" id="p56">La bibliothèque GNU Classpath utilise ainsi la licence qui suit&nbsp;:</div>
+<blockquote class="xmlatex_quote">
+<div class="p_xmlatex" id="p57">Classpath is distributed under the terms of the GNU General Public License with the following clarification and special exception.</div>
+<div class="p_xmlatex" id="p58">Linking this library statically or dynamically with other modules is making a combined work based on this library. Thus, the terms and conditions of the GNU General
+Public License cover the whole combination.</div>
+<div class="p_xmlatex" id="p59">As a special exception, the copyright holders of this library give you permission to link this library with independent modules to produce an executable, regardless of
+the license terms of these independent modules, and to copy and distribute the resulting executable under terms of your choice, provided that you also meet, for each linked independent module, the
+terms and conditions of the license of that module. An independent module is a module which is not derived from or based on this library. If you modify this library, you may extend this exception to
+your version of the library, but you are not obliged to do so. If you do not wish to do so, delete this exception statement from your version.</div>
+</blockquote>
+<h4 class="subsubsectionss_xmlatex" id="k2"><span style="font-style:italic">FOSS exception</span></h4>
+<div class="p_xmlatex" id="p60">La <span style="font-style:italic">FOSS exception</span> organise une limitation de l’étendue de la licence dans un contexte <span style="font-style:italic">open
+source</span> seulement&nbsp;: système souvent utilisé, notamment sur la bibliothèque MySQL diffusée sous GNU GPL<a class="page_footnote_xmlatex" id="nbp13" href="#pied13" ><sup>13</sup></a>, l’exception réduit l’étendue de la licence en présence d’une combinaison avec des composants tiers <span style="font-style:italic">open source</span> (ceux-ci, pour autant
+que leur licence figure dans la liste annexée à cette exception, peuvent ainsi continuer à être régi par leur licence d’origine).</div>
+<blockquote class="xmlatex_quote">
+<div class="p_xmlatex" id="p61">Oracle’s Free and Open Source Software (FOSS) License Exception (formerly known as the FLOSS License Exception) allows developers of FOSS applications to include
+Oracle’s MySQL Client Libraries (also referred to as "MySQL Drivers" or "MySQL Connectors") with their FOSS applications. MySQL Client Libraries are typically licensed pursuant to version 2 of the
+General Public License (GPL), but this exception permits distribution of certain MySQL Client Libraries with a developer’s FOSS applications licensed under the terms of another FOSS license listed
+below, even though such other FOSS license may be incompatible with the GPL.</div>
+</blockquote>
+<h2 class="sectionss_xmlatex" id="g7">GNU Lesser General Public License (GNU LGPL)</h2>
+<div class="p_xmlatex" id="p62">Deux versions coexistent actuellement, sans grande différence sur le fond, mais avec une grande différence sur la forme&nbsp;: la GNU LGPL était une licence à part
+entière jusqu’à la version&nbsp;2.1 et n’est plus qu’une exception associée à la GNU GPL à partir de la version&nbsp;3 (les textes des deux licences devant alors simultanément être distribués).</div>
+<div class="p_xmlatex" id="p63">De manière générale, elle apporte un lot de permissions additionnelles à la GNU GPL en venant atténuer l’étendue ou les effets de cette dernière (une telle technique
+est toujours possible pour le titulaire de droits).</div>
+<div class="p_xmlatex" id="p64">Ainsi, la GPLv3 est la licence que l’on applique par défaut et, dès lors que l’on se trouve dans l’une des situations définies par la LGPL v.&nbsp;3, on applique le
+«&nbsp;régime dérogatoire&nbsp;» spécialement prévu (exception d’interprétation stricte)&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p65">Art.&nbsp;3&nbsp;: l’inclusion de <span style="font-style:italic">material from header file that is part of the library</span>&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p66">Art.&nbsp;4&nbsp;: la création de <span style="font-style:italic">combined work</span> (qui peut être diffusée sous une autre licence)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p67">Art.&nbsp;5&nbsp;: la création de <span style="font-style:italic">combined libraries</span>.</div>
+</li>
+</ul>
+<div class="p_xmlatex" id="p68">Il est à tout moment possible de redistribuer sous GNU GPL un logiciel auparavant sous GNU LGPL.</div>
+<h2 class="sectionss_xmlatex" id="g8">GNU Affero General Public License (GNU AGPL)</h2>
+<div class="p_xmlatex" id="p69">La GNU AGPL 3.0<a class="page_footnote_xmlatex" id="nbp14" href="#pied14" ><sup>14</sup></a> est elle aussi construite sur le canevas de la GNU GPL
+v.&nbsp;3. Seul son article&nbsp;13 est différent.</div>
+<div class="p_xmlatex" id="p70">Ainsi, en matière d’<span style="font-style:italic">obligation</span>, il faut distinguer d’une part ceux qui distribuent le logiciel ou en offrent un accès en ligne
+et, d’autre part, ceux qui contribuent&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p71">les distributeurs et utilisateurs offrant un accès en ligne, sont tenus&nbsp;: a) à un certain affichage des mentions légales, b) à la distribution de la licence et c)
+à la distribution du code source correspondant&nbsp;;</div>
+</li>
+</ul>
+<ul>
+<li>
+<div class="p_xmlatex" id="p72">et, au surplus, les contributeurs sont «&nbsp;classiquement&nbsp;» tenus&nbsp;: a) par le caractère <span style="font-style:italic">copyleft</span> de la licence,
+c’est-à-dire à ce que toute redistribution du logiciel, d’une version modifiée ou d’une solution basée sur ce logiciel se fasse sous la même licence<a class="page_footnote_xmlatex" id="nbp15" href=
+"#pied15" ><sup>15</sup></a>, b) à une licence de brevet qui s’étend automatiquement à tout brevet détenu par un contributeur sur sa contribution, c) à une interdiction d’opposer
+d’éventuels droits qui seraient détenus sur une mesure technique de protection.</div>
+</li>
+</ul>
+<div class="p_xmlatex" id="p73">L’<span style="font-style:italic">étendue</span> de la GNU AGPL est particulièrement large puisqu’elle reprend celle de la GNU GPL sans l’adapter aux solutions
+logicielles donnant accès à des services&nbsp;: ainsi sont soumises à la licence (et doivent donc être distribuées selon les termes de cette dernière) les versions modifiées du logiciel, mais aussi
+les versions basées sur le logiciel<a class="page_footnote_xmlatex" id="nbp16" href="#pied16" ><sup>16</sup></a>&nbsp;- la limite étant celle de l’«&nbsp;agrégat&nbsp;», compris comme
+«&nbsp;une compilation du code couvert (par la licence) avec d’autres œuvres séparées et indépendantes, qui ne sont pas par leur nature des extensions du code couvert, et qui ne sont pas combinées
+comme un programme plus large, sur ou dans un média de stockage ou de distribution[…]&nbsp;»</div>
+<div class="p_xmlatex" id="p74">En matière d’<span style="font-style:italic">élément déclencheur</span>, deux hypothèses se cumulent&nbsp;: la distribution du logiciel (comprise comme la mise à
+disposition de celui-ci<a class="page_footnote_xmlatex" id="nbp17" href="#pied17" ><sup>17</sup></a>) ou l’interaction via le réseau d’une version modifiée du logiciel (il faut une
+interaction <span style="font-style:italic">et</span> une modification).</div>
+<h2 class="sectionss_xmlatex" id="g9">GNU Free Documentation licence (GNU FDL)</h2>
+<div class="p_xmlatex" id="p75">La licence <a class="link_xmlatex" href="http://www.gnu.org/licenses/fdl.html">GNU FDL</a> est le pendant de la GNU GPL, utilisable de façon complémentaire sur la
+documentation des logiciels libres. La première version de la GNU FDL date de 1999, elle a ensuite connu deux révisions successives en 2000 (v.&nbsp;1.1) et 2002 (v.&nbsp;1.2) et une plus récente en
+2008 (v.&nbsp;1.3). Le <a class="link_xmlatex" href="http://gplv3.fsf.org/fdl-draft-2006-09-22.html">draft de la GNU FDL v 2.0</a> est en discussion depuis 2006 (ainsi que celui de sa petite sœur, la
+<a class="link_xmlatex" href="http://gplv3.fsf.org/sfdl-draft-2006-09-26.html">GNU Simpler FDL v.&nbsp;1.0</a>, licence plus souple qui supprime notamment les mécanismes complexes de la GNU
+FDL).</div>
+<div class="p_xmlatex" id="p76">En termes d’<span style="font-style:italic">obligation</span>, la licence GNU FDL est une licence <span style="font-style:italic">copyleft</span>. Elle offre la
+possibilité de préciser la présence de certaines sections invariantes (toute information ne peut néanmoins être identifiée comme telle) afin d’empêcher tout contributeur subséquent d’y apporter des
+modifications (ou même de la supprimer). Par ailleurs, elle impose un formalisme particulier attaché à la diffusion de la version papier de la création diffusée sous GFDL (un formalisme assez
+contraignant qui passe notamment par l’impression de l’intégralité du texte de la licence).</div>
+<div class="p_xmlatex" id="p77">En termes de <span style="font-style:italic">compatibilité</span>, la licence est une licence <span style="font-style:italic">copyleft</span> classique, c’est-à-dire
+sans autre compatibilité qu’avec les versions ultérieures de la même licence. Néanmoins, la publication de la version&nbsp;1.3 prévoyait une compatibilité expresse et limitée au profit de la CC-By-SA
+3.0 -&nbsp; par ailleurs spécialement limitée au seul bénéfice des sites de collaboration multiauteurs (<span style="font-style:italic">Massive Multiauthor Collaboration Site</span>) et avant le
+1<sup>er</sup> août 2009 (cela pour répondre à la demande de la fondation Wikimedia qui souhaitait modifier la licence de Wikipedia).</div>
+<div class="encart_xmlatex ect_grissimple" style="border-color:rgb(0,0,0);border-width:0pt;padding:15pt;margin-left:-5pt;margin-right:-5pt;background-color:rgb(230,230,230);">
+<div class="encart_title_xmlatex ect_title_grissimple"><span style="font-weight:bold">Pour aller plus loin...</span></div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p78">Cette licence est l’une des «&nbsp;<a class="link_xmlatex" href=
+"http://wiki.debian.org/DFSGLicenses#head-460b489164c55aaef12421fbcf5da1abf3105211">DFSG-incompatibles</a>&nbsp;» -&nbsp;par exception, la licence est considérée comme libre
+lorsqu’utilisée&nbsp;<a class="link_xmlatex" href="http://www.debian.org/vote/2006/vote_001">GFDL sans sections invariantes</a>&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p79">La FSF a publié un article sur «&nbsp;<a class="link_xmlatex" href="http://www.gnu.org/licenses/fdl.html">comment utiliser la FDL de GNU pour vos
+documents</a>&nbsp;».</div>
+</li>
+</ul>
+</div>
+<h2 class="sectionss_xmlatex" id="g10">MIT License</h2>
+<div class="p_xmlatex" id="p80">La <a class="link_xmlatex" href="http://opensource.org/licenses/mit-license.php">licence MIT</a>, dans ses différentes versions, est une licence libre très permissive
+qui ressemble beaucoup à la licence BSD&nbsp;: elle opère le partage de tous les droits patrimoniaux de l’auteur sous la seule condition de respecter la paternité de ce dernier et de conserver les
+mentions légales. Il s’agit ainsi d’une sorte de «&nbsp;mise dans le domaine public.&nbsp;»<a class="page_footnote_xmlatex" id="nbp18" href="#pied18" ><sup>18</sup></a></div>
+<div class="p_xmlatex" id="p81">Elle se distingue néanmoins de la licence BSD par une plus grande description des droits cédés (qui lui vaut d’être souvent préférée).</div>
+<div class="p_xmlatex" id="p82">Les <span style="font-style:italic">obligations</span> de la licence concernent essentiellement les mentions légales et la licence qui doivent être incluses dans toute
+copie ou «&nbsp;portion substantielle&nbsp;».</div>
+<div class="p_xmlatex" id="p83">L’<span style="font-style:italic">étendue</span> de la licence se limite à la seule portion du code publiée sous cette licence et l’<span style=
+"font-style:italic">élément déclencheur</span> est la distribution, diffusion, de copies du logiciel.</div>
+<div class="p_xmlatex" id="p84">Enfin, en raison de son caractère peu contraignant, la licence est <span style="font-style:italic">compatible</span> avec la majorité des autres licences (commerciales
+ou libres).</div>
+<h2 class="sectionss_xmlatex" id="g11">Mozilla Public License (MPL)</h2>
+<div class="p_xmlatex" id="p85">Crée en 1998 à l’occasion de la libération du code source de Netscape Communicator 5, la MPL est actuellement utilisée en sa version&nbsp;1.1, une version&nbsp;2.0 est
+néanmoins en cours d’écriture -&nbsp;intégrant quelques idées qui avaient justifié la création de la licence CPAL.</div>
+<h3 class="subsectionss_xmlatex" id="h4">Mozilla Public License v.&nbsp;1.1</h3>
+<div class="p_xmlatex" id="p86">Autorisation expresse est donnée de <span style="font-style:italic">sous-licencier</span> le code. La MPL<a class="page_footnote_xmlatex" id="nbp19" href="#pied19"
+><sup>19</sup></a> est <span style="font-style:italic">copyleft</span>. En matière de brevets, une licence expresse (auteurs initiaux et contributeurs) autorise toute fabrication,
+utilisation ou vente du logiciel original, ses modifications et/ou des combinaisons entre le logiciel et les modifications (le tout limité à la seule version du contributeur auteur).</div>
+<div class="p_xmlatex" id="p87">Quant à l’<span style="font-style:italic">étendue</span>&nbsp;: se limitant aux seules modifications apportées au logiciel, la licence permet de contribuer au logiciel
+sans devoir distribuer sous la même licence tant que les fichiers contenant du code sous MPL restent sous MPL (les autres fichiers pouvant dès lors être soumis à n’importe quelle autre
+licence).</div>
+<div class="p_xmlatex" id="p88">L’<span style="font-style:italic">élément déclencheur</span> est la distribution (ou toute autre communication du code à un tiers). En cas de violation de la licence,
+la licence se termine automatiquement dans les trente jours qui suivent la prise de connaissance de cette violation par le licencié.</div>
+<h3 class="subsectionss_xmlatex" id="h5">Mozilla Public License v.&nbsp;2.0</h3>
+<div class="p_xmlatex" id="p89">En plus de préciser les définitions de la version précédente, la <a class="link_xmlatex" href="http://mpl.mozilla.org">seconde version</a> poursuit des objectifs
+supplémentaires&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p90">en termes d’<span style="font-style:italic">élément déclencheur</span>, il était envisagé que l’utilisation par le réseau soit assimilée à une distribution et emporte
+des obligations - notamment pour ce qui concerne les mentions légales&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p91">en termes de <span style="font-style:italic">compatibilité</span>, la licence prévoit la possibilité de diffuser le composant sous licence GNU (GPL, LGPL ou AGPL) en
+situation d’incompatibilité.</div>
+</li>
+</ul>
+<h3 class="subsectionss_xmlatex" id="h6">Common Public Attribution License Version 1.0 (CPAL)</h3>
+<div class="p_xmlatex" id="p92">Approuvée par l’OSI en 2007, la licence CPAL s’inspire de la MPL qu’elle module sur deux aspects&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p93">concernant les <span style="font-style:italic">obligations</span>, la licence ajoute une obligation d’attribution de paternité renforcée<a class=
+"page_footnote_xmlatex" id="nbp20" href="#pied20" ><sup>20</sup></a>;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p94">concernant l’<span style="font-style:italic">élément déclencheur</span>, la licence associe la notion de déploiement externe (<span style="font-style:italic">external
+deployment</span>) à celle de distribution<a class="page_footnote_xmlatex" id="nbp21" href="#pied21" ><sup>21</sup></a>.</div>
+</li>
+</ul>
+<h2 class="sectionss_xmlatex" id="g12">CeCILL(-A, -B, -C)</h2>
+<div class="p_xmlatex" id="p95">Les licences <a class="link_xmlatex" href="http://www.cecill.info/licences.fr.html">CeCILL</a>, acronyme pour Ce(A)C(nrs)I(NRIA)L(ogiciel)L(ibre), furent créées pour
+répondre aux arguments qui empêchaient les administrations françaises d’utiliser les licences GNU pour diffuser leurs logiciels&nbsp;: l’application de la loi n°94-665 du 4 août 1994 relative à
+l’emploi de la <span style="font-style:italic">langue française</span> (plus connue sous le nom de <span style="font-style:italic">loi Toubon</span>, ministre de la Culture de l’époque) qui contraint
+toute administration à s’appuyer sur des textes juridiques français ; le constat d’imprécision à l’égard du droit français (droit sur lequel repose la licence, droits patrimoniaux, clause de non
+garantie).</div>
+<div class="p_xmlatex" id="p96">Elles sont toutes construites sur le canevas de la première licence (la licence CeCILL ou CeCILL-A).</div>
+<h3 class="subsectionss_xmlatex" id="h7">La CeCILL-A</h3>
+<div class="p_xmlatex" id="p97">Première des licences, la licence CeCILL (ou CeCILL-A) précéda la rédaction des deux autres.</div>
+<div class="p_xmlatex" id="p98">En termes d’obligations, la CeCILL-A, rédigée sur le modèle de la GNU GPL, est une licence <span style="font-style:italic">copyleft</span> qui impose donc la
+redistribution selon ses propres termes. Par ailleurs, le concédant s’engage à ne pas opposer d’«&nbsp;éventuels droits conférés par ces brevets aux licenciés successifs qui utiliseraient,
+exploiteraient ou modifieraient le logiciel&nbsp;». Par ailleurs, «&nbsp;[e]n cas de cession de ces brevets, le concédant s’engage à faire reprendre les obligations du présent alinéa aux
+cessionnaires.&nbsp;»</div>
+<div class="p_xmlatex" id="p99">Son <span style="font-style:italic">étendue</span> se limite au logiciel et à ses seuls modules internes, ces derniers étant entendus comme tout module lié au logiciel
+de telle sorte qu’il s’exécute dans le même espace d’adressage. Tout autre module, appelé module externe, n’est pas soumis aux licences</div>
+<div class="p_xmlatex" id="p100">L’<span style="font-style:italic">élément déclencheur</span> est la distribution (envisagée comme «&nbsp;notamment le droit de diffuser, de transmettre et de
+communiquer le Logiciel au public sur tout support et par tout moyen ainsi que le droit de mettre sur le marché à titre onéreux ou gratuit, un ou des exemplaires du logiciel par tout procédé&nbsp;».
+Il est a noter que les rédacteurs de la licence CeCILL estiment, contre toute attente, que leur licence appréhende les usages par le réseau<a class="page_footnote_xmlatex" id="nbp22" href="#pied22"
+><sup>22</sup></a> (il semble néanmoins plus prudent de considérer que, sauf mention contraire de l’auteur lors de la diffusion sous licence CeCILL, un tel usage n’est pas saisi par la
+licence elle-même).</div>
+<div class="p_xmlatex" id="p101">La licence est <span style="font-style:italic">compatible</span> avec la CeCILL-A et la CeCILL-C. Ainsi toutes les clauses qui rendraient la licence CeCILL-B
+incompatible avec la CeCILL-A et CeCILL-C sont suspendues en cas de situation d’incompatibilité (mécanisme de compatibilité expresse passive)<a class="page_footnote_xmlatex" id="nbp23" href="#pied23"
+><sup>23</sup></a>.</div>
+<h3 class="subsectionss_xmlatex" id="h8">La CeCILL-B</h3>
+<div class="p_xmlatex" id="p102">La CeCILL-B, rédigée sur le modèle de la BSD, n’est pas <span style="font-style:italic">copyleft</span>, mais contient une clause supplémentaire en matière de
+citation. Ainsi, en cas de modification du logiciel (qui ne serait pas qualifié de module externe), le licencié qui distribue s’engage expressément</div>
+<ol>
+<li>
+<div class="p_xmlatex" id="p103">à faire référence au logiciel avec ses mentions légales dans sa documentation&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p104">à faire en sorte que les mentions légales soient indiquées dans un texte facilement accessible depuis l’interface du logiciel&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p105">à mentionner, sur un site Web librement accessible décrivant le logiciel modifié, et pendant au moins toute la durée de sa distribution, qu’il a été réalisé à partir
+du logiciel&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p106">et lorsqu’il le distribue à un tiers susceptible de distribuer lui-même un logiciel modifié, sans avoir à en distribuer le code source, à faire les meilleurs efforts
+pour que les obligations soient reprises.</div>
+</li>
+</ol>
+<div class="p_xmlatex" id="p107">La licence est <span style="font-style:italic">compatible</span> avec la CeCILL-A et la CeCILL-C. Ainsi toutes les clauses qui rendraient la licence CeCILL-B
+incompatible avec la CeCILL-A et CeCILL-C sont suspendues en cas de situation d’incompatibilité (mécanisme de compatibilité expresse passive)<a class="page_footnote_xmlatex" id="nbp24" href="#pied24"
+><sup>24</sup></a>.</div>
+<h3 class="subsectionss_xmlatex" id="h9">La CeCILL-C</h3>
+<div class="p_xmlatex" id="p108">Basée sur le CeCILL, la licence CeCILL-C limite son <span style="font-style:italic">étendue</span> en matière de <span style="font-style:italic">copyleft</span> à
+l’instar de la MPL (les autres obligations restant intouchées) puisqu’elle permet expressément la diffusion sous leur propre licence de modules liés (ensembles de fichiers sources y compris leur
+documentation qui, sans modification du code source, permet de réaliser des fonctionnalités ou services supplémentaires à ceux fournis par le logiciel).</div>
+<div class="p_xmlatex" id="p109">La licence est <span style="font-style:italic">compatible</span> avec la CeCILL-A, de telle sorte que toutes les clauses qui rendraient la licence CeCILL-C
+incompatible avec la CeCILL-A sont suspendues en cas de situation d’incompatibilité (mécanisme de compatibilité expresse passive)<a class="page_footnote_xmlatex" id="nbp25" href="#pied25" ><sup>25</sup></a>.</div>
+<h2 class="sectionss_xmlatex" id="g13">Les licences Creative Commons</h2>
+<div class="p_xmlatex" id="p110">Quatrième série des licences Creative Commons (la numérotation intermédiaire 2.5 s’expliquant par les faibles changements qu’elle intégrait), les CC 3.0 furent
+rédigées en 2009 - publiées en version <span style="font-style:italic">unported</span> avant d’être transposées dans les diverses juridictions (les versions françaises, pourtant traduites depuis près
+de deux ans, ne sont pas encore officiellement publiées). Elles sont aujourd’hui détachées du droit américain pour simplifier leur portage et intègrent de nouveaux dispositifs (notamment concernant
+les DRM et le droit <span style="font-style:italic">sui generis</span> des bases de données).</div>
+<div class="p_xmlatex" id="p111">Les licences Creatives Commons sont dédiées aux œuvres utilitaires (et ne sont donc pas adaptées à une <a class="link_xmlatex" href=
+"http://wiki.creativecommons.org/FAQ#Can_I_use_a_Creative_Commons_license_for_software.3F">utilisation sur des logiciels</a> ou <a class="link_xmlatex" href=
+"https://creativecommons.org/weblog/entry/26283">bases de données</a>).</div>
+<h3 class="subsectionss_xmlatex" id="h10">Droits et obligations</h3>
+<div class="p_xmlatex" id="p112">Concernant les droits, toutes les licences Creatives Commons ne sont pas aussi libres et elles n’ont donc en commun que de permettre la diffusion et l’utilisation non
+commerciale des œuvres <span style="font-style:italic">non modifiées</span>.</div>
+<div class="p_xmlatex" id="p113">Ainsi, les deux premières clauses limitent les droits accordés&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p114">les utilisations commerciales sont autorisées dès lors que la clause NC n’est pas utilisée&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p115">la modification est permise tant que la clause ND n’est pas utilisée.</div>
+</li>
+</ul>
+<div class="p_xmlatex" id="p116">Tandis que les deux autres clauses ajoutant des obligations relatives à l’utilisation de l’œuvre partagée&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p117">la clause By (obligatoire)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p118">la clause Share Alike (SA) introduit un mécanisme de <span style="font-style:italic">copyleft</span> au sein de la licence.</div>
+</li>
+</ul>
+<h3 class="subsectionss_xmlatex" id="h11">L’étendue</h3>
+<div class="p_xmlatex" id="p119">Dans leur seconde version, les licences CC distinguent les œuvres collectives (un ensemble d’œuvres) des œuvres «&nbsp;dites dérivées » (qui rejoint la définition
+française de l’œuvre dérivée). Au surplus, la licence précise que si l’œuvre est «&nbsp;une composition musicale ou un enregistrement sonore, la synchronisation de l’œuvre avec une image animée sera
+considérée comme une œuvre dite dérivée pour les propos de ce contrat.&nbsp;»</div>
+<div class="p_xmlatex" id="p120">Dans leur troisième version, les termes utilisés sont «&nbsp;compilation&nbsp;» et «&nbsp;adaptation&nbsp;» (avec une portée similaire).</div>
+<h3 class="subsectionss_xmlatex" id="h12">L’élément déclencheur</h3>
+<div class="p_xmlatex" id="p121">Les licences CC ne précisent aucune sphère privée&nbsp;: tout acte autorisé par la licence est conditionné au respect des obligations de celle-ci (voir l’article 4
+«&nbsp;Restrictions&nbsp;: L’autorisation accordée par l’article 3 est expressément assujettie et limitée par le respect des restrictions suivantes […]&nbsp;»).</div>
+<h3 class="subsectionss_xmlatex" id="h13">La compatibilité</h3>
+<div class="p_xmlatex" id="p122">La <span style="font-style:italic">compatibilité</span> est l’un des points forts des licences Creative Commons&nbsp;: dès lors que la licence n’est pas <span style=
+"font-style:italic">copyleft</span> (clause Share Alike), il est possible de redistribuer l’œuvre sous une licence plus contraignante que précédemment (par exemple en rajoutant un NC ou ND à une
+licence CC By, ou en distribuant des articles sous CC By-NC dans un ouvrage sous CC By-NC-ND - voire sous licence commerciale classique).</div>
+<div class="p_xmlatex" id="p123">Au surplus, la CC By-SA insère une nouvelle compatibilité dans sa troisième version au travers la licence CC By-SA, permettant la redistribution sous d’autres
+licences compatibles (le dispositif tarde néanmoins à être activé<a class="page_footnote_xmlatex" id="nbp26" href="#pied26" ><sup>26</sup></a>).</div>
+<h2 class="sectionss_xmlatex" id="g14">La licence Art Libre</h2>
+<div class="p_xmlatex" id="p124">Recommandée par la <a class="link_xmlatex" href="http://www.vvlibri.org/index.php?title=FSF">FSF</a>, la licence Art Libre (LAL) est certainement la licence appliquée
+aux créations artistiques la plus proche de l’esprit originaire du Libre. Elle est porteuse d’une philosophie adaptée à l’ensemble des pratiques artistiques (y compris logicielles) et rassemble
+l’aspect communautaire qui fait la force de ces licences (et qui explique qu’elle soit souvent utilisée par conviction, sans forcément être lue). La licence 1.3 «&nbsp;est rédigée en référence au
+droit français et à la Convention de Berne relative au droit d’auteur&nbsp;» (les versions précédentes, expressément soumises au droit français restaient néanmoins valides dans tous les pays
+signataires de la Convention de Berne).</div>
+<div class="p_xmlatex" id="p125">Les changements apportés depuis sa rédaction en 2000 sont peu importants&nbsp;: une meilleure prise en compte du <span style="font-style:italic">copyleft</span> afin
+de l’adapter effectivement aux œuvres d’art (insertion de la précision d’originels et conséquents dans l’article&nbsp;3) par la version&nbsp;1.2 et, en avril 2007, la version 1.3 (en cours) est venue
+apporter certains changements prévenant notamment les conflits entre droits de propriété intellectuelle (article 3&nbsp;: « droits connexes&nbsp;»), et entre licences similaires.</div>
+<div class="p_xmlatex" id="p126">Les <span style="font-style:italic">obligations</span> sont de plusieurs ordres. En termes de responsabilité, la LAL rappelle que «&nbsp;la liberté de jouir de
+l’œuvre tel que permis par la LAL (liberté de copier, diffuser, modifier) implique pour chacun la responsabilité de ses propres faits&nbsp;». En termes de formalisme, les mentions légales classiques
+sont demandées (avec la précision des modifications lorsqu’il y a lieu) et un simple lien vers la licence est suffisant&nbsp;: placer son œuvre sous licence Art Libre requiert l’implémentation d’un
+court texte, et des notations (Copyright, Année Nom de l’auteur ou nom de l’auteur original). Un exemple est donné&nbsp;:</div>
+<blockquote class="xmlatex_quote">
+<div class="p_xmlatex" id="p127">[Nom de(s) l’auteur(s), titre, date et le cas échéant, le nom des auteurs de l’œuvre initiale et conséquentes ainsi que leurs localisations] <span style=
+"font-style:italic">Copyleft&nbsp;</span>: cette œuvre est libre, vous pouvez la copier, la diffuser et la modifier selon les termes de la Licence Art Libre&nbsp;http://www.artlibre.org.</div>
+</blockquote>
+<div class="p_xmlatex" id="p128">L’<span style="font-style:italic">étendue</span> de la licence est relativement standard&nbsp;: les compilations d’œuvres sont permises sans qu’une licence soit
+imposée pour le tout.</div>
+<div class="p_xmlatex" id="p129">L’<span style="font-style:italic">élément déclencheur</span> est la diffusion (définie comme l’interprétation, la représentation ou la distribution).</div>
+<div class="p_xmlatex" id="p130">De par leur <span style="font-style:italic">copyleft</span>, les versions antérieures à la LAL v.&nbsp;1.3 ne sont pas compatibles avec une autre licence <span style=
+"font-style:italic">copyleft</span> ou qui imposerait certaines restrictions supplémentaires (comme la licence&nbsp;CC By&nbsp;par exemple). Pour résoudre cette incompatibilité de fait, la LAL
+v.&nbsp;1.3 introduit un nouvel article (5. « Critères de compatibilité&nbsp;») grâce auquel, dès lors qu’il y a modification de l’œuvre, une compatibilité avec toute licence répondant à un certain
+nombre d’exigences (être une licence libre, <span style="font-style:italic">copyleft</span>, et réciproquement compatible envers la LAL) est possible. Actuellement, la licence CC By-SA v&nbsp;3.0 est
+la seule susceptible d’être déclarée comme compatible, dès lors que le mécanisme qu’elle-même contient sera opérationnel (il faut notamment que la LAL soit indiquée comme compatible sur le site de
+Creative Commons).</div>
+<h2 class="sectionss_xmlatex" id="g15">L’OpenDatabase License</h2>
+<div class="p_xmlatex" id="p131">La particularité des licences attachée à des bases de données réside dans l’(in)adaptation à leurs objets&nbsp;: les données - ou, plus précisément, un ensemble de
+données organisées sous forme de bases de données.</div>
+<div class="p_xmlatex" id="p132">En effet, contrairement aux créations classiques (logiciels, articles, etc.), les données ne génèrent pas, en tant que telles, un quelconque droit de propriété
+intellectuelle au profit de celui qui les crée, les détient ou les exploite - sauf à ce qu’elles en réunissent les critères (elles sont alors des créations originales soumises au droit d’auteur -
+cette qualification concernant l’organisation globale de la base, mais non les extractions qui peuvent en être faites). Or, en l’absence de droit exclusif qui permettrait de conditionner chaque usage
+au respect du cadre contractuel défini, celui qui détient des données se trouve démuni face à toute personne qui aurait pris connaissance des données sans contracter.</div>
+<div class="p_xmlatex" id="p133">C’est à cette problématique que tente de répondre l’ODbL, la licence faisant reposer son efficience sur une assiette plus large que le seul droit d’auteur, en
+incluant également le droit des contrats et le droit <span style="font-style:italic">sui generis</span> des bases de données (article 2.0, « Champ d’application de la présente licence&nbsp;»). Ainsi,
+la condition essentielle de la licence, son <span style="font-style:italic">copyleft</span>, impose que toute base de données -&nbsp;modifiée ou non - soit distribuée sous la même licence. C’est
+cette prise de conscience qui a conduit le projet OpenStreetMap a mettre en place un processus de changement de licence au profit de l’ODbL.</div>
+<div class="p_xmlatex" id="p134">La licence ne couvre néanmoins pas le contenu même de la base de données pris isolément. Une nouvelle licence peut alors y être associée (article 2.4, « Rapport avec
+le contenu de la base de données&nbsp;»), ni même les brevets ou marques qui pourraient y figurer (article&nbsp;2.3, « Droits non compris dans la licence&nbsp;»).</div>
+<h3 class="subsectionss_xmlatex" id="h14">Droits et obligations</h3>
+<div class="p_xmlatex" id="p135">Tout accès, toute transmission ou toute publication d’une base de données (d’origine, dérivée ou en tant que partie d’une BdD collaborative) vaut acceptation de la
+licence.</div>
+<div class="p_xmlatex" id="p136">L’utilisateur bénéficie ainsi de certains droits tout en étant tenu par certaines obligations.</div>
+<h4 class="subsubsectionss_xmlatex" id="k3">Droits</h4>
+<div class="p_xmlatex" id="p137">Tous les droits d’auteur et droits <span style="font-style:italic">sui generis</span> détenus sur la base de données sont cédés (non exclusivement) à l’utilisateur de
+la base. Il en est de même de tout autre droit inclus dans la base et dont la cession est nécessaire au respect de la licence (article 10.4).</div>
+<div class="p_xmlatex" id="p138">La licence n’autorise pas les sous-licences (il n’y a pas de chaîne contractuelle&nbsp;: chaque titulaire cédant ses seuls droits à chaque utilisateur) et est bien
+sûr non exclusive (article&nbsp;3.3).</div>
+<h4 class="subsubsectionss_xmlatex" id="k4">Obligations</h4>
+<div class="p_xmlatex" id="p139">Tout manquement aux obligations de la licence entraîne la résiliation de la licence (article 9.0, « Cessation de vos droits au titre de la présente licence&nbsp;»)
+-&nbsp;même si un processus de rétablissement des droits est prévu pour réintroduire les utilisateurs «&nbsp;repentants&nbsp;» dans leurs droits (les personnes dont les droits font l’objet d’une
+cessation permanente ne pouvant bénéficier d’une nouvelle licence).</div>
+<h5 class="t4s_xmlatex" id="t4s-1"><span style="font-style:italic">Copyleft</span> (partage à l’identique des conditions initiales)</h5>
+<div class="p_xmlatex" id="p140">La base de données d’origine et les bases de données dérivées doivent être licenciées sous la même licence ou sous l’une des licences compatibles (article&nbsp;4.4,
+« Partage à l’identique des conditions initiales&nbsp;»).</div>
+<h5 class="t4s_xmlatex" id="t4s-2">Formalisme</h5>
+<div class="p_xmlatex" id="p141">La licence impose un certain formalisme relatif à l’utilisation des bases (ou des créations générées) et à leur transfert.</div>
+<div class="p_xmlatex" id="p142">Ainsi, en cas d’utilisation publique d’une base de données (originale, dérivée ou collaborative) ou d’une création issue d’une telle base,</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p143">il faut mentionner la licence et les bases de données sous ODbL utilisées&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p144">en présence d’une BdD dérivée, il faut rendre disponible une copie numérique de la totalité de celle-ci ou un fichier contenant toutes les modifications
+apportées.</div>
+</li>
+</ul>
+<div class="p_xmlatex" id="p145">Lors de la transmission de la BdD, il faut veiller à conserver les mentions légales intactes et inclure une copie de l’ODbL ou de son URI (dans la BdD, originale ou
+dérivée, ou toute autre documentation pertinente). Le coût de cette transmission doit être raisonnable, voire gratuit en cas de distribution en ligne.</div>
+<h5 class="t4s_xmlatex" id="t4s-3">Divers</h5>
+<div class="p_xmlatex" id="p146">La licence contient par ailleurs une interdiction de l’usage de mesures techniques de protection (MTP), sauf à rendre parallèlement disponible ladite base sans MTP,
+ainsi qu’une exclusion de garantie et une limitation de responsabilité totale (la portée de ces dernières étant limitée en France).</div>
+<h3 class="subsectionss_xmlatex" id="h15">Étendue</h3>
+<div class="p_xmlatex" id="p147">Au-delà de la base de données d’origine, la licence doit être étendue à toute base de données dite <span style="font-style:italic">dérivée</span> (base de données
+<span style="font-style:italic">reposant sur</span> la base originaire) et exploitée publiquement.</div>
+<div class="p_xmlatex" id="p148">La licence permet néanmoins toute utilisation conjointe de plusieurs bases de données indépendantes. Il s’agit alors de bases de données collaboratives et seules la
+base de données d’origine ou ses dérivées doivent être diffusées sous ODbL.</div>
+<h3 class="subsectionss_xmlatex" id="h16">Éléments déclencheurs</h3>
+<div class="p_xmlatex" id="p149">La licence n’impose aucune contrainte quant au transfert, à l’utilisation privée de la base de données ou à la conception de créations grâce à ladite base de
+données.</div>
+<div class="p_xmlatex" id="p150">La licence prend ses pleins effets dès lors qu’il y a&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p151">transfert public de la base de données (la communication d’une copie, de la base à un tiers)&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p152">l’utilisation publique (mise au contact de tiers) d’une base de données dérivée ou d’une création issue de cette base (originale, dérivée ou partie d’une base de
+données collaborative).</div>
+</li>
+</ul>
+<h3 class="subsectionss_xmlatex" id="h17">Compatibilité</h3>
+<div class="p_xmlatex" id="p153">Un mécanisme de compatibilité expresse est prévu au sein de la licence, laissant à la charge du concédant le soin de préciser quelles sont les licences compatibles ou
+de désigner un mandataire qui le fera pour son compte (article&nbsp;4.4e).</div>
+<h2 class="sectionss_xmlatex" id="g16">PHP License v.&nbsp;3.01</h2>
+<div class="p_xmlatex" id="p154">La licence PHP est une licence <span style="font-style:italic">open source</span> aujourd’hui utilisée en version&nbsp;<a class="link_xmlatex" href=
+"http://www.php.net/license/3_01.txt">3.01</a>. C’est une licence permissive, qui contient néanmoins quelques <span style="font-style:italic">obligations</span> en matière d’attribution&nbsp;:</div>
+<ul>
+<li>
+<div class="p_xmlatex" id="p155">pour tout type de distribution, l’indication de l’utilisation du logiciel par la mention «&nbsp;This product includes PHP software, freely available from
+&lt;http://www.php.net/software/&gt;&nbsp;»&nbsp;;</div>
+</li>
+<li>
+<div class="p_xmlatex" id="p156">l’interdiction d’utiliser le mot PHP comme titre de toute création dérivée&nbsp;: «&nbsp;Products derived from this software may not be called ’PHP’, nor may ’PHP’
+appear in their name, without prior written permission from group@php.net. You may indicate that your software works in conjunction with PHP by saying "Foo for PHP" instead of calling it "PHP Foo" or
+"phpfoo".&nbsp;»</div>
+</li>
+</ul>
+<h2 class="sectionss_xmlatex" id="g17">OSL (Open Software License)</h2>
+<div class="p_xmlatex" id="p157">L’<a class="link_xmlatex" href="http://www.opensource.org/licenses/OSL-3.0">Open Software License</a> (OSL) est une licence issue des travaux du juriste américain
+Lawrence E. Rosen. La version 1.1 date de 2002 et fut certifiée <span style="font-style:italic">open source</span> par l’<span style="font-style:italic">Open Source Initiative</span> (OSI), mais fut
+déclarée incompatible avec la DFSG par la communauté Debian. La version&nbsp;2.0 date de 2003, et la dernière version - la troisième - de 2005 (elle prend notamment en compte les remarques de la
+Commission européenne).</div>
+<div class="p_xmlatex" id="p158">Cette licence permet expressément les sous-licenciements, mais ceux-ci doivent impérativement se faire sous la même licence.</div>
+<div class="p_xmlatex" id="p159">En termes d’<span style="font-style:italic">obligations</span>, la licence est gratuite (mais la communication de l’œuvre peut être payante), non exclusive et
+perpétuelle et porte sur les droits d’auteur comme sur ceux des brevets contenus dans le code soumis à la licence (la licence cherche à créer ici un pot commun de brevets, équivalent à celui issu de
+l’usage des licences <span style="font-style:italic">copyleft</span>). Quiconque poursuit l’auteur original ou ses utilisateurs pour violation de brevet contenu dans le logiciel soumis à cette
+licence voit toutes les licences qui lui étaient accordées se terminer immédiatement. Enfin, la licence incorpore une limitation - et non pas une exclusion - de garantie (de la provenance des
+sources) et de responsabilité à l’égard du concédant, solution bien plus pragmatique puisqu’il s’agit de ce qui est, dans les faits, le minimum légal. Toutes les actions ou poursuites doivent se
+faire devant un tribunal de la juridiction du lieu où le concédant exerce son activité principale. Par ailleurs, tous les frais d’avocats seront à la charge de la partie qui poursuit. Enfin, la
+licence OSL est de type <span style="font-style:italic">copyleft</span>.</div>
+<div class="p_xmlatex" id="p160">L’<span style="font-style:italic">étendue</span> de la licence n’est pas contractuellement définie et renvoie expressément à la définition de l’œuvre dérivée dans la
+loi américaine sur le copyright. À noter que le code source, tel que défini par l’OSL, étend la licence à la «&nbsp;documentation décrivant comment modifier l’œuvre originale&nbsp;».</div>
+<div class="p_xmlatex" id="p161">L’<span style="font-style:italic">élément déclencheur</span> s’appuie sur la notion de déploiement externe<a class="page_footnote_xmlatex" id="nbp27" href="#pied27"
+><sup>27</sup></a> (<span style="font-style:italic">external deployment</span>) qui englobe l’utilisation et les liaisons par réseau de logiciels. Celles-ci sont considérées comme une
+distribution et soumises en tant que telles à la licence.</div>
+<br />
+<div id="footnote">
+<hr class="ligne_xmlatex_foot" />
+<div class="text_footnote_xmlatex" id="o1"><a class="pied_footnote_xmlatex" id="pied1" href="#nbp1" >1.</a> Cf Partie II, Chapitre 2&nbsp;: «&nbsp;3. Déchiffrer&nbsp;: une grille de
+lecture de licences libres&nbsp;».</div>
+<div class="text_footnote_xmlatex" id="o2"><a class="pied_footnote_xmlatex" id="pied2" href="#nbp2" >2.</a> Article 5, <span style="font-style:italic">external deployment</span>&nbsp;:
+« The term ’External Deployment’ means the use, distribution, or communication of the Original Work or Derivative Works in any way such that the Original Work or Derivative Works may be used by
+anyone other than You, whether those works are distributed or communicated to those persons or made available as an application intended for use over a network. As an express condition for the grants
+of license hereunder, You must treat any External Deployment by You of the Original Work or a Derivative Work as a distribution under section 1(c).&nbsp;»</div>
+<div class="text_footnote_xmlatex" id="o3"><a class="pied_footnote_xmlatex" id="pied3" href="#nbp3" >3.</a> Même si dans son livre Open Source Licensing&nbsp;: <span style=
+"font-style:italic">Software Freedom and Intellectual Property Law</span> (Upper Saddle River, NJ, Prentice Hall, 2004 - <a class="link_xmlatex" href=
+"http://www.rosenlaw.com/oslbook.htm">http://www.rosenlaw.com/oslbook.htm</a>), Lawrence Rosen doute de la pertinence d’une telle protection attachée aux licences.</div>
+<div class="text_footnote_xmlatex" id="o4"><a class="pied_footnote_xmlatex" id="pied4" href="#nbp4" >4.</a> Il est encore néanmoins possible de retrouver la version&nbsp;1.0 dans certains
+projets, comme OpenSSL License.</div>
+<div class="text_footnote_xmlatex" id="o5"><a class="pied_footnote_xmlatex" id="pied5" href="#nbp5" >5.</a> « When code is released as a series of files, a modification is: (a) any
+addition to or deletion from the contents of a file containing Covered Code; and/or (b) any new file or other representation of computer program statements that contains any part of Covered
+Code.&nbsp;»</div>
+<div class="text_footnote_xmlatex" id="o6"><a class="pied_footnote_xmlatex" id="pied6" href="#nbp6" >6.</a> Traduction personnelle&nbsp;: 1.4 - «&nbsp;déployé extérieurement&nbsp;»
+signifie&nbsp;: (a)&nbsp;de sous-licencier, distribuer ou rendre le <span style="font-style:italic">code couvert</span> disponible autrement, directement ou indirectement, à quiconque autre que vous,
+et/ou (b)&nbsp;d’utiliser le <span style="font-style:italic">code couvert</span>, seul ou comme partie d’une création plus large, d’une manière à fournir à service, notamment pour fournir du contenu,
+à travers une communication électronique avec un client autre que vous.</div>
+<div class="text_footnote_xmlatex" id="o7"><a class="pied_footnote_xmlatex" id="pied7" href="#nbp7" >7.</a> « As described in article 1(b)(ii) of the Eclipse Public License,
+“…Contributions do not include additions to the Program which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not
+derivative works of the Program”. The definition of derivative work varies under the copyright laws of different jurisdictions. The Eclipse Public License is governed under U.S. law. Under the U.S.
+Copyright Act, a ’derivative work’ is defined as “…a work based upon one or more preexisting works, such as a translation, musical arrangement, dramatization, fictionalization, motion picture
+version, sound recording, art reproduction, abridgment, condensation, or any other form in which a work may be recast, transformed, or adapted. A work consisting of editorial revisions, annotations,
+elaborations, or other modifications which, as a whole, represent an original work of authorship, is a ’derivative work’”. The Eclipse Foundation interprets the term ’derivative work’ in a way that
+is consistent with the definition in the U.S. Copyright Act, as applicable to computer software. You will need to seek the advice of your own legal counsel in deciding whether your program
+constitutes a derivative work.</div>
+<div class="text_footnote_xmlatex" id="o8"><a class="pied_footnote_xmlatex" id="pied8" href="#nbp8" >8.</a> À noter cependant que la version&nbsp;1.0 de la licence n’avait que la
+distribution comme élément déclencheur.</div>
+<div class="text_footnote_xmlatex" id="o9"><a class="pied_footnote_xmlatex" id="pied9" href="#nbp9" >9.</a> Sont actuellement concernées&nbsp;: la GNU General Public License (GNU GPL) v.
+2, l’Open Software License (OSL) v. 2.1, v. 3.0 , la Common Public License v. 1.0 , l’Eclipse Public License v. 1.0 et la CeCILL v. 2.0.</div>
+<div class="text_footnote_xmlatex" id="o10"><a class="pied_footnote_xmlatex" id="pied10" href="#nbp10" >10.</a> Sauf à envisager une politique de type «&nbsp;double licence&nbsp;» qui
+permettrait, moyennant un certain prix, le développement de module tiers commerciaux. Ceci peut néanmoins être un frein à la diffusion du logiciel.</div>
+<div class="text_footnote_xmlatex" id="o11"><a class="pied_footnote_xmlatex" id="pied11" href="#nbp11" >11.</a> La «&nbsp;source correspondante&nbsp;» d’une création sous forme de code
+objet désigne tout le code source nécessaire pour générer, installer et (pour une création exécutable) exécuter le code objet et modifier la création, y compris les scripts pour contrôler ces
+activités. Cependant, cela n’inclut pas les bibliothèques systèmes de la création, ni les outils d’usage général ou les programmes libres généralement disponibles qui peuvent être utilisés sans
+modification pour réaliser ces activités, mais ne sont pas partie de cette création. Par exemple, la source correspondante inclut les fichiers de définition d’interfaces associés aux fichiers sources
+de la création, et le code source des bibliothèques partagées et des sous-programmes liés dynamiquement, dès lors que la création est spécialement conçue pour les requérir via, par exemple, des
+communications de données ou contrôles de flux internes entre ces sous-programmes et d’autres parties de la création.</div>
+<div class="text_footnote_xmlatex" id="o12"><a class="pied_footnote_xmlatex" id="pied12" href="#nbp12" >12.</a> Néologisme définissant la création d’un système qui inclut des logiciels
+libres, mais utilise le matériel électronique pour interdire aux utilisateurs d’y exécuter des versions modifiées (voir la page Wikipedia consacrée).</div>
+<div class="text_footnote_xmlatex" id="o13"><a class="pied_footnote_xmlatex" id="pied13" href="#nbp13" >13.</a> Voir <a class="link_xmlatex" href=
+"http://www.mysql.com/about/legal/licensing/foss-exception/">http://www.mysql.com/about/legal/licensing/foss-exception/</a>.</div>
+<div class="text_footnote_xmlatex" id="o14"><a class="pied_footnote_xmlatex" id="pied14" href="#nbp14" >14.</a> La précédente version, corédigée par la société Affero et la FSF, n’était
+pas une licence (de la famille) GNU.</div>
+<div class="text_footnote_xmlatex" id="o15"><a class="pied_footnote_xmlatex" id="pied15" href="#nbp15" >15.</a> L’article&nbsp;7 de la GNU Affero GPL autorise l’ajout d’un certain nombre
+de clauses sur des parties clairement identifiées du logiciel.</div>
+<div class="text_footnote_xmlatex" id="o16"><a class="pied_footnote_xmlatex" id="pied16" href="#nbp16" >16.</a> La licence emploie le vocabulaire «&nbsp;<span style=
+"font-style:italic">modified version</span>&nbsp;», «&nbsp;<span style="font-style:italic">work based on</span>&nbsp;» et «&nbsp;<span style="font-style:italic">entire work, as a
+whole</span>&nbsp;».</div>
+<div class="text_footnote_xmlatex" id="o17"><a class="pied_footnote_xmlatex" id="pied17" href="#nbp17" >17.</a> Il est néanmoins possible (à l’instar de la GNU GPL v&nbsp;3) de faire
+appel à des prestataires sans que leurs développements pour le compte de leur client ne soient considérés comme une distribution.</div>
+<div class="text_footnote_xmlatex" id="o18"><a class="pied_footnote_xmlatex" id="pied18" href="#nbp18" >18.</a> Une telle renonciation au droit est sans valeur, c’est-à-dire sans effet,
+en droit français. D’où la nécessité d’user d’une telle licence aux effets similaires.</div>
+<div class="text_footnote_xmlatex" id="o19"><a class="pied_footnote_xmlatex" id="pied19" href="#nbp19" >19.</a> Voir <a class="link_xmlatex" href=
+"http://www.mozilla.org/MPL/">http://www.mozilla.org/MPL/</a>.</div>
+<div class="text_footnote_xmlatex" id="o20"><a class="pied_footnote_xmlatex" id="pied20" href="#nbp20" >20.</a> Article 14, Additional term&nbsp;: «&nbsp;the Original Developer may
+include […] a requirement that each time an Executable and Source Code or a Larger Work is launched or initially run […] a prominent display of the Original Developer’s Attribution Information […]
+must occur on the graphic user interface employed by the end user to access such Covered Code […]&nbsp;»&nbsp;</div>
+<div class="text_footnote_xmlatex" id="o21"><a class="pied_footnote_xmlatex" id="pied21" href="#nbp21" >21.</a> Article 15, «&nbsp;Terme additionnel&nbsp;: utilisation réseau&nbsp;». Le
+terme «&nbsp;déploiement externe&nbsp;» signifie l’utilisation, distribution ou communication du code original ou des modifications d’une façon telle que le code original ou les modifications
+puissent être utilisés par toute autre personne que vous, que ces œuvres soient distribuées ou communiquées à ces personnes ou rendues disponibles comme une application destinée à une utilisation sur
+le réseau.</div>
+<div class="text_footnote_xmlatex" id="o22"><a class="pied_footnote_xmlatex" id="pied22" href="#nbp22" >22.</a> Voir la FAQ sur le site <a class="link_xmlatex" href=
+"http://www.cecill.info/faq.fr.html">http://www.cecill.info/faq.fr.html</a>. «&nbsp;Si le 5.3.2 parle de distribution, il s’agit, comme indiqué en préambule de l’article&nbsp;5.3, de “diffuser, de
+transmettre et de communiquer le logiciel au public, sur tout support et par tout moyen”. Une mise à disposition via un site web ou un serveur est donc bien une distribution même si l’utilisateur ne
+dispose pas d’un exemplaire du logiciel en propre, et l’obligation de fournir le code source du logiciel modifié s’applique.&nbsp;»</div>
+<div class="text_footnote_xmlatex" id="o23"><a class="pied_footnote_xmlatex" id="pied23" href="#nbp23" >23.</a> Article 5.3.4&nbsp;: Compatibilité avec la licence GNU GPL.</div>
+<div class="text_footnote_xmlatex" id="o24"><a class="pied_footnote_xmlatex" id="pied24" href="#nbp24" >24.</a> Article 5.3.5&nbsp;: Compatibilité avec les licences CeCILL et
+CeCILL-C.</div>
+<div class="text_footnote_xmlatex" id="o25"><a class="pied_footnote_xmlatex" id="pied25" href="#nbp25" >25.</a> Article 5.3.4&nbsp;: Compatibilité avec la licence CeCILL.</div>
+<div class="text_footnote_xmlatex" id="o26"><a class="pied_footnote_xmlatex" id="pied26" href="#nbp26" >26.</a> Voir notamment recherche de compatibilité au sein de la licence Creative
+Commons 3.0, <a class="link_xmlatex" href=
+"http://lists.ibiblio.org/pipermail/cc-licenses/2007-February/005013.html">http://lists.ibiblio.org/pipermail/cc-licenses/2007-February/005013.html</a>.</div>
+<div class="text_footnote_xmlatex" id="o27"><a class="pied_footnote_xmlatex" id="pied27" href="#nbp27" >27.</a> Article 5, «  Déploiement externe&nbsp;»&nbsp;: utilisation, distribution,
+communication de l’oeuvre originale ou des oeuvres dérivées afin qu’elles soient utilisées par toute autre personne que vous, même si ces oeuvres sont distribuées ou communiquées à ces personnes ou
+rendues disponibles sous forme d’applications conçues pour une utilisation réseau.</div>
+</div>
+</div>
+</body>
+</html>

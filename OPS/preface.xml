@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en" lang="en">
+<head>
+  <title>Préface</title>
+  <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
+</head>
+<body>
+<section title="preface" epub:type="frontmatter preface">
+<h1 class="titre">Préface</h1>
+<p>C’est à bien des titres que je connais M. Jean. Tout d’abord, il y a quelques années comme étudiant du master de « droit des créations immatérielles » que
+j’avais fondé puis ensuite pour l’avoir recruté comme chargé de mission à Sciences Po ; pour l’avoir eu encore à mes côtés pour organiser diverses manifestations dont un prestigieux cycle de
+conférences sur la propriété intellectuelle à la Cour de cassation ou comme membre d’un <i lang="en" xml:lang="en">think tank</i> sur le <i lang="en" xml:lang="en">cloud computing</i>… À chaque fois, j’ai pu apprécier ses qualités humaines comme ses qualités intellectuelles. Benjamin Jean sait mêler la rigueur, la finesse d’analyse, le sens des nuances et de
+l’à-propos à une réelle modestie et une constante gentillesse, ce qui est rare, sans oublier, sur un autre registre, une grande passion pour les sujets qu’il aborde.</p>
+<p>C’est tout cela qu’on retrouve dans les pages qu’il nous livre ici, et que j’ai pu, pour beaucoup d’entre elles, déjà découvrir en « bonnes feuilles ».
+Passion bien sûr car, très tôt passionné d’informatique, Benjamin Jean s’est aussi vite découvert une passion pour cet « autre modèle » qu’est le « libre » qu’il nous décrit dans
+sa véracité et sa complexité. Car le libre n’est pas sous sa plume cet objet d’effarouchement qu’il est pour bien des juristes traditionalistes qui n’aiment pas sortir du cadre qu’ils connaissent. Il
+n’est pas non plus cet objet de militantisme (et pourtant Benjamin Jean est un militant) qu’il est pour bien des défenseurs du libre. Le libre <em>est</em> tout
+simplement. Il est, il existe comme un phénomène installé dans le paysage des pratiques, né de la pratique et en réaction contre les pratiques établies, répondant à diverses aspirations dont la
+volonté de partager la création faite (et le bénéfice qui en découle, point nécessairement le bénéfice économique) n’est pas la moindre. C’est le mérite de Benjamin Jean de présenter ainsi cette
+« Option libre » comme un phénomène qui mérite considération, appelle compréhension et décryptage, et ne se réduit pas à quelques modèles (quelques caricatures chez ses adversaires)
+simples.</p>
+<p>La présentation des diverses écoles de pensée qui font qu’en réalité il n’y a pas <em>un</em> libre mais <em>des</em> libres ou, si l’on préfère, de multiples voies pour organiser cette liberté (car c’est bien d’une liberté organisée qu’il s’agit), est sans doute, sur le terrain
+spéculatif, une des parties les plus intéressantes de l’ouvrage. D’autant que - notre auteur le montre bien - aujourd’hui, au-delà des mouvements qui ont initialement fait naître le Libre, chacun a
+sa raison qui le pousse à opter pour celui-ci, jusqu’aux grands acteurs du privé qui jouent ou jouaient traditionnellement la carte propriétaire : <q>Les individus, les associations et
+autres organismes à but non lucratif peuvent avoir un rapport au Libre complexe qui mêle philosophie, idéologie, et des arguments plus raisonnés comme le coût ou l’indépendance qu’offrent les
+solutions logicielles libres</q> écrit ainsi Benjamin Jean, avant de souligner comment entreprises et administrations ont elles aussi adopté le Libre comme élément de leur stratégie.</p>
+<p>Voilà peut-être qui pourra sembler bien spéculatif. C’est pourtant certainement la condition préalable sans laquelle il n’est guère possible de se retrouver
+véritablement au sein du monde du Libre. Mais, pour qui veut des choses plus concrètes, on ne peut ignorer cet autre moment fort de l’ouvrage, qui prolonge les réflexions, quand Benjamin Jean nous
+propose « repères » et « réflexes » à avoir. La « proposition d’une grille de lecture » des licences, avec la question délicate de leur compatibilité, les pages sur le
+choix des licences ou sur la manière de concevoir un projet pensé sous le signe du Libre sont des pages précieuses, certainement à lire et à relire.</p>
+<p>Ainsi, celui qui cherche des « recettes » comme celui qui veut prendre du recul trouvera son bonheur dans cet ouvrage.</p>
+<p>Libre à chacun de s’y plonger ou non. Option libre évidemment… Mais ce serait un bien mauvais usage de la liberté que de ne pas profiter de cette heureuse <cite>Option Libre</cite>.</p>
+<p>Michel <span ass="auteur">Vivant</span></p>
+<p style="italic">Professeur à l’École de Droit de Sciences Po., Paris<a epub:type="noteref" id="nbp1" href="#pied1" ><sup>1</sup></a>.</p>
+<aside id="footnote">
+<p><a epub:type="footnote" id="pied1" href="#nbp1" >1.</a> Responsable de la spécialité « propriété intellectuelle » du master de
+droit économique, docteur <i lang="la" xml:lang="la">honoris causa</i> de l’Université de Heidelberg, <i lang="la" xml:lang="la">senior counsel</i> Gide Loyrette Nouel.</p>
+</aside>
+</section>
+</body>
+</html>

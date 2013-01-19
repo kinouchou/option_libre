@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta name="generator" content="La Poule ou l'Oeuf" />
+<title>A&nbsp;Tableaux de compatibilité</title>
+<link rel="stylesheet" href="css/xmlatex.css" type="text/css" />
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+</head>
+<body>
+<div class="chapterhead_epub">
+<div class="chapter_epub">Annexe</div>
+<div class="chapter_pos_epub">1</div>
+<div class="chaptertitle_epub">Tableaux de compatibilité</div>
+</div>
+<div id="page1">
+<div class="p_xmlatex" id="p1">Ici un ou deux paragraphes explicatifs</div>
+<div class="p_xmlatex" id="p2"></div>
+<div class="p_xmlatex" id="p3"></div>
+<div id="fig1" style="float:left;"></div>
+<div class="figure_xmlatex" style="text-align:center;" id="f1">
+<div><img src="images/table_compatibilite_tout_objet_vignette.png" alt="Table compatibilite licences" width="600px" height="359px" /><br />
+<a href="thumb3.xml#thumb3"><img class="lien_img" src="images/f_plus.png" alt="Agrandir" title="Agrandir" /></a></div>
+<div style="margin-top:10px;">F<span class="sc_xmlatex">igure</span> A.1 - Table de compatibilité entre licences</div>
+</div>
+<div class="p_xmlatex" id="p4"></div>
+<div id="fig2" style="float:left;"></div>
+<div class="figure_xmlatex" style="text-align:center;" id="f2">
+<div><img src="images/table_compatibilite_documentation_vignette.png" alt="Table compatibilite licences documentation" width="600px" height="360px" /><br />
+<a href="thumb4.xml#thumb4"><img class="lien_img" src="images/f_plus.png" alt="Agrandir" title="Agrandir" /></a></div>
+<div style="margin-top:10px;">F<span class="sc_xmlatex">igure</span> A.2 - Table de compatibilité entre licences (documentation)</div>
+</div>
+<div class="p_xmlatex" id="p5"></div>
+<br />
+<div id="footnote"></div>
+</div>
+</body>
+</html>
