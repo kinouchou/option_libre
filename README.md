@@ -1,20 +1,17 @@
-Option Libre 
-Du bon usage des licences libres
-================================
-Le livre est de Benjamin Jean et fait partie de la collection [http://framabook.org/option-libre-du-bon-usage-des-licences-libres](Framabook).
+[Option Libre. Du bon usage des licences libres.](http://framabook.org/option-libre-du-bon-usage-des-licences-libres)**
 
+* Auteur : Benjamin Jean
+* Licences :
+  [LAL 1.3](http://artlibre.org/licence/lal),
+  [GNU FDL](http://www.gnu.org/copyleft/fdl.html),
+  [Creative Commons By-SA](http://creativecommons.org/licenses/by-sa/3.0/deed.fr)
 
-L'epub initial a été généré automatiquement et le résultat n'avait que très peu de sémantique. J'essaie donc de rendre un code plus propre et conforme aux standards ePUB3 et accessible.
+Ce travail vise à améliorer la sémantique et l’accessibilité de la version ePUB (qui a été générée automatiquement) :
 
-Les fichiers :xhtlm sont ceux faits ou en cours (ils sont faits dans l'ordre), les xml ne sont pas encore faits.
-Tant que tous les fichiers xhtml ne sont pas ok, les fichiers propres à l'epub ne sont pas touchés. Et des couleurs sont ajoutées dans le CSS pour vérifier le balisage :
-surlignage :
-jaune pour <abbr>
-bleu pour <q> et <blockquote>
-violet pour <em>
-vert pour <i>
+* chaque fichier XML est converti manuellement en un fichier XHTML ;
+* la feuille de style est modifiée temporairement pour visualiser plus 
+  facilement les balises HTML ajoutées (abbr, q, blockquote, em, i, cite…) ;
+* quand tous les fichiers XML sont traités, les fichiers d’index ePUB sont mis à
+  jour.
 
-police en violet pour les <cite>
-
-kinou
-
+-kinou
