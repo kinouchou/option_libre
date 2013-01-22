@@ -118,8 +118,10 @@ aside {
     font-size:1.5em;
     font-variant:small-caps;
     text-align: justify;}
-.smallcap {
+.chiffre-romain {
     font-variant:small-caps;}
+.chiffre-romain,sup{
+    font-variant:normal}
 dt:before {
     content: "⇢ ";}
 
