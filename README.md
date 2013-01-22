@@ -1,4 +1,4 @@
-** [Option Libre. Du bon usage des licences libres.](http://framabook.org/option-libre-du-bon-usage-des-licences-libres)**
+**[Option Libre. Du bon usage des licences libres.](http://framabook.org/option-libre-du-bon-usage-des-licences-libres)**
 
 * Auteur : Benjamin Jean
 * Licences :
