@@ -83,7 +83,7 @@ font-variant:small-caps;
 .droit {
     font-style: normal;}
 cite .droit {
-    font-style: italic;}
+    font-style: normal;}
 ul li {
     list-style-type: none;}
 ul li:before {
@@ -109,21 +109,34 @@ aside {
     margin:1em;
     padding: 0 3em;
     float:top;}
-.remarque h1 {
+aside h1 {
+    font-size:1.5em;
+    font-variant:small-caps;
+    text-align: justify;}
+.remarque header h1 {
     margin-top: -40pt;
     font-size:1.5em;
     font-variant:small-caps;
     text-align: justify;}
-.cadre_gris h1 {
+.cadre_gris header h1{
     font-size:1.5em;
-    font-variant:small-caps;
+/*    font-variant:small-caps;*/
     text-align: justify;}
 .chiffre-romain {
-    font-variant:small-caps;}
-.chiffre-romain,sup{
-    font-variant:normal}
+    font-variant:small-caps;
+}
+.chiffre-romain sup{
+    font-variant:normal;}
 dt:before {
     content: "⇢ ";}
+.cadre_gris dt:before {
+    content: "";}
+dd {
+    margin:0;
+    text-indent: 2em;
+}
+dt {
+    font-style: italic;}
 
 /* couleurs juste pour la relecture */
 abbr {
